@@ -1,8 +1,9 @@
 [phases.setup]
 nixPkgs = ["python311", "gcc"]
+nixLibs = ["gcc.cc.lib"]
 
 [phases.install]
-cmds = ["pip install -r requirements.txt"]
+cmds = ["pip install -r requirements.txt", "chmod +x start.sh"]
 
 [start]
-cmd = "export LD_LIBRARY_PATH=$(find /nix -name 'libgomp.so.1' -exec dirname {} \\; 2>/dev/null | head -1):$LD_LIBRARY_PATH && gunicorn app:app --bind 0.0.0.0:8080 --timeout 120 --workers 1"
+cmd = "bash start.sh"
