@@ -1003,6 +1003,10 @@ def train_diy_effect_model():
 # API 엔드포인트
 # ============================================
 
+@app.route('/', methods=['GET'])
+def root():
+    return jsonify({"status": "ok", "service": "GG Climate ML Server"})
+
 @app.route('/health', methods=['GET'])
 def health_check():
     """서버 상태 확인"""
@@ -2319,28 +2323,32 @@ def get_equity_indicators():
 # ============================================
 # 앱 시작 시 모델 로드 (gunicorn 호환)
 # ============================================
-print("=" * 60)
-print("[ML Server] Gyeonggi Climate Platform ML API")
-print("=" * 60)
+try:
+    print("=" * 60)
+    print("[ML Server] Gyeonggi Climate Platform ML API")
+    print("=" * 60)
 
-# 저장된 모델 로드 시도
-if not load_model():
-    print("[ML] No saved resilience model. Training now...")
-    train_lightgbm_model()
+    # 저장된 모델 로드 시도
+    if not load_model():
+        print("[ML] No saved resilience model. Training now...")
+        train_lightgbm_model()
 
-# DIY 효과 모델이 없으면 자동 학습
-if not diy_model_trained:
-    print("[ML] No saved DIY effect model. Training now...")
-    train_diy_effect_model()
+    # DIY 효과 모델이 없으면 자동 학습
+    if not diy_model_trained:
+        print("[ML] No saved DIY effect model. Training now...")
+        train_diy_effect_model()
 
-# 기존 로그 파일 확인
-if os.path.exists(LOG_FILE):
-    logs = load_logs()
-    print(f"[OK] Loaded {len(logs)} log records")
-else:
-    print("[INFO] New log file will be created")
+    # 기존 로그 파일 확인
+    if os.path.exists(LOG_FILE):
+        logs = load_logs()
+        print(f"[OK] Loaded {len(logs)} log records")
+    else:
+        print("[INFO] New log file will be created")
 
-print("=" * 60)
+    print("=" * 60)
+except Exception as e:
+    print(f"[WARNING] Model loading failed: {e}")
+    print("[ML Server] Starting without models (API will return fallback responses)")
 
 if __name__ == '__main__':
     port = int(os.environ.get('PORT', 5000))
