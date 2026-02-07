@@ -2316,37 +2316,32 @@ def get_equity_indicators():
 # 서버 실행
 # ============================================
 
+# ============================================
+# 앱 시작 시 모델 로드 (gunicorn 호환)
+# ============================================
+print("=" * 60)
+print("[ML Server] Gyeonggi Climate Platform ML API")
+print("=" * 60)
+
+# 저장된 모델 로드 시도
+if not load_model():
+    print("[ML] No saved resilience model. Training now...")
+    train_lightgbm_model()
+
+# DIY 효과 모델이 없으면 자동 학습
+if not diy_model_trained:
+    print("[ML] No saved DIY effect model. Training now...")
+    train_diy_effect_model()
+
+# 기존 로그 파일 확인
+if os.path.exists(LOG_FILE):
+    logs = load_logs()
+    print(f"[OK] Loaded {len(logs)} log records")
+else:
+    print("[INFO] New log file will be created")
+
+print("=" * 60)
+
 if __name__ == '__main__':
-    print("=" * 60)
-    print("[ML Server] Gyeonggi Climate Platform ML API")
-    print("=" * 60)
-    print(f"[LOG] Data log file: {LOG_FILE}")
-    print(f"[MODEL] Model file: {MODEL_FILE}")
-    print(f"[DIY MODEL] DIY effect model file: {DIY_EFFECT_MODEL_FILE}")
-    print(f"[SERVER] http://localhost:5000")
-    print(f"[HEALTH] http://localhost:5000/health")
-    print(f"[STATS] http://localhost:5000/api/logs/stats")
-    print("=" * 60)
-
-    # 저장된 모델 로드 시도
-    if not load_model():
-        print("[ML] No saved resilience model. Training now...")
-        train_lightgbm_model()
-
-    # 🔥 v45: DIY 효과 모델이 없으면 자동 학습
-    if not diy_model_trained:
-        print("[ML] No saved DIY effect model. Training now...")
-        train_diy_effect_model()
-
-    # 기존 로그 파일 확인
-    if os.path.exists(LOG_FILE):
-        logs = load_logs()
-        print(f"[OK] Loaded {len(logs)} log records")
-    else:
-        print("[INFO] New log file will be created")
-
-    print("=" * 60)
-    print()
-
-    # Flask 서버 시작 (디버그 모드, 포트 5000)
-    app.run(host='0.0.0.0', port=5000, debug=True)
+    port = int(os.environ.get('PORT', 5000))
+    app.run(host='0.0.0.0', port=port, debug=True)
