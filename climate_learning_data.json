@@ -36227,5 +36227,7715 @@
       "category": "hazard"
     },
     "problem_count": 3
+  },
+  {
+    "timestamp": "2026-02-07T22:22:58.446633",
+    "endpoint": "/api/predict",
+    "features": {
+      "heatDays": 25,
+      "floodFrequency": 9,
+      "imperviousRate": 72,
+      "greenRate": 15,
+      "heatIsland": 5.29,
+      "elderlyRatio": 17,
+      "shelterAccess": 100,
+      "medicalAccess": 85
+    },
+    "prediction": 11.06
+  },
+  {
+    "timestamp": "2026-02-07T22:22:58.464634",
+    "endpoint": "/api/predict",
+    "features": {
+      "heatDays": 25,
+      "floodFrequency": 9,
+      "imperviousRate": 72,
+      "greenRate": 15,
+      "heatIsland": 5.29,
+      "elderlyRatio": 17,
+      "shelterAccess": 100,
+      "medicalAccess": 85
+    },
+    "prediction": 11.06
+  },
+  {
+    "timestamp": "2026-02-07T22:22:58.641610",
+    "endpoint": "/api/shap",
+    "features": {
+      "heatDays": 25,
+      "floodFrequency": 9,
+      "imperviousRate": 72,
+      "greenRate": 15,
+      "heatIsland": 5.29,
+      "elderlyRatio": 17,
+      "shelterAccess": 100,
+      "medicalAccess": 85
+    },
+    "hybrid_shap_values": [
+      -1.4299,
+      -22.3243,
+      -4.0129,
+      -8.3625,
+      -7.5507,
+      -0.2618,
+      7.1995,
+      3.4567
+    ],
+    "gap_weight": 0.7,
+    "ml_weight": 0.3,
+    "top_risk": {
+      "feature_name": "floodFrequency",
+      "feature_label": "침수빈도",
+      "feature_value": 9,
+      "baseline": 3.2,
+      "gap_percent": 181.25,
+      "gap_shap": -25.375,
+      "ml_shap": -15.2062,
+      "shap_value": -22.3243,
+      "impact": "negative",
+      "is_problem": true,
+      "higher_is_worse": true,
+      "importance_rank": 1,
+      "climate_risk_score": 33.486450000000005,
+      "tier": 1,
+      "tier_weight": 1.0,
+      "category": "hazard"
+    },
+    "problem_count": 6
+  },
+  {
+    "timestamp": "2026-02-07T22:22:58.691695",
+    "endpoint": "/api/shap",
+    "features": {
+      "heatDays": 25,
+      "floodFrequency": 9,
+      "imperviousRate": 72,
+      "greenRate": 15,
+      "heatIsland": 5.29,
+      "elderlyRatio": 17,
+      "shelterAccess": 100,
+      "medicalAccess": 85
+    },
+    "hybrid_shap_values": [
+      -1.4299,
+      -22.3243,
+      -4.0129,
+      -8.3625,
+      -7.5507,
+      -0.2618,
+      7.1995,
+      3.4567
+    ],
+    "gap_weight": 0.7,
+    "ml_weight": 0.3,
+    "top_risk": {
+      "feature_name": "floodFrequency",
+      "feature_label": "침수빈도",
+      "feature_value": 9,
+      "baseline": 3.2,
+      "gap_percent": 181.25,
+      "gap_shap": -25.375,
+      "ml_shap": -15.2062,
+      "shap_value": -22.3243,
+      "impact": "negative",
+      "is_problem": true,
+      "higher_is_worse": true,
+      "importance_rank": 1,
+      "climate_risk_score": 33.486450000000005,
+      "tier": 1,
+      "tier_weight": 1.0,
+      "category": "hazard"
+    },
+    "problem_count": 6
+  },
+  {
+    "timestamp": "2026-02-07T22:23:35.664853",
+    "endpoint": "/api/predict",
+    "features": {
+      "heatDays": 25,
+      "floodFrequency": 9,
+      "imperviousRate": 72,
+      "greenRate": 15,
+      "heatIsland": 5.29,
+      "elderlyRatio": 17,
+      "shelterAccess": 100,
+      "medicalAccess": 85
+    },
+    "prediction": 11.06
+  },
+  {
+    "timestamp": "2026-02-07T22:23:35.664853",
+    "endpoint": "/api/predict",
+    "features": {
+      "heatDays": 25,
+      "floodFrequency": 9,
+      "imperviousRate": 72,
+      "greenRate": 15,
+      "heatIsland": 5.29,
+      "elderlyRatio": 17,
+      "shelterAccess": 100,
+      "medicalAccess": 85
+    },
+    "prediction": 11.06
+  },
+  {
+    "timestamp": "2026-02-07T22:23:36.238007",
+    "endpoint": "/api/shap",
+    "features": {
+      "heatDays": 25,
+      "floodFrequency": 9,
+      "imperviousRate": 72,
+      "greenRate": 15,
+      "heatIsland": 5.29,
+      "elderlyRatio": 17,
+      "shelterAccess": 100,
+      "medicalAccess": 85
+    },
+    "hybrid_shap_values": [
+      -0.0864,
+      -18.2568,
+      -4.3149,
+      -9.6265,
+      -8.4746,
+      -0.4682,
+      4.9526,
+      4.0353
+    ],
+    "gap_weight": 0.3,
+    "ml_weight": 0.7,
+    "top_risk": {
+      "feature_name": "floodFrequency",
+      "feature_label": "침수빈도",
+      "feature_value": 9,
+      "baseline": 3.2,
+      "gap_percent": 181.25,
+      "gap_shap": -25.375,
+      "ml_shap": -15.2062,
+      "shap_value": -18.2568,
+      "impact": "negative",
+      "is_problem": true,
+      "higher_is_worse": true,
+      "importance_rank": 1,
+      "climate_risk_score": 27.385199999999998,
+      "tier": 1,
+      "tier_weight": 1.0,
+      "category": "hazard"
+    },
+    "problem_count": 6
+  },
+  {
+    "timestamp": "2026-02-07T22:25:47.247867",
+    "endpoint": "/api/predict",
+    "features": {
+      "heatDays": 25,
+      "floodFrequency": 9,
+      "imperviousRate": 72,
+      "greenRate": 15,
+      "heatIsland": 5.29,
+      "elderlyRatio": 17,
+      "shelterAccess": 100,
+      "medicalAccess": 85
+    },
+    "prediction": 11.06
+  },
+  {
+    "timestamp": "2026-02-07T22:25:47.310072",
+    "endpoint": "/api/predict",
+    "features": {
+      "heatDays": 25,
+      "floodFrequency": 9,
+      "imperviousRate": 72,
+      "greenRate": 15,
+      "heatIsland": 5.29,
+      "elderlyRatio": 17,
+      "shelterAccess": 100,
+      "medicalAccess": 85
+    },
+    "prediction": 11.06
+  },
+  {
+    "timestamp": "2026-02-07T22:25:47.448752",
+    "endpoint": "/api/shap",
+    "features": {
+      "heatDays": 25,
+      "floodFrequency": 9,
+      "imperviousRate": 72,
+      "greenRate": 15,
+      "heatIsland": 5.29,
+      "elderlyRatio": 17,
+      "shelterAccess": 100,
+      "medicalAccess": 85
+    },
+    "hybrid_shap_values": [
+      -1.4299,
+      -22.3243,
+      -4.0129,
+      -8.3625,
+      -7.5507,
+      -0.2618,
+      7.1995,
+      3.4567
+    ],
+    "gap_weight": 0.7,
+    "ml_weight": 0.3,
+    "top_risk": {
+      "feature_name": "floodFrequency",
+      "feature_label": "침수빈도",
+      "feature_value": 9,
+      "baseline": 3.2,
+      "gap_percent": 181.25,
+      "gap_shap": -25.375,
+      "ml_shap": -15.2062,
+      "shap_value": -22.3243,
+      "impact": "negative",
+      "is_problem": true,
+      "higher_is_worse": true,
+      "importance_rank": 1,
+      "climate_risk_score": 33.486450000000005,
+      "tier": 1,
+      "tier_weight": 1.0,
+      "category": "hazard"
+    },
+    "problem_count": 6
+  },
+  {
+    "timestamp": "2026-02-07T22:25:49.845225",
+    "endpoint": "/api/predict",
+    "features": {
+      "heatDays": 25,
+      "floodFrequency": 9,
+      "imperviousRate": 72,
+      "greenRate": 15,
+      "heatIsland": 5.29,
+      "elderlyRatio": 17,
+      "shelterAccess": 100,
+      "medicalAccess": 85
+    },
+    "prediction": 11.06
+  },
+  {
+    "timestamp": "2026-02-07T22:25:50.147514",
+    "endpoint": "/api/predict",
+    "features": {
+      "heatDays": 25,
+      "floodFrequency": 9,
+      "imperviousRate": 72,
+      "greenRate": 15,
+      "heatIsland": 5.29,
+      "elderlyRatio": 17,
+      "shelterAccess": 100,
+      "medicalAccess": 85
+    },
+    "prediction": 11.06
+  },
+  {
+    "timestamp": "2026-02-07T22:25:50.298679",
+    "endpoint": "/api/shap",
+    "features": {
+      "heatDays": 25,
+      "floodFrequency": 9,
+      "imperviousRate": 72,
+      "greenRate": 15,
+      "heatIsland": 5.29,
+      "elderlyRatio": 17,
+      "shelterAccess": 100,
+      "medicalAccess": 85
+    },
+    "hybrid_shap_values": [
+      -0.0864,
+      -18.2568,
+      -4.3149,
+      -9.6265,
+      -8.4746,
+      -0.4682,
+      4.9526,
+      4.0353
+    ],
+    "gap_weight": 0.3,
+    "ml_weight": 0.7,
+    "top_risk": {
+      "feature_name": "floodFrequency",
+      "feature_label": "침수빈도",
+      "feature_value": 9,
+      "baseline": 3.2,
+      "gap_percent": 181.25,
+      "gap_shap": -25.375,
+      "ml_shap": -15.2062,
+      "shap_value": -18.2568,
+      "impact": "negative",
+      "is_problem": true,
+      "higher_is_worse": true,
+      "importance_rank": 1,
+      "climate_risk_score": 27.385199999999998,
+      "tier": 1,
+      "tier_weight": 1.0,
+      "category": "hazard"
+    },
+    "problem_count": 6
+  },
+  {
+    "timestamp": "2026-02-07T22:29:34.917482",
+    "endpoint": "/api/predict",
+    "features": {
+      "heatDays": 25,
+      "floodFrequency": 4,
+      "imperviousRate": 72,
+      "greenRate": 22,
+      "heatIsland": 4.5,
+      "elderlyRatio": 17,
+      "shelterAccess": 380,
+      "medicalAccess": 65
+    },
+    "prediction": 16.77
+  },
+  {
+    "timestamp": "2026-02-07T22:29:34.917482",
+    "endpoint": "/api/predict",
+    "features": {
+      "heatDays": 25,
+      "floodFrequency": 4,
+      "imperviousRate": 72,
+      "greenRate": 22,
+      "heatIsland": 4.5,
+      "elderlyRatio": 17,
+      "shelterAccess": 380,
+      "medicalAccess": 65
+    },
+    "prediction": 16.77
+  },
+  {
+    "timestamp": "2026-02-07T22:29:35.077879",
+    "endpoint": "/api/shap",
+    "features": {
+      "heatDays": 25,
+      "floodFrequency": 4,
+      "imperviousRate": 72,
+      "greenRate": 22,
+      "heatIsland": 4.5,
+      "elderlyRatio": 17,
+      "shelterAccess": 380,
+      "medicalAccess": 65
+    },
+    "hybrid_shap_values": [
+      -1.4448,
+      -5.535,
+      -3.9151,
+      -5.9308,
+      -4.5882,
+      -0.1227,
+      3.1086,
+      0.1698
+    ],
+    "gap_weight": 0.7,
+    "ml_weight": 0.3,
+    "top_risk": {
+      "feature_name": "floodFrequency",
+      "feature_label": "침수빈도",
+      "feature_value": 4,
+      "baseline": 3.2,
+      "gap_percent": 25.0,
+      "gap_shap": -3.5,
+      "ml_shap": -10.2834,
+      "shap_value": -5.535,
+      "impact": "negative",
+      "is_problem": true,
+      "higher_is_worse": true,
+      "importance_rank": 2,
+      "climate_risk_score": 8.3025,
+      "tier": 1,
+      "tier_weight": 1.0,
+      "category": "hazard"
+    },
+    "problem_count": 7
+  },
+  {
+    "timestamp": "2026-02-07T22:29:35.106358",
+    "endpoint": "/api/shap",
+    "features": {
+      "heatDays": 25,
+      "floodFrequency": 4,
+      "imperviousRate": 72,
+      "greenRate": 22,
+      "heatIsland": 4.5,
+      "elderlyRatio": 17,
+      "shelterAccess": 380,
+      "medicalAccess": 65
+    },
+    "hybrid_shap_values": [
+      -1.4448,
+      -5.535,
+      -3.9151,
+      -5.9308,
+      -4.5882,
+      -0.1227,
+      3.1086,
+      0.1698
+    ],
+    "gap_weight": 0.7,
+    "ml_weight": 0.3,
+    "top_risk": {
+      "feature_name": "floodFrequency",
+      "feature_label": "침수빈도",
+      "feature_value": 4,
+      "baseline": 3.2,
+      "gap_percent": 25.0,
+      "gap_shap": -3.5,
+      "ml_shap": -10.2834,
+      "shap_value": -5.535,
+      "impact": "negative",
+      "is_problem": true,
+      "higher_is_worse": true,
+      "importance_rank": 2,
+      "climate_risk_score": 8.3025,
+      "tier": 1,
+      "tier_weight": 1.0,
+      "category": "hazard"
+    },
+    "problem_count": 7
+  },
+  {
+    "timestamp": "2026-02-07T22:29:35.444317",
+    "endpoint": "/api/predict",
+    "features": {
+      "heatDays": 24,
+      "floodFrequency": 0,
+      "imperviousRate": 65,
+      "greenRate": 15,
+      "heatIsland": 4.8,
+      "elderlyRatio": 16,
+      "shelterAccess": 100,
+      "medicalAccess": 92
+    },
+    "prediction": 50.43
+  },
+  {
+    "timestamp": "2026-02-07T22:29:35.465002",
+    "endpoint": "/api/predict",
+    "features": {
+      "heatDays": 24,
+      "floodFrequency": 0,
+      "imperviousRate": 65,
+      "greenRate": 15,
+      "heatIsland": 4.8,
+      "elderlyRatio": 16,
+      "shelterAccess": 100,
+      "medicalAccess": 92
+    },
+    "prediction": 50.43
+  },
+  {
+    "timestamp": "2026-02-07T22:29:35.474385",
+    "endpoint": "/api/predict",
+    "features": {
+      "heatDays": 25,
+      "floodFrequency": 4,
+      "imperviousRate": 72,
+      "greenRate": 22,
+      "heatIsland": 4.5,
+      "elderlyRatio": 17,
+      "shelterAccess": 380,
+      "medicalAccess": 65
+    },
+    "prediction": 16.77
+  },
+  {
+    "timestamp": "2026-02-07T22:29:35.482064",
+    "endpoint": "/api/predict",
+    "features": {
+      "heatDays": 25,
+      "floodFrequency": 4,
+      "imperviousRate": 72,
+      "greenRate": 22,
+      "heatIsland": 4.5,
+      "elderlyRatio": 17,
+      "shelterAccess": 380,
+      "medicalAccess": 65
+    },
+    "prediction": 16.77
+  },
+  {
+    "timestamp": "2026-02-07T22:29:35.754672",
+    "endpoint": "/api/shap",
+    "features": {
+      "heatDays": 25,
+      "floodFrequency": 4,
+      "imperviousRate": 72,
+      "greenRate": 22,
+      "heatIsland": 4.5,
+      "elderlyRatio": 17,
+      "shelterAccess": 380,
+      "medicalAccess": 65
+    },
+    "hybrid_shap_values": [
+      -1.4448,
+      -5.535,
+      -3.9151,
+      -5.9308,
+      -4.5882,
+      -0.1227,
+      3.1086,
+      0.1698
+    ],
+    "gap_weight": 0.7,
+    "ml_weight": 0.3,
+    "top_risk": {
+      "feature_name": "floodFrequency",
+      "feature_label": "침수빈도",
+      "feature_value": 4,
+      "baseline": 3.2,
+      "gap_percent": 25.0,
+      "gap_shap": -3.5,
+      "ml_shap": -10.2834,
+      "shap_value": -5.535,
+      "impact": "negative",
+      "is_problem": true,
+      "higher_is_worse": true,
+      "importance_rank": 2,
+      "climate_risk_score": 8.3025,
+      "tier": 1,
+      "tier_weight": 1.0,
+      "category": "hazard"
+    },
+    "problem_count": 7
+  },
+  {
+    "timestamp": "2026-02-07T22:29:35.919168",
+    "endpoint": "/api/shap",
+    "features": {
+      "heatDays": 24,
+      "floodFrequency": 0,
+      "imperviousRate": 65,
+      "greenRate": 15,
+      "heatIsland": 4.8,
+      "elderlyRatio": 16,
+      "shelterAccess": 100,
+      "medicalAccess": 92
+    },
+    "hybrid_shap_values": [
+      -1.209,
+      15.1578,
+      -2.1058,
+      -8.6078,
+      -5.7615,
+      0.4293,
+      7.5097,
+      4.7044
+    ],
+    "gap_weight": 0.7,
+    "ml_weight": 0.3,
+    "top_risk": {
+      "feature_name": "heatIsland",
+      "feature_label": "열섬지수",
+      "feature_value": 4.8,
+      "baseline": 3.2,
+      "gap_percent": 50.0,
+      "gap_shap": -5.25,
+      "ml_shap": -6.9549,
+      "shap_value": -5.7615,
+      "impact": "negative",
+      "is_problem": true,
+      "higher_is_worse": true,
+      "importance_rank": 4,
+      "climate_risk_score": 7.7780249999999995,
+      "tier": 1,
+      "tier_weight": 0.9,
+      "category": "hazard"
+    },
+    "problem_count": 4
+  },
+  {
+    "timestamp": "2026-02-07T22:29:36.056764",
+    "endpoint": "/api/shap",
+    "features": {
+      "heatDays": 24,
+      "floodFrequency": 0,
+      "imperviousRate": 65,
+      "greenRate": 15,
+      "heatIsland": 4.8,
+      "elderlyRatio": 16,
+      "shelterAccess": 100,
+      "medicalAccess": 92
+    },
+    "hybrid_shap_values": [
+      -1.209,
+      15.1578,
+      -2.1058,
+      -8.6078,
+      -5.7615,
+      0.4293,
+      7.5097,
+      4.7044
+    ],
+    "gap_weight": 0.7,
+    "ml_weight": 0.3,
+    "top_risk": {
+      "feature_name": "heatIsland",
+      "feature_label": "열섬지수",
+      "feature_value": 4.8,
+      "baseline": 3.2,
+      "gap_percent": 50.0,
+      "gap_shap": -5.25,
+      "ml_shap": -6.9549,
+      "shap_value": -5.7615,
+      "impact": "negative",
+      "is_problem": true,
+      "higher_is_worse": true,
+      "importance_rank": 4,
+      "climate_risk_score": 7.7780249999999995,
+      "tier": 1,
+      "tier_weight": 0.9,
+      "category": "hazard"
+    },
+    "problem_count": 4
+  },
+  {
+    "timestamp": "2026-02-07T22:29:38.251173",
+    "endpoint": "/api/predict",
+    "features": {
+      "heatDays": 25,
+      "floodFrequency": 4,
+      "imperviousRate": 72,
+      "greenRate": 22,
+      "heatIsland": 4.5,
+      "elderlyRatio": 17,
+      "shelterAccess": 380,
+      "medicalAccess": 65
+    },
+    "prediction": 16.77
+  },
+  {
+    "timestamp": "2026-02-07T22:29:38.261175",
+    "endpoint": "/api/predict",
+    "features": {
+      "heatDays": 25,
+      "floodFrequency": 4,
+      "imperviousRate": 72,
+      "greenRate": 22,
+      "heatIsland": 4.5,
+      "elderlyRatio": 17,
+      "shelterAccess": 380,
+      "medicalAccess": 65
+    },
+    "prediction": 16.77
+  },
+  {
+    "timestamp": "2026-02-07T22:29:38.430748",
+    "endpoint": "/api/shap",
+    "features": {
+      "heatDays": 25,
+      "floodFrequency": 4,
+      "imperviousRate": 72,
+      "greenRate": 22,
+      "heatIsland": 4.5,
+      "elderlyRatio": 17,
+      "shelterAccess": 380,
+      "medicalAccess": 65
+    },
+    "hybrid_shap_values": [
+      -1.4448,
+      -5.535,
+      -3.9151,
+      -5.9308,
+      -4.5882,
+      -0.1227,
+      3.1086,
+      0.1698
+    ],
+    "gap_weight": 0.7,
+    "ml_weight": 0.3,
+    "top_risk": {
+      "feature_name": "floodFrequency",
+      "feature_label": "침수빈도",
+      "feature_value": 4,
+      "baseline": 3.2,
+      "gap_percent": 25.0,
+      "gap_shap": -3.5,
+      "ml_shap": -10.2834,
+      "shap_value": -5.535,
+      "impact": "negative",
+      "is_problem": true,
+      "higher_is_worse": true,
+      "importance_rank": 2,
+      "climate_risk_score": 8.3025,
+      "tier": 1,
+      "tier_weight": 1.0,
+      "category": "hazard"
+    },
+    "problem_count": 7
+  },
+  {
+    "timestamp": "2026-02-07T22:29:41.397545",
+    "endpoint": "/api/predict",
+    "features": {
+      "heatDays": 25,
+      "floodFrequency": 4,
+      "imperviousRate": 72,
+      "greenRate": 22,
+      "heatIsland": 4.5,
+      "elderlyRatio": 17,
+      "shelterAccess": 380,
+      "medicalAccess": 65
+    },
+    "prediction": 16.77
+  },
+  {
+    "timestamp": "2026-02-07T22:29:41.429375",
+    "endpoint": "/api/predict",
+    "features": {
+      "heatDays": 25,
+      "floodFrequency": 4,
+      "imperviousRate": 72,
+      "greenRate": 22,
+      "heatIsland": 4.5,
+      "elderlyRatio": 17,
+      "shelterAccess": 380,
+      "medicalAccess": 65
+    },
+    "prediction": 16.77
+  },
+  {
+    "timestamp": "2026-02-07T22:29:41.873818",
+    "endpoint": "/api/shap",
+    "features": {
+      "heatDays": 25,
+      "floodFrequency": 4,
+      "imperviousRate": 72,
+      "greenRate": 22,
+      "heatIsland": 4.5,
+      "elderlyRatio": 17,
+      "shelterAccess": 380,
+      "medicalAccess": 65
+    },
+    "hybrid_shap_values": [
+      -0.1212,
+      -8.2484,
+      -4.0868,
+      -6.9614,
+      -5.0184,
+      -0.1436,
+      1.4381,
+      0.6084
+    ],
+    "gap_weight": 0.3,
+    "ml_weight": 0.7,
+    "top_risk": {
+      "feature_name": "floodFrequency",
+      "feature_label": "침수빈도",
+      "feature_value": 4,
+      "baseline": 3.2,
+      "gap_percent": 25.0,
+      "gap_shap": -3.5,
+      "ml_shap": -10.2834,
+      "shap_value": -8.2484,
+      "impact": "negative",
+      "is_problem": true,
+      "higher_is_worse": true,
+      "importance_rank": 1,
+      "climate_risk_score": 12.3726,
+      "tier": 1,
+      "tier_weight": 1.0,
+      "category": "hazard"
+    },
+    "problem_count": 7
+  },
+  {
+    "timestamp": "2026-02-07T22:29:50.656142",
+    "endpoint": "/api/predict",
+    "features": {
+      "heatDays": 25,
+      "floodFrequency": 4,
+      "imperviousRate": 72,
+      "greenRate": 22,
+      "heatIsland": 4.5,
+      "elderlyRatio": 17,
+      "shelterAccess": 380,
+      "medicalAccess": 65
+    },
+    "prediction": 16.77
+  },
+  {
+    "timestamp": "2026-02-07T22:29:50.657141",
+    "endpoint": "/api/predict",
+    "features": {
+      "heatDays": 25,
+      "floodFrequency": 4,
+      "imperviousRate": 72,
+      "greenRate": 22,
+      "heatIsland": 4.5,
+      "elderlyRatio": 17,
+      "shelterAccess": 380,
+      "medicalAccess": 65
+    },
+    "prediction": 16.77
+  },
+  {
+    "timestamp": "2026-02-07T22:29:51.073047",
+    "endpoint": "/api/shap",
+    "features": {
+      "heatDays": 25,
+      "floodFrequency": 4,
+      "imperviousRate": 72,
+      "greenRate": 22,
+      "heatIsland": 4.5,
+      "elderlyRatio": 17,
+      "shelterAccess": 380,
+      "medicalAccess": 65
+    },
+    "hybrid_shap_values": [
+      -0.1212,
+      -8.2484,
+      -4.0868,
+      -6.9614,
+      -5.0184,
+      -0.1436,
+      1.4381,
+      0.6084
+    ],
+    "gap_weight": 0.3,
+    "ml_weight": 0.7,
+    "top_risk": {
+      "feature_name": "floodFrequency",
+      "feature_label": "침수빈도",
+      "feature_value": 4,
+      "baseline": 3.2,
+      "gap_percent": 25.0,
+      "gap_shap": -3.5,
+      "ml_shap": -10.2834,
+      "shap_value": -8.2484,
+      "impact": "negative",
+      "is_problem": true,
+      "higher_is_worse": true,
+      "importance_rank": 1,
+      "climate_risk_score": 12.3726,
+      "tier": 1,
+      "tier_weight": 1.0,
+      "category": "hazard"
+    },
+    "problem_count": 7
+  },
+  {
+    "timestamp": "2026-02-07T22:29:53.394905",
+    "endpoint": "/api/predict",
+    "features": {
+      "heatDays": 25,
+      "floodFrequency": 4,
+      "imperviousRate": 72,
+      "greenRate": 22,
+      "heatIsland": 4.5,
+      "elderlyRatio": 17,
+      "shelterAccess": 380,
+      "medicalAccess": 65
+    },
+    "prediction": 16.77
+  },
+  {
+    "timestamp": "2026-02-07T22:29:53.720092",
+    "endpoint": "/api/predict",
+    "features": {
+      "heatDays": 25,
+      "floodFrequency": 4,
+      "imperviousRate": 72,
+      "greenRate": 22,
+      "heatIsland": 4.5,
+      "elderlyRatio": 17,
+      "shelterAccess": 380,
+      "medicalAccess": 65
+    },
+    "prediction": 16.77
+  },
+  {
+    "timestamp": "2026-02-07T22:29:53.843800",
+    "endpoint": "/api/shap",
+    "features": {
+      "heatDays": 25,
+      "floodFrequency": 4,
+      "imperviousRate": 72,
+      "greenRate": 22,
+      "heatIsland": 4.5,
+      "elderlyRatio": 17,
+      "shelterAccess": 380,
+      "medicalAccess": 65
+    },
+    "hybrid_shap_values": [
+      -1.4448,
+      -5.535,
+      -3.9151,
+      -5.9308,
+      -4.5882,
+      -0.1227,
+      3.1086,
+      0.1698
+    ],
+    "gap_weight": 0.7,
+    "ml_weight": 0.3,
+    "top_risk": {
+      "feature_name": "floodFrequency",
+      "feature_label": "침수빈도",
+      "feature_value": 4,
+      "baseline": 3.2,
+      "gap_percent": 25.0,
+      "gap_shap": -3.5,
+      "ml_shap": -10.2834,
+      "shap_value": -5.535,
+      "impact": "negative",
+      "is_problem": true,
+      "higher_is_worse": true,
+      "importance_rank": 2,
+      "climate_risk_score": 8.3025,
+      "tier": 1,
+      "tier_weight": 1.0,
+      "category": "hazard"
+    },
+    "problem_count": 7
+  },
+  {
+    "timestamp": "2026-02-07T22:29:57.106750",
+    "endpoint": "/api/predict",
+    "features": {
+      "heatDays": 25,
+      "floodFrequency": 4,
+      "imperviousRate": 72,
+      "greenRate": 22,
+      "heatIsland": 4.5,
+      "elderlyRatio": 17,
+      "shelterAccess": 380,
+      "medicalAccess": 65
+    },
+    "prediction": 16.77
+  },
+  {
+    "timestamp": "2026-02-07T22:29:57.156392",
+    "endpoint": "/api/predict",
+    "features": {
+      "heatDays": 25,
+      "floodFrequency": 4,
+      "imperviousRate": 72,
+      "greenRate": 22,
+      "heatIsland": 4.5,
+      "elderlyRatio": 17,
+      "shelterAccess": 380,
+      "medicalAccess": 65
+    },
+    "prediction": 16.77
+  },
+  {
+    "timestamp": "2026-02-07T22:29:57.296196",
+    "endpoint": "/api/shap",
+    "features": {
+      "heatDays": 25,
+      "floodFrequency": 4,
+      "imperviousRate": 72,
+      "greenRate": 22,
+      "heatIsland": 4.5,
+      "elderlyRatio": 17,
+      "shelterAccess": 380,
+      "medicalAccess": 65
+    },
+    "hybrid_shap_values": [
+      -0.1212,
+      -8.2484,
+      -4.0868,
+      -6.9614,
+      -5.0184,
+      -0.1436,
+      1.4381,
+      0.6084
+    ],
+    "gap_weight": 0.3,
+    "ml_weight": 0.7,
+    "top_risk": {
+      "feature_name": "floodFrequency",
+      "feature_label": "침수빈도",
+      "feature_value": 4,
+      "baseline": 3.2,
+      "gap_percent": 25.0,
+      "gap_shap": -3.5,
+      "ml_shap": -10.2834,
+      "shap_value": -8.2484,
+      "impact": "negative",
+      "is_problem": true,
+      "higher_is_worse": true,
+      "importance_rank": 1,
+      "climate_risk_score": 12.3726,
+      "tier": 1,
+      "tier_weight": 1.0,
+      "category": "hazard"
+    },
+    "problem_count": 7
+  },
+  {
+    "timestamp": "2026-02-07T22:30:03.000890",
+    "endpoint": "/api/predict",
+    "features": {
+      "heatDays": 25,
+      "floodFrequency": 4,
+      "imperviousRate": 72,
+      "greenRate": 22,
+      "heatIsland": 4.5,
+      "elderlyRatio": 17,
+      "shelterAccess": 380,
+      "medicalAccess": 65
+    },
+    "prediction": 16.77
+  },
+  {
+    "timestamp": "2026-02-07T22:30:03.023886",
+    "endpoint": "/api/predict",
+    "features": {
+      "heatDays": 25,
+      "floodFrequency": 4,
+      "imperviousRate": 72,
+      "greenRate": 22,
+      "heatIsland": 4.5,
+      "elderlyRatio": 17,
+      "shelterAccess": 380,
+      "medicalAccess": 65
+    },
+    "prediction": 16.77
+  },
+  {
+    "timestamp": "2026-02-07T22:30:03.410297",
+    "endpoint": "/api/shap",
+    "features": {
+      "heatDays": 25,
+      "floodFrequency": 4,
+      "imperviousRate": 72,
+      "greenRate": 22,
+      "heatIsland": 4.5,
+      "elderlyRatio": 17,
+      "shelterAccess": 380,
+      "medicalAccess": 65
+    },
+    "hybrid_shap_values": [
+      -0.1212,
+      -8.2484,
+      -4.0868,
+      -6.9614,
+      -5.0184,
+      -0.1436,
+      1.4381,
+      0.6084
+    ],
+    "gap_weight": 0.3,
+    "ml_weight": 0.7,
+    "top_risk": {
+      "feature_name": "floodFrequency",
+      "feature_label": "침수빈도",
+      "feature_value": 4,
+      "baseline": 3.2,
+      "gap_percent": 25.0,
+      "gap_shap": -3.5,
+      "ml_shap": -10.2834,
+      "shap_value": -8.2484,
+      "impact": "negative",
+      "is_problem": true,
+      "higher_is_worse": true,
+      "importance_rank": 1,
+      "climate_risk_score": 12.3726,
+      "tier": 1,
+      "tier_weight": 1.0,
+      "category": "hazard"
+    },
+    "problem_count": 7
+  },
+  {
+    "timestamp": "2026-02-07T22:30:05.718548",
+    "endpoint": "/api/predict",
+    "features": {
+      "heatDays": 25,
+      "floodFrequency": 4,
+      "imperviousRate": 72,
+      "greenRate": 22,
+      "heatIsland": 4.5,
+      "elderlyRatio": 17,
+      "shelterAccess": 380,
+      "medicalAccess": 65
+    },
+    "prediction": 16.77
+  },
+  {
+    "timestamp": "2026-02-07T22:30:06.034170",
+    "endpoint": "/api/predict",
+    "features": {
+      "heatDays": 25,
+      "floodFrequency": 4,
+      "imperviousRate": 72,
+      "greenRate": 22,
+      "heatIsland": 4.5,
+      "elderlyRatio": 17,
+      "shelterAccess": 380,
+      "medicalAccess": 65
+    },
+    "prediction": 16.77
+  },
+  {
+    "timestamp": "2026-02-07T22:30:06.143384",
+    "endpoint": "/api/shap",
+    "features": {
+      "heatDays": 25,
+      "floodFrequency": 4,
+      "imperviousRate": 72,
+      "greenRate": 22,
+      "heatIsland": 4.5,
+      "elderlyRatio": 17,
+      "shelterAccess": 380,
+      "medicalAccess": 65
+    },
+    "hybrid_shap_values": [
+      -1.4448,
+      -5.535,
+      -3.9151,
+      -5.9308,
+      -4.5882,
+      -0.1227,
+      3.1086,
+      0.1698
+    ],
+    "gap_weight": 0.7,
+    "ml_weight": 0.3,
+    "top_risk": {
+      "feature_name": "floodFrequency",
+      "feature_label": "침수빈도",
+      "feature_value": 4,
+      "baseline": 3.2,
+      "gap_percent": 25.0,
+      "gap_shap": -3.5,
+      "ml_shap": -10.2834,
+      "shap_value": -5.535,
+      "impact": "negative",
+      "is_problem": true,
+      "higher_is_worse": true,
+      "importance_rank": 2,
+      "climate_risk_score": 8.3025,
+      "tier": 1,
+      "tier_weight": 1.0,
+      "category": "hazard"
+    },
+    "problem_count": 7
+  },
+  {
+    "timestamp": "2026-02-07T22:30:09.430885",
+    "endpoint": "/api/predict",
+    "features": {
+      "heatDays": 25,
+      "floodFrequency": 4,
+      "imperviousRate": 72,
+      "greenRate": 22,
+      "heatIsland": 4.5,
+      "elderlyRatio": 17,
+      "shelterAccess": 380,
+      "medicalAccess": 65
+    },
+    "prediction": 16.77
+  },
+  {
+    "timestamp": "2026-02-07T22:30:09.487441",
+    "endpoint": "/api/predict",
+    "features": {
+      "heatDays": 25,
+      "floodFrequency": 4,
+      "imperviousRate": 72,
+      "greenRate": 22,
+      "heatIsland": 4.5,
+      "elderlyRatio": 17,
+      "shelterAccess": 380,
+      "medicalAccess": 65
+    },
+    "prediction": 16.77
+  },
+  {
+    "timestamp": "2026-02-07T22:30:09.607441",
+    "endpoint": "/api/shap",
+    "features": {
+      "heatDays": 25,
+      "floodFrequency": 4,
+      "imperviousRate": 72,
+      "greenRate": 22,
+      "heatIsland": 4.5,
+      "elderlyRatio": 17,
+      "shelterAccess": 380,
+      "medicalAccess": 65
+    },
+    "hybrid_shap_values": [
+      -1.4448,
+      -5.535,
+      -3.9151,
+      -5.9308,
+      -4.5882,
+      -0.1227,
+      3.1086,
+      0.1698
+    ],
+    "gap_weight": 0.7,
+    "ml_weight": 0.3,
+    "top_risk": {
+      "feature_name": "floodFrequency",
+      "feature_label": "침수빈도",
+      "feature_value": 4,
+      "baseline": 3.2,
+      "gap_percent": 25.0,
+      "gap_shap": -3.5,
+      "ml_shap": -10.2834,
+      "shap_value": -5.535,
+      "impact": "negative",
+      "is_problem": true,
+      "higher_is_worse": true,
+      "importance_rank": 2,
+      "climate_risk_score": 8.3025,
+      "tier": 1,
+      "tier_weight": 1.0,
+      "category": "hazard"
+    },
+    "problem_count": 7
+  },
+  {
+    "timestamp": "2026-02-07T22:30:11.815945",
+    "endpoint": "/api/predict",
+    "features": {
+      "heatDays": 25,
+      "floodFrequency": 4,
+      "imperviousRate": 72,
+      "greenRate": 22,
+      "heatIsland": 4.5,
+      "elderlyRatio": 17,
+      "shelterAccess": 380,
+      "medicalAccess": 65
+    },
+    "prediction": 16.77
+  },
+  {
+    "timestamp": "2026-02-07T22:30:12.109940",
+    "endpoint": "/api/predict",
+    "features": {
+      "heatDays": 25,
+      "floodFrequency": 4,
+      "imperviousRate": 72,
+      "greenRate": 22,
+      "heatIsland": 4.5,
+      "elderlyRatio": 17,
+      "shelterAccess": 380,
+      "medicalAccess": 65
+    },
+    "prediction": 16.77
+  },
+  {
+    "timestamp": "2026-02-07T22:30:12.278935",
+    "endpoint": "/api/shap",
+    "features": {
+      "heatDays": 25,
+      "floodFrequency": 4,
+      "imperviousRate": 72,
+      "greenRate": 22,
+      "heatIsland": 4.5,
+      "elderlyRatio": 17,
+      "shelterAccess": 380,
+      "medicalAccess": 65
+    },
+    "hybrid_shap_values": [
+      -1.4448,
+      -5.535,
+      -3.9151,
+      -5.9308,
+      -4.5882,
+      -0.1227,
+      3.1086,
+      0.1698
+    ],
+    "gap_weight": 0.7,
+    "ml_weight": 0.3,
+    "top_risk": {
+      "feature_name": "floodFrequency",
+      "feature_label": "침수빈도",
+      "feature_value": 4,
+      "baseline": 3.2,
+      "gap_percent": 25.0,
+      "gap_shap": -3.5,
+      "ml_shap": -10.2834,
+      "shap_value": -5.535,
+      "impact": "negative",
+      "is_problem": true,
+      "higher_is_worse": true,
+      "importance_rank": 2,
+      "climate_risk_score": 8.3025,
+      "tier": 1,
+      "tier_weight": 1.0,
+      "category": "hazard"
+    },
+    "problem_count": 7
+  },
+  {
+    "timestamp": "2026-02-07T22:30:15.587363",
+    "endpoint": "/api/predict",
+    "features": {
+      "heatDays": 25,
+      "floodFrequency": 4,
+      "imperviousRate": 72,
+      "greenRate": 22,
+      "heatIsland": 4.5,
+      "elderlyRatio": 17,
+      "shelterAccess": 380,
+      "medicalAccess": 65
+    },
+    "prediction": 16.77
+  },
+  {
+    "timestamp": "2026-02-07T22:30:15.655656",
+    "endpoint": "/api/predict",
+    "features": {
+      "heatDays": 25,
+      "floodFrequency": 4,
+      "imperviousRate": 72,
+      "greenRate": 22,
+      "heatIsland": 4.5,
+      "elderlyRatio": 17,
+      "shelterAccess": 380,
+      "medicalAccess": 65
+    },
+    "prediction": 16.77
+  },
+  {
+    "timestamp": "2026-02-07T22:30:15.790763",
+    "endpoint": "/api/shap",
+    "features": {
+      "heatDays": 25,
+      "floodFrequency": 4,
+      "imperviousRate": 72,
+      "greenRate": 22,
+      "heatIsland": 4.5,
+      "elderlyRatio": 17,
+      "shelterAccess": 380,
+      "medicalAccess": 65
+    },
+    "hybrid_shap_values": [
+      -1.4448,
+      -5.535,
+      -3.9151,
+      -5.9308,
+      -4.5882,
+      -0.1227,
+      3.1086,
+      0.1698
+    ],
+    "gap_weight": 0.7,
+    "ml_weight": 0.3,
+    "top_risk": {
+      "feature_name": "floodFrequency",
+      "feature_label": "침수빈도",
+      "feature_value": 4,
+      "baseline": 3.2,
+      "gap_percent": 25.0,
+      "gap_shap": -3.5,
+      "ml_shap": -10.2834,
+      "shap_value": -5.535,
+      "impact": "negative",
+      "is_problem": true,
+      "higher_is_worse": true,
+      "importance_rank": 2,
+      "climate_risk_score": 8.3025,
+      "tier": 1,
+      "tier_weight": 1.0,
+      "category": "hazard"
+    },
+    "problem_count": 7
+  },
+  {
+    "timestamp": "2026-02-07T22:30:18.051520",
+    "endpoint": "/api/predict",
+    "features": {
+      "heatDays": 25,
+      "floodFrequency": 4,
+      "imperviousRate": 72,
+      "greenRate": 22,
+      "heatIsland": 4.5,
+      "elderlyRatio": 17,
+      "shelterAccess": 380,
+      "medicalAccess": 65
+    },
+    "prediction": 16.77
+  },
+  {
+    "timestamp": "2026-02-07T22:30:18.363528",
+    "endpoint": "/api/predict",
+    "features": {
+      "heatDays": 25,
+      "floodFrequency": 4,
+      "imperviousRate": 72,
+      "greenRate": 22,
+      "heatIsland": 4.5,
+      "elderlyRatio": 17,
+      "shelterAccess": 380,
+      "medicalAccess": 65
+    },
+    "prediction": 16.77
+  },
+  {
+    "timestamp": "2026-02-07T22:30:18.493652",
+    "endpoint": "/api/shap",
+    "features": {
+      "heatDays": 25,
+      "floodFrequency": 4,
+      "imperviousRate": 72,
+      "greenRate": 22,
+      "heatIsland": 4.5,
+      "elderlyRatio": 17,
+      "shelterAccess": 380,
+      "medicalAccess": 65
+    },
+    "hybrid_shap_values": [
+      -1.4448,
+      -5.535,
+      -3.9151,
+      -5.9308,
+      -4.5882,
+      -0.1227,
+      3.1086,
+      0.1698
+    ],
+    "gap_weight": 0.7,
+    "ml_weight": 0.3,
+    "top_risk": {
+      "feature_name": "floodFrequency",
+      "feature_label": "침수빈도",
+      "feature_value": 4,
+      "baseline": 3.2,
+      "gap_percent": 25.0,
+      "gap_shap": -3.5,
+      "ml_shap": -10.2834,
+      "shap_value": -5.535,
+      "impact": "negative",
+      "is_problem": true,
+      "higher_is_worse": true,
+      "importance_rank": 2,
+      "climate_risk_score": 8.3025,
+      "tier": 1,
+      "tier_weight": 1.0,
+      "category": "hazard"
+    },
+    "problem_count": 7
+  },
+  {
+    "timestamp": "2026-02-07T22:30:21.782122",
+    "endpoint": "/api/predict",
+    "features": {
+      "heatDays": 25,
+      "floodFrequency": 4,
+      "imperviousRate": 72,
+      "greenRate": 22,
+      "heatIsland": 4.5,
+      "elderlyRatio": 17,
+      "shelterAccess": 380,
+      "medicalAccess": 65
+    },
+    "prediction": 16.77
+  },
+  {
+    "timestamp": "2026-02-07T22:30:21.836640",
+    "endpoint": "/api/predict",
+    "features": {
+      "heatDays": 25,
+      "floodFrequency": 4,
+      "imperviousRate": 72,
+      "greenRate": 22,
+      "heatIsland": 4.5,
+      "elderlyRatio": 17,
+      "shelterAccess": 380,
+      "medicalAccess": 65
+    },
+    "prediction": 16.77
+  },
+  {
+    "timestamp": "2026-02-07T22:30:21.844419",
+    "endpoint": "/api/shap",
+    "features": {
+      "heatDays": 25,
+      "floodFrequency": 4,
+      "imperviousRate": 72,
+      "greenRate": 22,
+      "heatIsland": 4.5,
+      "elderlyRatio": 17,
+      "shelterAccess": 380,
+      "medicalAccess": 65
+    },
+    "hybrid_shap_values": [
+      -1.4448,
+      -5.535,
+      -3.9151,
+      -5.9308,
+      -4.5882,
+      -0.1227,
+      3.1086,
+      0.1698
+    ],
+    "gap_weight": 0.7,
+    "ml_weight": 0.3,
+    "top_risk": {
+      "feature_name": "floodFrequency",
+      "feature_label": "침수빈도",
+      "feature_value": 4,
+      "baseline": 3.2,
+      "gap_percent": 25.0,
+      "gap_shap": -3.5,
+      "ml_shap": -10.2834,
+      "shap_value": -5.535,
+      "impact": "negative",
+      "is_problem": true,
+      "higher_is_worse": true,
+      "importance_rank": 2,
+      "climate_risk_score": 8.3025,
+      "tier": 1,
+      "tier_weight": 1.0,
+      "category": "hazard"
+    },
+    "problem_count": 7
+  },
+  {
+    "timestamp": "2026-02-07T22:30:24.154244",
+    "endpoint": "/api/predict",
+    "features": {
+      "heatDays": 25,
+      "floodFrequency": 4,
+      "imperviousRate": 72,
+      "greenRate": 22,
+      "heatIsland": 4.5,
+      "elderlyRatio": 17,
+      "shelterAccess": 380,
+      "medicalAccess": 65
+    },
+    "prediction": 16.77
+  },
+  {
+    "timestamp": "2026-02-07T22:30:24.465458",
+    "endpoint": "/api/predict",
+    "features": {
+      "heatDays": 25,
+      "floodFrequency": 4,
+      "imperviousRate": 72,
+      "greenRate": 22,
+      "heatIsland": 4.5,
+      "elderlyRatio": 17,
+      "shelterAccess": 380,
+      "medicalAccess": 65
+    },
+    "prediction": 16.77
+  },
+  {
+    "timestamp": "2026-02-07T22:30:24.605982",
+    "endpoint": "/api/shap",
+    "features": {
+      "heatDays": 25,
+      "floodFrequency": 4,
+      "imperviousRate": 72,
+      "greenRate": 22,
+      "heatIsland": 4.5,
+      "elderlyRatio": 17,
+      "shelterAccess": 380,
+      "medicalAccess": 65
+    },
+    "hybrid_shap_values": [
+      -1.4448,
+      -5.535,
+      -3.9151,
+      -5.9308,
+      -4.5882,
+      -0.1227,
+      3.1086,
+      0.1698
+    ],
+    "gap_weight": 0.7,
+    "ml_weight": 0.3,
+    "top_risk": {
+      "feature_name": "floodFrequency",
+      "feature_label": "침수빈도",
+      "feature_value": 4,
+      "baseline": 3.2,
+      "gap_percent": 25.0,
+      "gap_shap": -3.5,
+      "ml_shap": -10.2834,
+      "shap_value": -5.535,
+      "impact": "negative",
+      "is_problem": true,
+      "higher_is_worse": true,
+      "importance_rank": 2,
+      "climate_risk_score": 8.3025,
+      "tier": 1,
+      "tier_weight": 1.0,
+      "category": "hazard"
+    },
+    "problem_count": 7
+  },
+  {
+    "timestamp": "2026-02-07T22:30:27.914642",
+    "endpoint": "/api/predict",
+    "features": {
+      "heatDays": 25,
+      "floodFrequency": 4,
+      "imperviousRate": 72,
+      "greenRate": 22,
+      "heatIsland": 4.5,
+      "elderlyRatio": 17,
+      "shelterAccess": 380,
+      "medicalAccess": 65
+    },
+    "prediction": 16.77
+  },
+  {
+    "timestamp": "2026-02-07T22:30:27.968981",
+    "endpoint": "/api/predict",
+    "features": {
+      "heatDays": 25,
+      "floodFrequency": 4,
+      "imperviousRate": 72,
+      "greenRate": 22,
+      "heatIsland": 4.5,
+      "elderlyRatio": 17,
+      "shelterAccess": 380,
+      "medicalAccess": 65
+    },
+    "prediction": 16.77
+  },
+  {
+    "timestamp": "2026-02-07T22:30:28.086521",
+    "endpoint": "/api/shap",
+    "features": {
+      "heatDays": 25,
+      "floodFrequency": 4,
+      "imperviousRate": 72,
+      "greenRate": 22,
+      "heatIsland": 4.5,
+      "elderlyRatio": 17,
+      "shelterAccess": 380,
+      "medicalAccess": 65
+    },
+    "hybrid_shap_values": [
+      -1.4448,
+      -5.535,
+      -3.9151,
+      -5.9308,
+      -4.5882,
+      -0.1227,
+      3.1086,
+      0.1698
+    ],
+    "gap_weight": 0.7,
+    "ml_weight": 0.3,
+    "top_risk": {
+      "feature_name": "floodFrequency",
+      "feature_label": "침수빈도",
+      "feature_value": 4,
+      "baseline": 3.2,
+      "gap_percent": 25.0,
+      "gap_shap": -3.5,
+      "ml_shap": -10.2834,
+      "shap_value": -5.535,
+      "impact": "negative",
+      "is_problem": true,
+      "higher_is_worse": true,
+      "importance_rank": 2,
+      "climate_risk_score": 8.3025,
+      "tier": 1,
+      "tier_weight": 1.0,
+      "category": "hazard"
+    },
+    "problem_count": 7
+  },
+  {
+    "timestamp": "2026-02-07T22:30:30.291424",
+    "endpoint": "/api/predict",
+    "features": {
+      "heatDays": 25,
+      "floodFrequency": 9,
+      "imperviousRate": 72,
+      "greenRate": 15,
+      "heatIsland": 5.29,
+      "elderlyRatio": 17,
+      "shelterAccess": 100,
+      "medicalAccess": 85
+    },
+    "prediction": 11.06
+  },
+  {
+    "timestamp": "2026-02-07T22:30:30.592783",
+    "endpoint": "/api/predict",
+    "features": {
+      "heatDays": 25,
+      "floodFrequency": 9,
+      "imperviousRate": 72,
+      "greenRate": 15,
+      "heatIsland": 5.29,
+      "elderlyRatio": 17,
+      "shelterAccess": 100,
+      "medicalAccess": 85
+    },
+    "prediction": 11.06
+  },
+  {
+    "timestamp": "2026-02-07T22:30:30.742282",
+    "endpoint": "/api/shap",
+    "features": {
+      "heatDays": 25,
+      "floodFrequency": 9,
+      "imperviousRate": 72,
+      "greenRate": 15,
+      "heatIsland": 5.29,
+      "elderlyRatio": 17,
+      "shelterAccess": 100,
+      "medicalAccess": 85
+    },
+    "hybrid_shap_values": [
+      -1.4299,
+      -22.3243,
+      -4.0129,
+      -8.3625,
+      -7.5507,
+      -0.2618,
+      7.1995,
+      3.4567
+    ],
+    "gap_weight": 0.7,
+    "ml_weight": 0.3,
+    "top_risk": {
+      "feature_name": "floodFrequency",
+      "feature_label": "침수빈도",
+      "feature_value": 9,
+      "baseline": 3.2,
+      "gap_percent": 181.25,
+      "gap_shap": -25.375,
+      "ml_shap": -15.2062,
+      "shap_value": -22.3243,
+      "impact": "negative",
+      "is_problem": true,
+      "higher_is_worse": true,
+      "importance_rank": 1,
+      "climate_risk_score": 33.486450000000005,
+      "tier": 1,
+      "tier_weight": 1.0,
+      "category": "hazard"
+    },
+    "problem_count": 6
+  },
+  {
+    "timestamp": "2026-02-07T22:30:34.040397",
+    "endpoint": "/api/predict",
+    "features": {
+      "heatDays": 25,
+      "floodFrequency": 9,
+      "imperviousRate": 72,
+      "greenRate": 15,
+      "heatIsland": 5.29,
+      "elderlyRatio": 17,
+      "shelterAccess": 100,
+      "medicalAccess": 85
+    },
+    "prediction": 11.06
+  },
+  {
+    "timestamp": "2026-02-07T22:30:34.097423",
+    "endpoint": "/api/predict",
+    "features": {
+      "heatDays": 25,
+      "floodFrequency": 9,
+      "imperviousRate": 72,
+      "greenRate": 15,
+      "heatIsland": 5.29,
+      "elderlyRatio": 17,
+      "shelterAccess": 100,
+      "medicalAccess": 85
+    },
+    "prediction": 11.06
+  },
+  {
+    "timestamp": "2026-02-07T22:30:34.228525",
+    "endpoint": "/api/shap",
+    "features": {
+      "heatDays": 25,
+      "floodFrequency": 9,
+      "imperviousRate": 72,
+      "greenRate": 15,
+      "heatIsland": 5.29,
+      "elderlyRatio": 17,
+      "shelterAccess": 100,
+      "medicalAccess": 85
+    },
+    "hybrid_shap_values": [
+      -1.4299,
+      -22.3243,
+      -4.0129,
+      -8.3625,
+      -7.5507,
+      -0.2618,
+      7.1995,
+      3.4567
+    ],
+    "gap_weight": 0.7,
+    "ml_weight": 0.3,
+    "top_risk": {
+      "feature_name": "floodFrequency",
+      "feature_label": "침수빈도",
+      "feature_value": 9,
+      "baseline": 3.2,
+      "gap_percent": 181.25,
+      "gap_shap": -25.375,
+      "ml_shap": -15.2062,
+      "shap_value": -22.3243,
+      "impact": "negative",
+      "is_problem": true,
+      "higher_is_worse": true,
+      "importance_rank": 1,
+      "climate_risk_score": 33.486450000000005,
+      "tier": 1,
+      "tier_weight": 1.0,
+      "category": "hazard"
+    },
+    "problem_count": 6
+  },
+  {
+    "timestamp": "2026-02-07T22:30:36.398388",
+    "endpoint": "/api/predict",
+    "features": {
+      "heatDays": 25,
+      "floodFrequency": 9,
+      "imperviousRate": 72,
+      "greenRate": 15,
+      "heatIsland": 5.29,
+      "elderlyRatio": 17,
+      "shelterAccess": 100,
+      "medicalAccess": 85
+    },
+    "prediction": 11.06
+  },
+  {
+    "timestamp": "2026-02-07T22:30:36.700200",
+    "endpoint": "/api/predict",
+    "features": {
+      "heatDays": 25,
+      "floodFrequency": 9,
+      "imperviousRate": 72,
+      "greenRate": 15,
+      "heatIsland": 5.29,
+      "elderlyRatio": 17,
+      "shelterAccess": 100,
+      "medicalAccess": 85
+    },
+    "prediction": 11.06
+  },
+  {
+    "timestamp": "2026-02-07T22:30:36.829979",
+    "endpoint": "/api/predict",
+    "features": {
+      "heatDays": 25,
+      "floodFrequency": 9,
+      "imperviousRate": 72,
+      "greenRate": 15,
+      "heatIsland": 5.29,
+      "elderlyRatio": 17,
+      "shelterAccess": 100,
+      "medicalAccess": 85
+    },
+    "prediction": 11.06
+  },
+  {
+    "timestamp": "2026-02-07T22:30:36.834322",
+    "endpoint": "/api/shap",
+    "features": {
+      "heatDays": 25,
+      "floodFrequency": 9,
+      "imperviousRate": 72,
+      "greenRate": 15,
+      "heatIsland": 5.29,
+      "elderlyRatio": 17,
+      "shelterAccess": 100,
+      "medicalAccess": 85
+    },
+    "hybrid_shap_values": [
+      -0.0864,
+      -18.2568,
+      -4.3149,
+      -9.6265,
+      -8.4746,
+      -0.4682,
+      4.9526,
+      4.0353
+    ],
+    "gap_weight": 0.3,
+    "ml_weight": 0.7,
+    "top_risk": {
+      "feature_name": "floodFrequency",
+      "feature_label": "침수빈도",
+      "feature_value": 9,
+      "baseline": 3.2,
+      "gap_percent": 181.25,
+      "gap_shap": -25.375,
+      "ml_shap": -15.2062,
+      "shap_value": -18.2568,
+      "impact": "negative",
+      "is_problem": true,
+      "higher_is_worse": true,
+      "importance_rank": 1,
+      "climate_risk_score": 27.385199999999998,
+      "tier": 1,
+      "tier_weight": 1.0,
+      "category": "hazard"
+    },
+    "problem_count": 6
+  },
+  {
+    "timestamp": "2026-02-07T22:30:36.852912",
+    "endpoint": "/api/predict",
+    "features": {
+      "heatDays": 25,
+      "floodFrequency": 9,
+      "imperviousRate": 72,
+      "greenRate": 15,
+      "heatIsland": 5.29,
+      "elderlyRatio": 17,
+      "shelterAccess": 100,
+      "medicalAccess": 85
+    },
+    "prediction": 11.06
+  },
+  {
+    "timestamp": "2026-02-07T22:30:37.132307",
+    "endpoint": "/api/predict",
+    "features": {
+      "heatDays": 24,
+      "floodFrequency": 3,
+      "imperviousRate": 65,
+      "greenRate": 28,
+      "heatIsland": 4,
+      "elderlyRatio": 16,
+      "shelterAccess": 420,
+      "medicalAccess": 72
+    },
+    "prediction": 36.78
+  },
+  {
+    "timestamp": "2026-02-07T22:30:37.136306",
+    "endpoint": "/api/shap",
+    "features": {
+      "heatDays": 25,
+      "floodFrequency": 9,
+      "imperviousRate": 72,
+      "greenRate": 15,
+      "heatIsland": 5.29,
+      "elderlyRatio": 17,
+      "shelterAccess": 100,
+      "medicalAccess": 85
+    },
+    "hybrid_shap_values": [
+      -1.4299,
+      -22.3243,
+      -4.0129,
+      -8.3625,
+      -7.5507,
+      -0.2618,
+      7.1995,
+      3.4567
+    ],
+    "gap_weight": 0.7,
+    "ml_weight": 0.3,
+    "top_risk": {
+      "feature_name": "floodFrequency",
+      "feature_label": "침수빈도",
+      "feature_value": 9,
+      "baseline": 3.2,
+      "gap_percent": 181.25,
+      "gap_shap": -25.375,
+      "ml_shap": -15.2062,
+      "shap_value": -22.3243,
+      "impact": "negative",
+      "is_problem": true,
+      "higher_is_worse": true,
+      "importance_rank": 1,
+      "climate_risk_score": 33.486450000000005,
+      "tier": 1,
+      "tier_weight": 1.0,
+      "category": "hazard"
+    },
+    "problem_count": 6
+  },
+  {
+    "timestamp": "2026-02-07T22:30:37.243695",
+    "endpoint": "/api/predict",
+    "features": {
+      "heatDays": 24,
+      "floodFrequency": 3,
+      "imperviousRate": 65,
+      "greenRate": 28,
+      "heatIsland": 4,
+      "elderlyRatio": 16,
+      "shelterAccess": 420,
+      "medicalAccess": 72
+    },
+    "prediction": 36.78
+  },
+  {
+    "timestamp": "2026-02-07T22:30:37.431193",
+    "endpoint": "/api/shap",
+    "features": {
+      "heatDays": 24,
+      "floodFrequency": 3,
+      "imperviousRate": 65,
+      "greenRate": 28,
+      "heatIsland": 4,
+      "elderlyRatio": 16,
+      "shelterAccess": 420,
+      "medicalAccess": 72
+    },
+    "hybrid_shap_values": [
+      -0.897,
+      -0.4263,
+      -2.2794,
+      -2.0509,
+      -2.6582,
+      0.5395,
+      2.3115,
+      1.2205
+    ],
+    "gap_weight": 0.7,
+    "ml_weight": 0.3,
+    "top_risk": {
+      "feature_name": "heatIsland",
+      "feature_label": "열섬지수",
+      "feature_value": 4,
+      "baseline": 3.2,
+      "gap_percent": 25.0,
+      "gap_shap": -2.625,
+      "ml_shap": -2.7357,
+      "shap_value": -2.6582,
+      "impact": "negative",
+      "is_problem": true,
+      "higher_is_worse": true,
+      "importance_rank": 1,
+      "climate_risk_score": 3.5885700000000003,
+      "tier": 1,
+      "tier_weight": 0.9,
+      "category": "hazard"
+    },
+    "problem_count": 4
+  },
+  {
+    "timestamp": "2026-02-07T22:30:40.104663",
+    "endpoint": "/api/predict",
+    "features": {
+      "heatDays": 24,
+      "floodFrequency": 3,
+      "imperviousRate": 65,
+      "greenRate": 28,
+      "heatIsland": 4,
+      "elderlyRatio": 16,
+      "shelterAccess": 420,
+      "medicalAccess": 72
+    },
+    "prediction": 36.78
+  },
+  {
+    "timestamp": "2026-02-07T22:30:40.177836",
+    "endpoint": "/api/predict",
+    "features": {
+      "heatDays": 24,
+      "floodFrequency": 3,
+      "imperviousRate": 65,
+      "greenRate": 28,
+      "heatIsland": 4,
+      "elderlyRatio": 16,
+      "shelterAccess": 420,
+      "medicalAccess": 72
+    },
+    "prediction": 36.78
+  },
+  {
+    "timestamp": "2026-02-07T22:30:40.294852",
+    "endpoint": "/api/shap",
+    "features": {
+      "heatDays": 24,
+      "floodFrequency": 3,
+      "imperviousRate": 65,
+      "greenRate": 28,
+      "heatIsland": 4,
+      "elderlyRatio": 16,
+      "shelterAccess": 420,
+      "medicalAccess": 72
+    },
+    "hybrid_shap_values": [
+      -0.897,
+      -0.4263,
+      -2.2794,
+      -2.0509,
+      -2.6582,
+      0.5395,
+      2.3115,
+      1.2205
+    ],
+    "gap_weight": 0.7,
+    "ml_weight": 0.3,
+    "top_risk": {
+      "feature_name": "heatIsland",
+      "feature_label": "열섬지수",
+      "feature_value": 4,
+      "baseline": 3.2,
+      "gap_percent": 25.0,
+      "gap_shap": -2.625,
+      "ml_shap": -2.7357,
+      "shap_value": -2.6582,
+      "impact": "negative",
+      "is_problem": true,
+      "higher_is_worse": true,
+      "importance_rank": 1,
+      "climate_risk_score": 3.5885700000000003,
+      "tier": 1,
+      "tier_weight": 0.9,
+      "category": "hazard"
+    },
+    "problem_count": 4
+  },
+  {
+    "timestamp": "2026-02-07T22:30:40.923602",
+    "endpoint": "/api/predict",
+    "features": {
+      "heatDays": 24,
+      "floodFrequency": 3,
+      "imperviousRate": 65,
+      "greenRate": 28,
+      "heatIsland": 4,
+      "elderlyRatio": 16,
+      "shelterAccess": 420,
+      "medicalAccess": 72
+    },
+    "prediction": 36.78
+  },
+  {
+    "timestamp": "2026-02-07T22:30:41.232788",
+    "endpoint": "/api/predict",
+    "features": {
+      "heatDays": 24,
+      "floodFrequency": 3,
+      "imperviousRate": 65,
+      "greenRate": 28,
+      "heatIsland": 4,
+      "elderlyRatio": 16,
+      "shelterAccess": 420,
+      "medicalAccess": 72
+    },
+    "prediction": 36.78
+  },
+  {
+    "timestamp": "2026-02-07T22:30:41.364115",
+    "endpoint": "/api/predict",
+    "features": {
+      "heatDays": 25,
+      "floodFrequency": 9,
+      "imperviousRate": 72,
+      "greenRate": 15,
+      "heatIsland": 5.29,
+      "elderlyRatio": 17,
+      "shelterAccess": 100,
+      "medicalAccess": 85
+    },
+    "prediction": 11.06
+  },
+  {
+    "timestamp": "2026-02-07T22:30:41.364115",
+    "endpoint": "/api/predict",
+    "features": {
+      "heatDays": 25,
+      "floodFrequency": 9,
+      "imperviousRate": 72,
+      "greenRate": 15,
+      "heatIsland": 5.29,
+      "elderlyRatio": 17,
+      "shelterAccess": 100,
+      "medicalAccess": 85
+    },
+    "prediction": 11.06
+  },
+  {
+    "timestamp": "2026-02-07T22:30:41.371124",
+    "endpoint": "/api/shap",
+    "features": {
+      "heatDays": 24,
+      "floodFrequency": 3,
+      "imperviousRate": 65,
+      "greenRate": 28,
+      "heatIsland": 4,
+      "elderlyRatio": 16,
+      "shelterAccess": 420,
+      "medicalAccess": 72
+    },
+    "hybrid_shap_values": [
+      -0.897,
+      -0.4263,
+      -2.2794,
+      -2.0509,
+      -2.6582,
+      0.5395,
+      2.3115,
+      1.2205
+    ],
+    "gap_weight": 0.7,
+    "ml_weight": 0.3,
+    "top_risk": {
+      "feature_name": "heatIsland",
+      "feature_label": "열섬지수",
+      "feature_value": 4,
+      "baseline": 3.2,
+      "gap_percent": 25.0,
+      "gap_shap": -2.625,
+      "ml_shap": -2.7357,
+      "shap_value": -2.6582,
+      "impact": "negative",
+      "is_problem": true,
+      "higher_is_worse": true,
+      "importance_rank": 1,
+      "climate_risk_score": 3.5885700000000003,
+      "tier": 1,
+      "tier_weight": 0.9,
+      "category": "hazard"
+    },
+    "problem_count": 4
+  },
+  {
+    "timestamp": "2026-02-07T22:30:41.734256",
+    "endpoint": "/api/shap",
+    "features": {
+      "heatDays": 25,
+      "floodFrequency": 9,
+      "imperviousRate": 72,
+      "greenRate": 15,
+      "heatIsland": 5.29,
+      "elderlyRatio": 17,
+      "shelterAccess": 100,
+      "medicalAccess": 85
+    },
+    "hybrid_shap_values": [
+      -0.0864,
+      -18.2568,
+      -4.3149,
+      -9.6265,
+      -8.4746,
+      -0.4682,
+      4.9526,
+      4.0353
+    ],
+    "gap_weight": 0.3,
+    "ml_weight": 0.7,
+    "top_risk": {
+      "feature_name": "floodFrequency",
+      "feature_label": "침수빈도",
+      "feature_value": 9,
+      "baseline": 3.2,
+      "gap_percent": 181.25,
+      "gap_shap": -25.375,
+      "ml_shap": -15.2062,
+      "shap_value": -18.2568,
+      "impact": "negative",
+      "is_problem": true,
+      "higher_is_worse": true,
+      "importance_rank": 1,
+      "climate_risk_score": 27.385199999999998,
+      "tier": 1,
+      "tier_weight": 1.0,
+      "category": "hazard"
+    },
+    "problem_count": 6
+  },
+  {
+    "timestamp": "2026-02-07T22:30:42.848469",
+    "endpoint": "/api/predict",
+    "features": {
+      "heatDays": 25,
+      "floodFrequency": 9,
+      "imperviousRate": 72,
+      "greenRate": 15,
+      "heatIsland": 5.29,
+      "elderlyRatio": 17,
+      "shelterAccess": 100,
+      "medicalAccess": 85
+    },
+    "prediction": 11.06
+  },
+  {
+    "timestamp": "2026-02-07T22:30:42.878004",
+    "endpoint": "/api/predict",
+    "features": {
+      "heatDays": 25,
+      "floodFrequency": 9,
+      "imperviousRate": 72,
+      "greenRate": 15,
+      "heatIsland": 5.29,
+      "elderlyRatio": 17,
+      "shelterAccess": 100,
+      "medicalAccess": 85
+    },
+    "prediction": 11.06
+  },
+  {
+    "timestamp": "2026-02-07T22:30:42.966053",
+    "endpoint": "/api/shap",
+    "features": {
+      "heatDays": 25,
+      "floodFrequency": 9,
+      "imperviousRate": 72,
+      "greenRate": 15,
+      "heatIsland": 5.29,
+      "elderlyRatio": 17,
+      "shelterAccess": 100,
+      "medicalAccess": 85
+    },
+    "hybrid_shap_values": [
+      -1.4299,
+      -22.3243,
+      -4.0129,
+      -8.3625,
+      -7.5507,
+      -0.2618,
+      7.1995,
+      3.4567
+    ],
+    "gap_weight": 0.7,
+    "ml_weight": 0.3,
+    "top_risk": {
+      "feature_name": "floodFrequency",
+      "feature_label": "침수빈도",
+      "feature_value": 9,
+      "baseline": 3.2,
+      "gap_percent": 181.25,
+      "gap_shap": -25.375,
+      "ml_shap": -15.2062,
+      "shap_value": -22.3243,
+      "impact": "negative",
+      "is_problem": true,
+      "higher_is_worse": true,
+      "importance_rank": 1,
+      "climate_risk_score": 33.486450000000005,
+      "tier": 1,
+      "tier_weight": 1.0,
+      "category": "hazard"
+    },
+    "problem_count": 6
+  },
+  {
+    "timestamp": "2026-02-07T22:30:45.908356",
+    "endpoint": "/api/predict",
+    "features": {
+      "heatDays": 25,
+      "floodFrequency": 9,
+      "imperviousRate": 72,
+      "greenRate": 15,
+      "heatIsland": 5.29,
+      "elderlyRatio": 17,
+      "shelterAccess": 100,
+      "medicalAccess": 85
+    },
+    "prediction": 11.06
+  },
+  {
+    "timestamp": "2026-02-07T22:30:46.196266",
+    "endpoint": "/api/predict",
+    "features": {
+      "heatDays": 25,
+      "floodFrequency": 9,
+      "imperviousRate": 72,
+      "greenRate": 15,
+      "heatIsland": 5.29,
+      "elderlyRatio": 17,
+      "shelterAccess": 100,
+      "medicalAccess": 85
+    },
+    "prediction": 11.06
+  },
+  {
+    "timestamp": "2026-02-07T22:30:46.354245",
+    "endpoint": "/api/shap",
+    "features": {
+      "heatDays": 25,
+      "floodFrequency": 9,
+      "imperviousRate": 72,
+      "greenRate": 15,
+      "heatIsland": 5.29,
+      "elderlyRatio": 17,
+      "shelterAccess": 100,
+      "medicalAccess": 85
+    },
+    "hybrid_shap_values": [
+      -1.4299,
+      -22.3243,
+      -4.0129,
+      -8.3625,
+      -7.5507,
+      -0.2618,
+      7.1995,
+      3.4567
+    ],
+    "gap_weight": 0.7,
+    "ml_weight": 0.3,
+    "top_risk": {
+      "feature_name": "floodFrequency",
+      "feature_label": "침수빈도",
+      "feature_value": 9,
+      "baseline": 3.2,
+      "gap_percent": 181.25,
+      "gap_shap": -25.375,
+      "ml_shap": -15.2062,
+      "shap_value": -22.3243,
+      "impact": "negative",
+      "is_problem": true,
+      "higher_is_worse": true,
+      "importance_rank": 1,
+      "climate_risk_score": 33.486450000000005,
+      "tier": 1,
+      "tier_weight": 1.0,
+      "category": "hazard"
+    },
+    "problem_count": 6
+  },
+  {
+    "timestamp": "2026-02-07T22:30:49.007029",
+    "endpoint": "/api/predict",
+    "features": {
+      "heatDays": 25,
+      "floodFrequency": 9,
+      "imperviousRate": 72,
+      "greenRate": 15,
+      "heatIsland": 5.29,
+      "elderlyRatio": 17,
+      "shelterAccess": 100,
+      "medicalAccess": 85
+    },
+    "prediction": 11.06
+  },
+  {
+    "timestamp": "2026-02-07T22:30:49.030155",
+    "endpoint": "/api/predict",
+    "features": {
+      "heatDays": 25,
+      "floodFrequency": 9,
+      "imperviousRate": 72,
+      "greenRate": 15,
+      "heatIsland": 5.29,
+      "elderlyRatio": 17,
+      "shelterAccess": 100,
+      "medicalAccess": 85
+    },
+    "prediction": 11.06
+  },
+  {
+    "timestamp": "2026-02-07T22:30:49.139659",
+    "endpoint": "/api/shap",
+    "features": {
+      "heatDays": 25,
+      "floodFrequency": 9,
+      "imperviousRate": 72,
+      "greenRate": 15,
+      "heatIsland": 5.29,
+      "elderlyRatio": 17,
+      "shelterAccess": 100,
+      "medicalAccess": 85
+    },
+    "hybrid_shap_values": [
+      -1.4299,
+      -22.3243,
+      -4.0129,
+      -8.3625,
+      -7.5507,
+      -0.2618,
+      7.1995,
+      3.4567
+    ],
+    "gap_weight": 0.7,
+    "ml_weight": 0.3,
+    "top_risk": {
+      "feature_name": "floodFrequency",
+      "feature_label": "침수빈도",
+      "feature_value": 9,
+      "baseline": 3.2,
+      "gap_percent": 181.25,
+      "gap_shap": -25.375,
+      "ml_shap": -15.2062,
+      "shap_value": -22.3243,
+      "impact": "negative",
+      "is_problem": true,
+      "higher_is_worse": true,
+      "importance_rank": 1,
+      "climate_risk_score": 33.486450000000005,
+      "tier": 1,
+      "tier_weight": 1.0,
+      "category": "hazard"
+    },
+    "problem_count": 6
+  },
+  {
+    "timestamp": "2026-02-07T22:30:52.214427",
+    "endpoint": "/api/predict",
+    "features": {
+      "heatDays": 25,
+      "floodFrequency": 9,
+      "imperviousRate": 72,
+      "greenRate": 15,
+      "heatIsland": 5.29,
+      "elderlyRatio": 17,
+      "shelterAccess": 100,
+      "medicalAccess": 85
+    },
+    "prediction": 11.06
+  },
+  {
+    "timestamp": "2026-02-07T22:30:52.243428",
+    "endpoint": "/api/predict",
+    "features": {
+      "heatDays": 25,
+      "floodFrequency": 9,
+      "imperviousRate": 72,
+      "greenRate": 15,
+      "heatIsland": 5.29,
+      "elderlyRatio": 17,
+      "shelterAccess": 100,
+      "medicalAccess": 85
+    },
+    "prediction": 11.06
+  },
+  {
+    "timestamp": "2026-02-07T22:30:52.631888",
+    "endpoint": "/api/shap",
+    "features": {
+      "heatDays": 25,
+      "floodFrequency": 9,
+      "imperviousRate": 72,
+      "greenRate": 15,
+      "heatIsland": 5.29,
+      "elderlyRatio": 17,
+      "shelterAccess": 100,
+      "medicalAccess": 85
+    },
+    "hybrid_shap_values": [
+      -0.0864,
+      -18.2568,
+      -4.3149,
+      -9.6265,
+      -8.4746,
+      -0.4682,
+      4.9526,
+      4.0353
+    ],
+    "gap_weight": 0.3,
+    "ml_weight": 0.7,
+    "top_risk": {
+      "feature_name": "floodFrequency",
+      "feature_label": "침수빈도",
+      "feature_value": 9,
+      "baseline": 3.2,
+      "gap_percent": 181.25,
+      "gap_shap": -25.375,
+      "ml_shap": -15.2062,
+      "shap_value": -18.2568,
+      "impact": "negative",
+      "is_problem": true,
+      "higher_is_worse": true,
+      "importance_rank": 1,
+      "climate_risk_score": 27.385199999999998,
+      "tier": 1,
+      "tier_weight": 1.0,
+      "category": "hazard"
+    },
+    "problem_count": 6
+  },
+  {
+    "timestamp": "2026-02-07T22:30:54.755982",
+    "endpoint": "/api/predict",
+    "features": {
+      "heatDays": 25,
+      "floodFrequency": 9,
+      "imperviousRate": 72,
+      "greenRate": 15,
+      "heatIsland": 5.29,
+      "elderlyRatio": 17,
+      "shelterAccess": 100,
+      "medicalAccess": 85
+    },
+    "prediction": 11.06
+  },
+  {
+    "timestamp": "2026-02-07T22:30:55.065626",
+    "endpoint": "/api/predict",
+    "features": {
+      "heatDays": 25,
+      "floodFrequency": 9,
+      "imperviousRate": 72,
+      "greenRate": 15,
+      "heatIsland": 5.29,
+      "elderlyRatio": 17,
+      "shelterAccess": 100,
+      "medicalAccess": 85
+    },
+    "prediction": 11.06
+  },
+  {
+    "timestamp": "2026-02-07T22:30:55.145146",
+    "endpoint": "/api/shap",
+    "features": {
+      "heatDays": 25,
+      "floodFrequency": 9,
+      "imperviousRate": 72,
+      "greenRate": 15,
+      "heatIsland": 5.29,
+      "elderlyRatio": 17,
+      "shelterAccess": 100,
+      "medicalAccess": 85
+    },
+    "hybrid_shap_values": [
+      -1.4299,
+      -22.3243,
+      -4.0129,
+      -8.3625,
+      -7.5507,
+      -0.2618,
+      7.1995,
+      3.4567
+    ],
+    "gap_weight": 0.7,
+    "ml_weight": 0.3,
+    "top_risk": {
+      "feature_name": "floodFrequency",
+      "feature_label": "침수빈도",
+      "feature_value": 9,
+      "baseline": 3.2,
+      "gap_percent": 181.25,
+      "gap_shap": -25.375,
+      "ml_shap": -15.2062,
+      "shap_value": -22.3243,
+      "impact": "negative",
+      "is_problem": true,
+      "higher_is_worse": true,
+      "importance_rank": 1,
+      "climate_risk_score": 33.486450000000005,
+      "tier": 1,
+      "tier_weight": 1.0,
+      "category": "hazard"
+    },
+    "problem_count": 6
+  },
+  {
+    "timestamp": "2026-02-07T22:30:58.400636",
+    "endpoint": "/api/predict",
+    "features": {
+      "heatDays": 25,
+      "floodFrequency": 9,
+      "imperviousRate": 72,
+      "greenRate": 15,
+      "heatIsland": 5.29,
+      "elderlyRatio": 17,
+      "shelterAccess": 100,
+      "medicalAccess": 85
+    },
+    "prediction": 11.06
+  },
+  {
+    "timestamp": "2026-02-07T22:30:58.458202",
+    "endpoint": "/api/predict",
+    "features": {
+      "heatDays": 25,
+      "floodFrequency": 9,
+      "imperviousRate": 72,
+      "greenRate": 15,
+      "heatIsland": 5.29,
+      "elderlyRatio": 17,
+      "shelterAccess": 100,
+      "medicalAccess": 85
+    },
+    "prediction": 11.06
+  },
+  {
+    "timestamp": "2026-02-07T22:30:58.557840",
+    "endpoint": "/api/shap",
+    "features": {
+      "heatDays": 25,
+      "floodFrequency": 9,
+      "imperviousRate": 72,
+      "greenRate": 15,
+      "heatIsland": 5.29,
+      "elderlyRatio": 17,
+      "shelterAccess": 100,
+      "medicalAccess": 85
+    },
+    "hybrid_shap_values": [
+      -1.4299,
+      -22.3243,
+      -4.0129,
+      -8.3625,
+      -7.5507,
+      -0.2618,
+      7.1995,
+      3.4567
+    ],
+    "gap_weight": 0.7,
+    "ml_weight": 0.3,
+    "top_risk": {
+      "feature_name": "floodFrequency",
+      "feature_label": "침수빈도",
+      "feature_value": 9,
+      "baseline": 3.2,
+      "gap_percent": 181.25,
+      "gap_shap": -25.375,
+      "ml_shap": -15.2062,
+      "shap_value": -22.3243,
+      "impact": "negative",
+      "is_problem": true,
+      "higher_is_worse": true,
+      "importance_rank": 1,
+      "climate_risk_score": 33.486450000000005,
+      "tier": 1,
+      "tier_weight": 1.0,
+      "category": "hazard"
+    },
+    "problem_count": 6
+  },
+  {
+    "timestamp": "2026-02-07T22:31:00.930539",
+    "endpoint": "/api/predict",
+    "features": {
+      "heatDays": 25,
+      "floodFrequency": 9,
+      "imperviousRate": 72,
+      "greenRate": 15,
+      "heatIsland": 5.29,
+      "elderlyRatio": 17,
+      "shelterAccess": 100,
+      "medicalAccess": 85
+    },
+    "prediction": 11.06
+  },
+  {
+    "timestamp": "2026-02-07T22:31:01.233535",
+    "endpoint": "/api/predict",
+    "features": {
+      "heatDays": 25,
+      "floodFrequency": 9,
+      "imperviousRate": 72,
+      "greenRate": 15,
+      "heatIsland": 5.29,
+      "elderlyRatio": 17,
+      "shelterAccess": 100,
+      "medicalAccess": 85
+    },
+    "prediction": 11.06
+  },
+  {
+    "timestamp": "2026-02-07T22:31:01.382685",
+    "endpoint": "/api/shap",
+    "features": {
+      "heatDays": 25,
+      "floodFrequency": 9,
+      "imperviousRate": 72,
+      "greenRate": 15,
+      "heatIsland": 5.29,
+      "elderlyRatio": 17,
+      "shelterAccess": 100,
+      "medicalAccess": 85
+    },
+    "hybrid_shap_values": [
+      -1.4299,
+      -22.3243,
+      -4.0129,
+      -8.3625,
+      -7.5507,
+      -0.2618,
+      7.1995,
+      3.4567
+    ],
+    "gap_weight": 0.7,
+    "ml_weight": 0.3,
+    "top_risk": {
+      "feature_name": "floodFrequency",
+      "feature_label": "침수빈도",
+      "feature_value": 9,
+      "baseline": 3.2,
+      "gap_percent": 181.25,
+      "gap_shap": -25.375,
+      "ml_shap": -15.2062,
+      "shap_value": -22.3243,
+      "impact": "negative",
+      "is_problem": true,
+      "higher_is_worse": true,
+      "importance_rank": 1,
+      "climate_risk_score": 33.486450000000005,
+      "tier": 1,
+      "tier_weight": 1.0,
+      "category": "hazard"
+    },
+    "problem_count": 6
+  },
+  {
+    "timestamp": "2026-02-07T22:31:04.722642",
+    "endpoint": "/api/predict",
+    "features": {
+      "heatDays": 25,
+      "floodFrequency": 9,
+      "imperviousRate": 72,
+      "greenRate": 15,
+      "heatIsland": 5.29,
+      "elderlyRatio": 17,
+      "shelterAccess": 100,
+      "medicalAccess": 85
+    },
+    "prediction": 11.06
+  },
+  {
+    "timestamp": "2026-02-07T22:31:04.775309",
+    "endpoint": "/api/predict",
+    "features": {
+      "heatDays": 25,
+      "floodFrequency": 9,
+      "imperviousRate": 72,
+      "greenRate": 15,
+      "heatIsland": 5.29,
+      "elderlyRatio": 17,
+      "shelterAccess": 100,
+      "medicalAccess": 85
+    },
+    "prediction": 11.06
+  },
+  {
+    "timestamp": "2026-02-07T22:31:04.891743",
+    "endpoint": "/api/shap",
+    "features": {
+      "heatDays": 25,
+      "floodFrequency": 9,
+      "imperviousRate": 72,
+      "greenRate": 15,
+      "heatIsland": 5.29,
+      "elderlyRatio": 17,
+      "shelterAccess": 100,
+      "medicalAccess": 85
+    },
+    "hybrid_shap_values": [
+      -0.0864,
+      -18.2568,
+      -4.3149,
+      -9.6265,
+      -8.4746,
+      -0.4682,
+      4.9526,
+      4.0353
+    ],
+    "gap_weight": 0.3,
+    "ml_weight": 0.7,
+    "top_risk": {
+      "feature_name": "floodFrequency",
+      "feature_label": "침수빈도",
+      "feature_value": 9,
+      "baseline": 3.2,
+      "gap_percent": 181.25,
+      "gap_shap": -25.375,
+      "ml_shap": -15.2062,
+      "shap_value": -18.2568,
+      "impact": "negative",
+      "is_problem": true,
+      "higher_is_worse": true,
+      "importance_rank": 1,
+      "climate_risk_score": 27.385199999999998,
+      "tier": 1,
+      "tier_weight": 1.0,
+      "category": "hazard"
+    },
+    "problem_count": 6
+  },
+  {
+    "timestamp": "2026-02-07T22:31:06.989241",
+    "endpoint": "/api/predict",
+    "features": {
+      "heatDays": 25,
+      "floodFrequency": 9,
+      "imperviousRate": 72,
+      "greenRate": 15,
+      "heatIsland": 5.29,
+      "elderlyRatio": 17,
+      "shelterAccess": 100,
+      "medicalAccess": 85
+    },
+    "prediction": 11.06
+  },
+  {
+    "timestamp": "2026-02-07T22:31:07.294083",
+    "endpoint": "/api/predict",
+    "features": {
+      "heatDays": 25,
+      "floodFrequency": 9,
+      "imperviousRate": 72,
+      "greenRate": 15,
+      "heatIsland": 5.29,
+      "elderlyRatio": 17,
+      "shelterAccess": 100,
+      "medicalAccess": 85
+    },
+    "prediction": 11.06
+  },
+  {
+    "timestamp": "2026-02-07T22:31:07.401129",
+    "endpoint": "/api/shap",
+    "features": {
+      "heatDays": 25,
+      "floodFrequency": 9,
+      "imperviousRate": 72,
+      "greenRate": 15,
+      "heatIsland": 5.29,
+      "elderlyRatio": 17,
+      "shelterAccess": 100,
+      "medicalAccess": 85
+    },
+    "hybrid_shap_values": [
+      -1.4299,
+      -22.3243,
+      -4.0129,
+      -8.3625,
+      -7.5507,
+      -0.2618,
+      7.1995,
+      3.4567
+    ],
+    "gap_weight": 0.7,
+    "ml_weight": 0.3,
+    "top_risk": {
+      "feature_name": "floodFrequency",
+      "feature_label": "침수빈도",
+      "feature_value": 9,
+      "baseline": 3.2,
+      "gap_percent": 181.25,
+      "gap_shap": -25.375,
+      "ml_shap": -15.2062,
+      "shap_value": -22.3243,
+      "impact": "negative",
+      "is_problem": true,
+      "higher_is_worse": true,
+      "importance_rank": 1,
+      "climate_risk_score": 33.486450000000005,
+      "tier": 1,
+      "tier_weight": 1.0,
+      "category": "hazard"
+    },
+    "problem_count": 6
+  },
+  {
+    "timestamp": "2026-02-07T22:31:10.591499",
+    "endpoint": "/api/predict",
+    "features": {
+      "heatDays": 25,
+      "floodFrequency": 9,
+      "imperviousRate": 72,
+      "greenRate": 15,
+      "heatIsland": 5.29,
+      "elderlyRatio": 17,
+      "shelterAccess": 100,
+      "medicalAccess": 85
+    },
+    "prediction": 11.06
+  },
+  {
+    "timestamp": "2026-02-07T22:31:10.663245",
+    "endpoint": "/api/predict",
+    "features": {
+      "heatDays": 25,
+      "floodFrequency": 9,
+      "imperviousRate": 72,
+      "greenRate": 15,
+      "heatIsland": 5.29,
+      "elderlyRatio": 17,
+      "shelterAccess": 100,
+      "medicalAccess": 85
+    },
+    "prediction": 11.06
+  },
+  {
+    "timestamp": "2026-02-07T22:31:10.768654",
+    "endpoint": "/api/shap",
+    "features": {
+      "heatDays": 25,
+      "floodFrequency": 9,
+      "imperviousRate": 72,
+      "greenRate": 15,
+      "heatIsland": 5.29,
+      "elderlyRatio": 17,
+      "shelterAccess": 100,
+      "medicalAccess": 85
+    },
+    "hybrid_shap_values": [
+      -0.0864,
+      -18.2568,
+      -4.3149,
+      -9.6265,
+      -8.4746,
+      -0.4682,
+      4.9526,
+      4.0353
+    ],
+    "gap_weight": 0.3,
+    "ml_weight": 0.7,
+    "top_risk": {
+      "feature_name": "floodFrequency",
+      "feature_label": "침수빈도",
+      "feature_value": 9,
+      "baseline": 3.2,
+      "gap_percent": 181.25,
+      "gap_shap": -25.375,
+      "ml_shap": -15.2062,
+      "shap_value": -18.2568,
+      "impact": "negative",
+      "is_problem": true,
+      "higher_is_worse": true,
+      "importance_rank": 1,
+      "climate_risk_score": 27.385199999999998,
+      "tier": 1,
+      "tier_weight": 1.0,
+      "category": "hazard"
+    },
+    "problem_count": 6
+  },
+  {
+    "timestamp": "2026-02-07T22:31:12.975337",
+    "endpoint": "/api/predict",
+    "features": {
+      "heatDays": 25,
+      "floodFrequency": 9,
+      "imperviousRate": 72,
+      "greenRate": 15,
+      "heatIsland": 5.29,
+      "elderlyRatio": 17,
+      "shelterAccess": 100,
+      "medicalAccess": 85
+    },
+    "prediction": 11.06
+  },
+  {
+    "timestamp": "2026-02-07T22:31:13.282726",
+    "endpoint": "/api/predict",
+    "features": {
+      "heatDays": 25,
+      "floodFrequency": 9,
+      "imperviousRate": 72,
+      "greenRate": 15,
+      "heatIsland": 5.29,
+      "elderlyRatio": 17,
+      "shelterAccess": 100,
+      "medicalAccess": 85
+    },
+    "prediction": 11.06
+  },
+  {
+    "timestamp": "2026-02-07T22:31:13.404707",
+    "endpoint": "/api/shap",
+    "features": {
+      "heatDays": 25,
+      "floodFrequency": 9,
+      "imperviousRate": 72,
+      "greenRate": 15,
+      "heatIsland": 5.29,
+      "elderlyRatio": 17,
+      "shelterAccess": 100,
+      "medicalAccess": 85
+    },
+    "hybrid_shap_values": [
+      -1.4299,
+      -22.3243,
+      -4.0129,
+      -8.3625,
+      -7.5507,
+      -0.2618,
+      7.1995,
+      3.4567
+    ],
+    "gap_weight": 0.7,
+    "ml_weight": 0.3,
+    "top_risk": {
+      "feature_name": "floodFrequency",
+      "feature_label": "침수빈도",
+      "feature_value": 9,
+      "baseline": 3.2,
+      "gap_percent": 181.25,
+      "gap_shap": -25.375,
+      "ml_shap": -15.2062,
+      "shap_value": -22.3243,
+      "impact": "negative",
+      "is_problem": true,
+      "higher_is_worse": true,
+      "importance_rank": 1,
+      "climate_risk_score": 33.486450000000005,
+      "tier": 1,
+      "tier_weight": 1.0,
+      "category": "hazard"
+    },
+    "problem_count": 6
+  },
+  {
+    "timestamp": "2026-02-07T22:31:16.650298",
+    "endpoint": "/api/predict",
+    "features": {
+      "heatDays": 25,
+      "floodFrequency": 9,
+      "imperviousRate": 72,
+      "greenRate": 15,
+      "heatIsland": 5.29,
+      "elderlyRatio": 17,
+      "shelterAccess": 100,
+      "medicalAccess": 85
+    },
+    "prediction": 11.06
+  },
+  {
+    "timestamp": "2026-02-07T22:31:16.704327",
+    "endpoint": "/api/predict",
+    "features": {
+      "heatDays": 25,
+      "floodFrequency": 9,
+      "imperviousRate": 72,
+      "greenRate": 15,
+      "heatIsland": 5.29,
+      "elderlyRatio": 17,
+      "shelterAccess": 100,
+      "medicalAccess": 85
+    },
+    "prediction": 11.06
+  },
+  {
+    "timestamp": "2026-02-07T22:31:16.810224",
+    "endpoint": "/api/shap",
+    "features": {
+      "heatDays": 25,
+      "floodFrequency": 9,
+      "imperviousRate": 72,
+      "greenRate": 15,
+      "heatIsland": 5.29,
+      "elderlyRatio": 17,
+      "shelterAccess": 100,
+      "medicalAccess": 85
+    },
+    "hybrid_shap_values": [
+      -1.4299,
+      -22.3243,
+      -4.0129,
+      -8.3625,
+      -7.5507,
+      -0.2618,
+      7.1995,
+      3.4567
+    ],
+    "gap_weight": 0.7,
+    "ml_weight": 0.3,
+    "top_risk": {
+      "feature_name": "floodFrequency",
+      "feature_label": "침수빈도",
+      "feature_value": 9,
+      "baseline": 3.2,
+      "gap_percent": 181.25,
+      "gap_shap": -25.375,
+      "ml_shap": -15.2062,
+      "shap_value": -22.3243,
+      "impact": "negative",
+      "is_problem": true,
+      "higher_is_worse": true,
+      "importance_rank": 1,
+      "climate_risk_score": 33.486450000000005,
+      "tier": 1,
+      "tier_weight": 1.0,
+      "category": "hazard"
+    },
+    "problem_count": 6
+  },
+  {
+    "timestamp": "2026-02-07T22:31:19.074377",
+    "endpoint": "/api/predict",
+    "features": {
+      "heatDays": 25,
+      "floodFrequency": 9,
+      "imperviousRate": 72,
+      "greenRate": 15,
+      "heatIsland": 5.29,
+      "elderlyRatio": 17,
+      "shelterAccess": 100,
+      "medicalAccess": 85
+    },
+    "prediction": 11.06
+  },
+  {
+    "timestamp": "2026-02-07T22:31:19.390643",
+    "endpoint": "/api/predict",
+    "features": {
+      "heatDays": 25,
+      "floodFrequency": 9,
+      "imperviousRate": 72,
+      "greenRate": 15,
+      "heatIsland": 5.29,
+      "elderlyRatio": 17,
+      "shelterAccess": 100,
+      "medicalAccess": 85
+    },
+    "prediction": 11.06
+  },
+  {
+    "timestamp": "2026-02-07T22:31:19.519152",
+    "endpoint": "/api/shap",
+    "features": {
+      "heatDays": 25,
+      "floodFrequency": 9,
+      "imperviousRate": 72,
+      "greenRate": 15,
+      "heatIsland": 5.29,
+      "elderlyRatio": 17,
+      "shelterAccess": 100,
+      "medicalAccess": 85
+    },
+    "hybrid_shap_values": [
+      -1.4299,
+      -22.3243,
+      -4.0129,
+      -8.3625,
+      -7.5507,
+      -0.2618,
+      7.1995,
+      3.4567
+    ],
+    "gap_weight": 0.7,
+    "ml_weight": 0.3,
+    "top_risk": {
+      "feature_name": "floodFrequency",
+      "feature_label": "침수빈도",
+      "feature_value": 9,
+      "baseline": 3.2,
+      "gap_percent": 181.25,
+      "gap_shap": -25.375,
+      "ml_shap": -15.2062,
+      "shap_value": -22.3243,
+      "impact": "negative",
+      "is_problem": true,
+      "higher_is_worse": true,
+      "importance_rank": 1,
+      "climate_risk_score": 33.486450000000005,
+      "tier": 1,
+      "tier_weight": 1.0,
+      "category": "hazard"
+    },
+    "problem_count": 6
+  },
+  {
+    "timestamp": "2026-02-07T22:31:22.835222",
+    "endpoint": "/api/predict",
+    "features": {
+      "heatDays": 25,
+      "floodFrequency": 9,
+      "imperviousRate": 72,
+      "greenRate": 15,
+      "heatIsland": 5.29,
+      "elderlyRatio": 17,
+      "shelterAccess": 100,
+      "medicalAccess": 85
+    },
+    "prediction": 11.06
+  },
+  {
+    "timestamp": "2026-02-07T22:31:22.884532",
+    "endpoint": "/api/predict",
+    "features": {
+      "heatDays": 25,
+      "floodFrequency": 9,
+      "imperviousRate": 72,
+      "greenRate": 15,
+      "heatIsland": 5.29,
+      "elderlyRatio": 17,
+      "shelterAccess": 100,
+      "medicalAccess": 85
+    },
+    "prediction": 11.06
+  },
+  {
+    "timestamp": "2026-02-07T22:31:23.045422",
+    "endpoint": "/api/shap",
+    "features": {
+      "heatDays": 25,
+      "floodFrequency": 9,
+      "imperviousRate": 72,
+      "greenRate": 15,
+      "heatIsland": 5.29,
+      "elderlyRatio": 17,
+      "shelterAccess": 100,
+      "medicalAccess": 85
+    },
+    "hybrid_shap_values": [
+      -0.0864,
+      -18.2568,
+      -4.3149,
+      -9.6265,
+      -8.4746,
+      -0.4682,
+      4.9526,
+      4.0353
+    ],
+    "gap_weight": 0.3,
+    "ml_weight": 0.7,
+    "top_risk": {
+      "feature_name": "floodFrequency",
+      "feature_label": "침수빈도",
+      "feature_value": 9,
+      "baseline": 3.2,
+      "gap_percent": 181.25,
+      "gap_shap": -25.375,
+      "ml_shap": -15.2062,
+      "shap_value": -18.2568,
+      "impact": "negative",
+      "is_problem": true,
+      "higher_is_worse": true,
+      "importance_rank": 1,
+      "climate_risk_score": 27.385199999999998,
+      "tier": 1,
+      "tier_weight": 1.0,
+      "category": "hazard"
+    },
+    "problem_count": 6
+  },
+  {
+    "timestamp": "2026-02-07T22:31:25.122074",
+    "endpoint": "/api/predict",
+    "features": {
+      "heatDays": 25,
+      "floodFrequency": 9,
+      "imperviousRate": 72,
+      "greenRate": 15,
+      "heatIsland": 5.29,
+      "elderlyRatio": 17,
+      "shelterAccess": 100,
+      "medicalAccess": 85
+    },
+    "prediction": 11.06
+  },
+  {
+    "timestamp": "2026-02-07T22:31:25.429858",
+    "endpoint": "/api/predict",
+    "features": {
+      "heatDays": 25,
+      "floodFrequency": 9,
+      "imperviousRate": 72,
+      "greenRate": 15,
+      "heatIsland": 5.29,
+      "elderlyRatio": 17,
+      "shelterAccess": 100,
+      "medicalAccess": 85
+    },
+    "prediction": 11.06
+  },
+  {
+    "timestamp": "2026-02-07T22:31:25.580950",
+    "endpoint": "/api/shap",
+    "features": {
+      "heatDays": 25,
+      "floodFrequency": 9,
+      "imperviousRate": 72,
+      "greenRate": 15,
+      "heatIsland": 5.29,
+      "elderlyRatio": 17,
+      "shelterAccess": 100,
+      "medicalAccess": 85
+    },
+    "hybrid_shap_values": [
+      -0.0864,
+      -18.2568,
+      -4.3149,
+      -9.6265,
+      -8.4746,
+      -0.4682,
+      4.9526,
+      4.0353
+    ],
+    "gap_weight": 0.3,
+    "ml_weight": 0.7,
+    "top_risk": {
+      "feature_name": "floodFrequency",
+      "feature_label": "침수빈도",
+      "feature_value": 9,
+      "baseline": 3.2,
+      "gap_percent": 181.25,
+      "gap_shap": -25.375,
+      "ml_shap": -15.2062,
+      "shap_value": -18.2568,
+      "impact": "negative",
+      "is_problem": true,
+      "higher_is_worse": true,
+      "importance_rank": 1,
+      "climate_risk_score": 27.385199999999998,
+      "tier": 1,
+      "tier_weight": 1.0,
+      "category": "hazard"
+    },
+    "problem_count": 6
+  },
+  {
+    "timestamp": "2026-02-07T22:31:28.775813",
+    "endpoint": "/api/predict",
+    "features": {
+      "heatDays": 25,
+      "floodFrequency": 9,
+      "imperviousRate": 72,
+      "greenRate": 15,
+      "heatIsland": 5.29,
+      "elderlyRatio": 17,
+      "shelterAccess": 100,
+      "medicalAccess": 85
+    },
+    "prediction": 11.06
+  },
+  {
+    "timestamp": "2026-02-07T22:31:28.818111",
+    "endpoint": "/api/predict",
+    "features": {
+      "heatDays": 25,
+      "floodFrequency": 9,
+      "imperviousRate": 72,
+      "greenRate": 15,
+      "heatIsland": 5.29,
+      "elderlyRatio": 17,
+      "shelterAccess": 100,
+      "medicalAccess": 85
+    },
+    "prediction": 11.06
+  },
+  {
+    "timestamp": "2026-02-07T22:31:29.000079",
+    "endpoint": "/api/shap",
+    "features": {
+      "heatDays": 25,
+      "floodFrequency": 9,
+      "imperviousRate": 72,
+      "greenRate": 15,
+      "heatIsland": 5.29,
+      "elderlyRatio": 17,
+      "shelterAccess": 100,
+      "medicalAccess": 85
+    },
+    "hybrid_shap_values": [
+      -1.4299,
+      -22.3243,
+      -4.0129,
+      -8.3625,
+      -7.5507,
+      -0.2618,
+      7.1995,
+      3.4567
+    ],
+    "gap_weight": 0.7,
+    "ml_weight": 0.3,
+    "top_risk": {
+      "feature_name": "floodFrequency",
+      "feature_label": "침수빈도",
+      "feature_value": 9,
+      "baseline": 3.2,
+      "gap_percent": 181.25,
+      "gap_shap": -25.375,
+      "ml_shap": -15.2062,
+      "shap_value": -22.3243,
+      "impact": "negative",
+      "is_problem": true,
+      "higher_is_worse": true,
+      "importance_rank": 1,
+      "climate_risk_score": 33.486450000000005,
+      "tier": 1,
+      "tier_weight": 1.0,
+      "category": "hazard"
+    },
+    "problem_count": 6
+  },
+  {
+    "timestamp": "2026-02-07T22:31:31.256797",
+    "endpoint": "/api/predict",
+    "features": {
+      "heatDays": 25,
+      "floodFrequency": 9,
+      "imperviousRate": 72,
+      "greenRate": 15,
+      "heatIsland": 5.29,
+      "elderlyRatio": 17,
+      "shelterAccess": 100,
+      "medicalAccess": 85
+    },
+    "prediction": 11.06
+  },
+  {
+    "timestamp": "2026-02-07T22:31:31.562353",
+    "endpoint": "/api/predict",
+    "features": {
+      "heatDays": 25,
+      "floodFrequency": 9,
+      "imperviousRate": 72,
+      "greenRate": 15,
+      "heatIsland": 5.29,
+      "elderlyRatio": 17,
+      "shelterAccess": 100,
+      "medicalAccess": 85
+    },
+    "prediction": 11.06
+  },
+  {
+    "timestamp": "2026-02-07T22:31:31.709085",
+    "endpoint": "/api/shap",
+    "features": {
+      "heatDays": 25,
+      "floodFrequency": 9,
+      "imperviousRate": 72,
+      "greenRate": 15,
+      "heatIsland": 5.29,
+      "elderlyRatio": 17,
+      "shelterAccess": 100,
+      "medicalAccess": 85
+    },
+    "hybrid_shap_values": [
+      -1.4299,
+      -22.3243,
+      -4.0129,
+      -8.3625,
+      -7.5507,
+      -0.2618,
+      7.1995,
+      3.4567
+    ],
+    "gap_weight": 0.7,
+    "ml_weight": 0.3,
+    "top_risk": {
+      "feature_name": "floodFrequency",
+      "feature_label": "침수빈도",
+      "feature_value": 9,
+      "baseline": 3.2,
+      "gap_percent": 181.25,
+      "gap_shap": -25.375,
+      "ml_shap": -15.2062,
+      "shap_value": -22.3243,
+      "impact": "negative",
+      "is_problem": true,
+      "higher_is_worse": true,
+      "importance_rank": 1,
+      "climate_risk_score": 33.486450000000005,
+      "tier": 1,
+      "tier_weight": 1.0,
+      "category": "hazard"
+    },
+    "problem_count": 6
+  },
+  {
+    "timestamp": "2026-02-07T22:31:34.882752",
+    "endpoint": "/api/predict",
+    "features": {
+      "heatDays": 25,
+      "floodFrequency": 9,
+      "imperviousRate": 72,
+      "greenRate": 15,
+      "heatIsland": 5.29,
+      "elderlyRatio": 17,
+      "shelterAccess": 100,
+      "medicalAccess": 85
+    },
+    "prediction": 11.06
+  },
+  {
+    "timestamp": "2026-02-07T22:31:34.942696",
+    "endpoint": "/api/predict",
+    "features": {
+      "heatDays": 25,
+      "floodFrequency": 9,
+      "imperviousRate": 72,
+      "greenRate": 15,
+      "heatIsland": 5.29,
+      "elderlyRatio": 17,
+      "shelterAccess": 100,
+      "medicalAccess": 85
+    },
+    "prediction": 11.06
+  },
+  {
+    "timestamp": "2026-02-07T22:31:35.061606",
+    "endpoint": "/api/shap",
+    "features": {
+      "heatDays": 25,
+      "floodFrequency": 9,
+      "imperviousRate": 72,
+      "greenRate": 15,
+      "heatIsland": 5.29,
+      "elderlyRatio": 17,
+      "shelterAccess": 100,
+      "medicalAccess": 85
+    },
+    "hybrid_shap_values": [
+      -1.4299,
+      -22.3243,
+      -4.0129,
+      -8.3625,
+      -7.5507,
+      -0.2618,
+      7.1995,
+      3.4567
+    ],
+    "gap_weight": 0.7,
+    "ml_weight": 0.3,
+    "top_risk": {
+      "feature_name": "floodFrequency",
+      "feature_label": "침수빈도",
+      "feature_value": 9,
+      "baseline": 3.2,
+      "gap_percent": 181.25,
+      "gap_shap": -25.375,
+      "ml_shap": -15.2062,
+      "shap_value": -22.3243,
+      "impact": "negative",
+      "is_problem": true,
+      "higher_is_worse": true,
+      "importance_rank": 1,
+      "climate_risk_score": 33.486450000000005,
+      "tier": 1,
+      "tier_weight": 1.0,
+      "category": "hazard"
+    },
+    "problem_count": 6
+  },
+  {
+    "timestamp": "2026-02-07T22:31:37.379224",
+    "endpoint": "/api/predict",
+    "features": {
+      "heatDays": 25,
+      "floodFrequency": 9,
+      "imperviousRate": 72,
+      "greenRate": 15,
+      "heatIsland": 5.29,
+      "elderlyRatio": 17,
+      "shelterAccess": 100,
+      "medicalAccess": 85
+    },
+    "prediction": 11.06
+  },
+  {
+    "timestamp": "2026-02-07T22:31:37.689458",
+    "endpoint": "/api/predict",
+    "features": {
+      "heatDays": 25,
+      "floodFrequency": 9,
+      "imperviousRate": 72,
+      "greenRate": 15,
+      "heatIsland": 5.29,
+      "elderlyRatio": 17,
+      "shelterAccess": 100,
+      "medicalAccess": 85
+    },
+    "prediction": 11.06
+  },
+  {
+    "timestamp": "2026-02-07T22:31:37.834786",
+    "endpoint": "/api/shap",
+    "features": {
+      "heatDays": 25,
+      "floodFrequency": 9,
+      "imperviousRate": 72,
+      "greenRate": 15,
+      "heatIsland": 5.29,
+      "elderlyRatio": 17,
+      "shelterAccess": 100,
+      "medicalAccess": 85
+    },
+    "hybrid_shap_values": [
+      -1.4299,
+      -22.3243,
+      -4.0129,
+      -8.3625,
+      -7.5507,
+      -0.2618,
+      7.1995,
+      3.4567
+    ],
+    "gap_weight": 0.7,
+    "ml_weight": 0.3,
+    "top_risk": {
+      "feature_name": "floodFrequency",
+      "feature_label": "침수빈도",
+      "feature_value": 9,
+      "baseline": 3.2,
+      "gap_percent": 181.25,
+      "gap_shap": -25.375,
+      "ml_shap": -15.2062,
+      "shap_value": -22.3243,
+      "impact": "negative",
+      "is_problem": true,
+      "higher_is_worse": true,
+      "importance_rank": 1,
+      "climate_risk_score": 33.486450000000005,
+      "tier": 1,
+      "tier_weight": 1.0,
+      "category": "hazard"
+    },
+    "problem_count": 6
+  },
+  {
+    "timestamp": "2026-02-07T22:31:40.979962",
+    "endpoint": "/api/predict",
+    "features": {
+      "heatDays": 25,
+      "floodFrequency": 9,
+      "imperviousRate": 72,
+      "greenRate": 15,
+      "heatIsland": 5.29,
+      "elderlyRatio": 17,
+      "shelterAccess": 100,
+      "medicalAccess": 85
+    },
+    "prediction": 11.06
+  },
+  {
+    "timestamp": "2026-02-07T22:31:41.058098",
+    "endpoint": "/api/predict",
+    "features": {
+      "heatDays": 25,
+      "floodFrequency": 9,
+      "imperviousRate": 72,
+      "greenRate": 15,
+      "heatIsland": 5.29,
+      "elderlyRatio": 17,
+      "shelterAccess": 100,
+      "medicalAccess": 85
+    },
+    "prediction": 11.06
+  },
+  {
+    "timestamp": "2026-02-07T22:31:41.188411",
+    "endpoint": "/api/shap",
+    "features": {
+      "heatDays": 25,
+      "floodFrequency": 9,
+      "imperviousRate": 72,
+      "greenRate": 15,
+      "heatIsland": 5.29,
+      "elderlyRatio": 17,
+      "shelterAccess": 100,
+      "medicalAccess": 85
+    },
+    "hybrid_shap_values": [
+      -0.0864,
+      -18.2568,
+      -4.3149,
+      -9.6265,
+      -8.4746,
+      -0.4682,
+      4.9526,
+      4.0353
+    ],
+    "gap_weight": 0.3,
+    "ml_weight": 0.7,
+    "top_risk": {
+      "feature_name": "floodFrequency",
+      "feature_label": "침수빈도",
+      "feature_value": 9,
+      "baseline": 3.2,
+      "gap_percent": 181.25,
+      "gap_shap": -25.375,
+      "ml_shap": -15.2062,
+      "shap_value": -18.2568,
+      "impact": "negative",
+      "is_problem": true,
+      "higher_is_worse": true,
+      "importance_rank": 1,
+      "climate_risk_score": 27.385199999999998,
+      "tier": 1,
+      "tier_weight": 1.0,
+      "category": "hazard"
+    },
+    "problem_count": 6
+  },
+  {
+    "timestamp": "2026-02-07T22:31:43.344789",
+    "endpoint": "/api/predict",
+    "features": {
+      "heatDays": 25,
+      "floodFrequency": 9,
+      "imperviousRate": 72,
+      "greenRate": 15,
+      "heatIsland": 5.29,
+      "elderlyRatio": 17,
+      "shelterAccess": 100,
+      "medicalAccess": 85
+    },
+    "prediction": 11.06
+  },
+  {
+    "timestamp": "2026-02-07T22:31:43.653496",
+    "endpoint": "/api/predict",
+    "features": {
+      "heatDays": 25,
+      "floodFrequency": 9,
+      "imperviousRate": 72,
+      "greenRate": 15,
+      "heatIsland": 5.29,
+      "elderlyRatio": 17,
+      "shelterAccess": 100,
+      "medicalAccess": 85
+    },
+    "prediction": 11.06
+  },
+  {
+    "timestamp": "2026-02-07T22:31:43.812646",
+    "endpoint": "/api/shap",
+    "features": {
+      "heatDays": 25,
+      "floodFrequency": 9,
+      "imperviousRate": 72,
+      "greenRate": 15,
+      "heatIsland": 5.29,
+      "elderlyRatio": 17,
+      "shelterAccess": 100,
+      "medicalAccess": 85
+    },
+    "hybrid_shap_values": [
+      -1.4299,
+      -22.3243,
+      -4.0129,
+      -8.3625,
+      -7.5507,
+      -0.2618,
+      7.1995,
+      3.4567
+    ],
+    "gap_weight": 0.7,
+    "ml_weight": 0.3,
+    "top_risk": {
+      "feature_name": "floodFrequency",
+      "feature_label": "침수빈도",
+      "feature_value": 9,
+      "baseline": 3.2,
+      "gap_percent": 181.25,
+      "gap_shap": -25.375,
+      "ml_shap": -15.2062,
+      "shap_value": -22.3243,
+      "impact": "negative",
+      "is_problem": true,
+      "higher_is_worse": true,
+      "importance_rank": 1,
+      "climate_risk_score": 33.486450000000005,
+      "tier": 1,
+      "tier_weight": 1.0,
+      "category": "hazard"
+    },
+    "problem_count": 6
+  },
+  {
+    "timestamp": "2026-02-07T22:31:46.985584",
+    "endpoint": "/api/predict",
+    "features": {
+      "heatDays": 25,
+      "floodFrequency": 9,
+      "imperviousRate": 72,
+      "greenRate": 15,
+      "heatIsland": 5.29,
+      "elderlyRatio": 17,
+      "shelterAccess": 100,
+      "medicalAccess": 85
+    },
+    "prediction": 11.06
+  },
+  {
+    "timestamp": "2026-02-07T22:31:47.046431",
+    "endpoint": "/api/predict",
+    "features": {
+      "heatDays": 25,
+      "floodFrequency": 9,
+      "imperviousRate": 72,
+      "greenRate": 15,
+      "heatIsland": 5.29,
+      "elderlyRatio": 17,
+      "shelterAccess": 100,
+      "medicalAccess": 85
+    },
+    "prediction": 11.06
+  },
+  {
+    "timestamp": "2026-02-07T22:31:47.144868",
+    "endpoint": "/api/shap",
+    "features": {
+      "heatDays": 25,
+      "floodFrequency": 9,
+      "imperviousRate": 72,
+      "greenRate": 15,
+      "heatIsland": 5.29,
+      "elderlyRatio": 17,
+      "shelterAccess": 100,
+      "medicalAccess": 85
+    },
+    "hybrid_shap_values": [
+      -1.4299,
+      -22.3243,
+      -4.0129,
+      -8.3625,
+      -7.5507,
+      -0.2618,
+      7.1995,
+      3.4567
+    ],
+    "gap_weight": 0.7,
+    "ml_weight": 0.3,
+    "top_risk": {
+      "feature_name": "floodFrequency",
+      "feature_label": "침수빈도",
+      "feature_value": 9,
+      "baseline": 3.2,
+      "gap_percent": 181.25,
+      "gap_shap": -25.375,
+      "ml_shap": -15.2062,
+      "shap_value": -22.3243,
+      "impact": "negative",
+      "is_problem": true,
+      "higher_is_worse": true,
+      "importance_rank": 1,
+      "climate_risk_score": 33.486450000000005,
+      "tier": 1,
+      "tier_weight": 1.0,
+      "category": "hazard"
+    },
+    "problem_count": 6
+  },
+  {
+    "timestamp": "2026-02-07T22:31:49.552614",
+    "endpoint": "/api/predict",
+    "features": {
+      "heatDays": 25,
+      "floodFrequency": 9,
+      "imperviousRate": 72,
+      "greenRate": 15,
+      "heatIsland": 5.29,
+      "elderlyRatio": 17,
+      "shelterAccess": 100,
+      "medicalAccess": 85
+    },
+    "prediction": 11.06
+  },
+  {
+    "timestamp": "2026-02-07T22:31:49.861228",
+    "endpoint": "/api/predict",
+    "features": {
+      "heatDays": 25,
+      "floodFrequency": 9,
+      "imperviousRate": 72,
+      "greenRate": 15,
+      "heatIsland": 5.29,
+      "elderlyRatio": 17,
+      "shelterAccess": 100,
+      "medicalAccess": 85
+    },
+    "prediction": 11.06
+  },
+  {
+    "timestamp": "2026-02-07T22:31:49.965792",
+    "endpoint": "/api/shap",
+    "features": {
+      "heatDays": 25,
+      "floodFrequency": 9,
+      "imperviousRate": 72,
+      "greenRate": 15,
+      "heatIsland": 5.29,
+      "elderlyRatio": 17,
+      "shelterAccess": 100,
+      "medicalAccess": 85
+    },
+    "hybrid_shap_values": [
+      -1.4299,
+      -22.3243,
+      -4.0129,
+      -8.3625,
+      -7.5507,
+      -0.2618,
+      7.1995,
+      3.4567
+    ],
+    "gap_weight": 0.7,
+    "ml_weight": 0.3,
+    "top_risk": {
+      "feature_name": "floodFrequency",
+      "feature_label": "침수빈도",
+      "feature_value": 9,
+      "baseline": 3.2,
+      "gap_percent": 181.25,
+      "gap_shap": -25.375,
+      "ml_shap": -15.2062,
+      "shap_value": -22.3243,
+      "impact": "negative",
+      "is_problem": true,
+      "higher_is_worse": true,
+      "importance_rank": 1,
+      "climate_risk_score": 33.486450000000005,
+      "tier": 1,
+      "tier_weight": 1.0,
+      "category": "hazard"
+    },
+    "problem_count": 6
+  },
+  {
+    "timestamp": "2026-02-07T22:31:53.237702",
+    "endpoint": "/api/predict",
+    "features": {
+      "heatDays": 25,
+      "floodFrequency": 9,
+      "imperviousRate": 72,
+      "greenRate": 15,
+      "heatIsland": 5.29,
+      "elderlyRatio": 17,
+      "shelterAccess": 100,
+      "medicalAccess": 85
+    },
+    "prediction": 11.06
+  },
+  {
+    "timestamp": "2026-02-07T22:31:53.300394",
+    "endpoint": "/api/predict",
+    "features": {
+      "heatDays": 25,
+      "floodFrequency": 9,
+      "imperviousRate": 72,
+      "greenRate": 15,
+      "heatIsland": 5.29,
+      "elderlyRatio": 17,
+      "shelterAccess": 100,
+      "medicalAccess": 85
+    },
+    "prediction": 11.06
+  },
+  {
+    "timestamp": "2026-02-07T22:31:53.406259",
+    "endpoint": "/api/shap",
+    "features": {
+      "heatDays": 25,
+      "floodFrequency": 9,
+      "imperviousRate": 72,
+      "greenRate": 15,
+      "heatIsland": 5.29,
+      "elderlyRatio": 17,
+      "shelterAccess": 100,
+      "medicalAccess": 85
+    },
+    "hybrid_shap_values": [
+      -1.4299,
+      -22.3243,
+      -4.0129,
+      -8.3625,
+      -7.5507,
+      -0.2618,
+      7.1995,
+      3.4567
+    ],
+    "gap_weight": 0.7,
+    "ml_weight": 0.3,
+    "top_risk": {
+      "feature_name": "floodFrequency",
+      "feature_label": "침수빈도",
+      "feature_value": 9,
+      "baseline": 3.2,
+      "gap_percent": 181.25,
+      "gap_shap": -25.375,
+      "ml_shap": -15.2062,
+      "shap_value": -22.3243,
+      "impact": "negative",
+      "is_problem": true,
+      "higher_is_worse": true,
+      "importance_rank": 1,
+      "climate_risk_score": 33.486450000000005,
+      "tier": 1,
+      "tier_weight": 1.0,
+      "category": "hazard"
+    },
+    "problem_count": 6
+  },
+  {
+    "timestamp": "2026-02-07T22:31:55.660526",
+    "endpoint": "/api/predict",
+    "features": {
+      "heatDays": 25,
+      "floodFrequency": 9,
+      "imperviousRate": 72,
+      "greenRate": 15,
+      "heatIsland": 5.29,
+      "elderlyRatio": 17,
+      "shelterAccess": 100,
+      "medicalAccess": 85
+    },
+    "prediction": 11.06
+  },
+  {
+    "timestamp": "2026-02-07T22:31:55.966511",
+    "endpoint": "/api/predict",
+    "features": {
+      "heatDays": 25,
+      "floodFrequency": 9,
+      "imperviousRate": 72,
+      "greenRate": 15,
+      "heatIsland": 5.29,
+      "elderlyRatio": 17,
+      "shelterAccess": 100,
+      "medicalAccess": 85
+    },
+    "prediction": 11.06
+  },
+  {
+    "timestamp": "2026-02-07T22:31:56.141693",
+    "endpoint": "/api/shap",
+    "features": {
+      "heatDays": 25,
+      "floodFrequency": 9,
+      "imperviousRate": 72,
+      "greenRate": 15,
+      "heatIsland": 5.29,
+      "elderlyRatio": 17,
+      "shelterAccess": 100,
+      "medicalAccess": 85
+    },
+    "hybrid_shap_values": [
+      -0.0864,
+      -18.2568,
+      -4.3149,
+      -9.6265,
+      -8.4746,
+      -0.4682,
+      4.9526,
+      4.0353
+    ],
+    "gap_weight": 0.3,
+    "ml_weight": 0.7,
+    "top_risk": {
+      "feature_name": "floodFrequency",
+      "feature_label": "침수빈도",
+      "feature_value": 9,
+      "baseline": 3.2,
+      "gap_percent": 181.25,
+      "gap_shap": -25.375,
+      "ml_shap": -15.2062,
+      "shap_value": -18.2568,
+      "impact": "negative",
+      "is_problem": true,
+      "higher_is_worse": true,
+      "importance_rank": 1,
+      "climate_risk_score": 27.385199999999998,
+      "tier": 1,
+      "tier_weight": 1.0,
+      "category": "hazard"
+    },
+    "problem_count": 6
+  },
+  {
+    "timestamp": "2026-02-07T22:31:56.452825",
+    "endpoint": "/api/predict",
+    "features": {
+      "heatDays": 24,
+      "floodFrequency": 1,
+      "imperviousRate": 65,
+      "greenRate": 15,
+      "heatIsland": 4.8,
+      "elderlyRatio": 14,
+      "shelterAccess": 100,
+      "medicalAccess": 92
+    },
+    "prediction": 45.93
+  },
+  {
+    "timestamp": "2026-02-07T22:31:56.454824",
+    "endpoint": "/api/predict",
+    "features": {
+      "heatDays": 24,
+      "floodFrequency": 1,
+      "imperviousRate": 65,
+      "greenRate": 15,
+      "heatIsland": 4.8,
+      "elderlyRatio": 14,
+      "shelterAccess": 100,
+      "medicalAccess": 92
+    },
+    "prediction": 45.93
+  },
+  {
+    "timestamp": "2026-02-07T22:31:56.478579",
+    "endpoint": "/api/predict",
+    "features": {
+      "heatDays": 24,
+      "floodFrequency": 1,
+      "imperviousRate": 65,
+      "greenRate": 15,
+      "heatIsland": 4.8,
+      "elderlyRatio": 14,
+      "shelterAccess": 100,
+      "medicalAccess": 92
+    },
+    "prediction": 45.93
+  },
+  {
+    "timestamp": "2026-02-07T22:31:56.478579",
+    "endpoint": "/api/predict",
+    "features": {
+      "heatDays": 24,
+      "floodFrequency": 1,
+      "imperviousRate": 65,
+      "greenRate": 15,
+      "heatIsland": 4.8,
+      "elderlyRatio": 14,
+      "shelterAccess": 100,
+      "medicalAccess": 92
+    },
+    "prediction": 45.93
+  },
+  {
+    "timestamp": "2026-02-07T22:31:56.478579",
+    "endpoint": "/api/predict",
+    "features": {
+      "heatDays": 25,
+      "floodFrequency": 9,
+      "imperviousRate": 72,
+      "greenRate": 15,
+      "heatIsland": 5.29,
+      "elderlyRatio": 17,
+      "shelterAccess": 100,
+      "medicalAccess": 85
+    },
+    "prediction": 11.06
+  },
+  {
+    "timestamp": "2026-02-07T22:31:56.563376",
+    "endpoint": "/api/predict",
+    "features": {
+      "heatDays": 25,
+      "floodFrequency": 9,
+      "imperviousRate": 72,
+      "greenRate": 15,
+      "heatIsland": 5.29,
+      "elderlyRatio": 17,
+      "shelterAccess": 100,
+      "medicalAccess": 85
+    },
+    "prediction": 11.06
+  },
+  {
+    "timestamp": "2026-02-07T22:31:57.054251",
+    "endpoint": "/api/shap",
+    "features": {
+      "heatDays": 25,
+      "floodFrequency": 9,
+      "imperviousRate": 72,
+      "greenRate": 15,
+      "heatIsland": 5.29,
+      "elderlyRatio": 17,
+      "shelterAccess": 100,
+      "medicalAccess": 85
+    },
+    "hybrid_shap_values": [
+      -1.4299,
+      -22.3243,
+      -4.0129,
+      -8.3625,
+      -7.5507,
+      -0.2618,
+      7.1995,
+      3.4567
+    ],
+    "gap_weight": 0.7,
+    "ml_weight": 0.3,
+    "top_risk": {
+      "feature_name": "floodFrequency",
+      "feature_label": "침수빈도",
+      "feature_value": 9,
+      "baseline": 3.2,
+      "gap_percent": 181.25,
+      "gap_shap": -25.375,
+      "ml_shap": -15.2062,
+      "shap_value": -22.3243,
+      "impact": "negative",
+      "is_problem": true,
+      "higher_is_worse": true,
+      "importance_rank": 1,
+      "climate_risk_score": 33.486450000000005,
+      "tier": 1,
+      "tier_weight": 1.0,
+      "category": "hazard"
+    },
+    "problem_count": 6
+  },
+  {
+    "timestamp": "2026-02-07T22:31:57.174309",
+    "endpoint": "/api/shap",
+    "features": {
+      "heatDays": 24,
+      "floodFrequency": 1,
+      "imperviousRate": 65,
+      "greenRate": 15,
+      "heatIsland": 4.8,
+      "elderlyRatio": 14,
+      "shelterAccess": 100,
+      "medicalAccess": 92
+    },
+    "hybrid_shap_values": [
+      -1.1086,
+      10.1471,
+      -2.1333,
+      -8.363,
+      -5.7187,
+      1.6048,
+      7.4983,
+      4.5271
+    ],
+    "gap_weight": 0.7,
+    "ml_weight": 0.3,
+    "top_risk": {
+      "feature_name": "heatIsland",
+      "feature_label": "열섬지수",
+      "feature_value": 4.8,
+      "baseline": 3.2,
+      "gap_percent": 50.0,
+      "gap_shap": -5.25,
+      "ml_shap": -6.8125,
+      "shap_value": -5.7187,
+      "impact": "negative",
+      "is_problem": true,
+      "higher_is_worse": true,
+      "importance_rank": 4,
+      "climate_risk_score": 7.720245,
+      "tier": 1,
+      "tier_weight": 0.9,
+      "category": "hazard"
+    },
+    "problem_count": 4
+  },
+  {
+    "timestamp": "2026-02-07T22:31:57.284602",
+    "endpoint": "/api/shap",
+    "features": {
+      "heatDays": 24,
+      "floodFrequency": 1,
+      "imperviousRate": 65,
+      "greenRate": 15,
+      "heatIsland": 4.8,
+      "elderlyRatio": 14,
+      "shelterAccess": 100,
+      "medicalAccess": 92
+    },
+    "hybrid_shap_values": [
+      -0.5867,
+      10.8433,
+      -2.0079,
+      -9.6276,
+      -6.3437,
+      1.7446,
+      5.6499,
+      5.0481
+    ],
+    "gap_weight": 0.3,
+    "ml_weight": 0.7,
+    "top_risk": {
+      "feature_name": "heatIsland",
+      "feature_label": "열섬지수",
+      "feature_value": 4.8,
+      "baseline": 3.2,
+      "gap_percent": 50.0,
+      "gap_shap": -5.25,
+      "ml_shap": -6.8125,
+      "shap_value": -6.3437,
+      "impact": "negative",
+      "is_problem": true,
+      "higher_is_worse": true,
+      "importance_rank": 3,
+      "climate_risk_score": 8.563995,
+      "tier": 1,
+      "tier_weight": 0.9,
+      "category": "hazard"
+    },
+    "problem_count": 4
+  },
+  {
+    "timestamp": "2026-02-07T22:31:57.354611",
+    "endpoint": "/api/shap",
+    "features": {
+      "heatDays": 24,
+      "floodFrequency": 1,
+      "imperviousRate": 65,
+      "greenRate": 15,
+      "heatIsland": 4.8,
+      "elderlyRatio": 14,
+      "shelterAccess": 100,
+      "medicalAccess": 92
+    },
+    "hybrid_shap_values": [
+      -1.1086,
+      10.1471,
+      -2.1333,
+      -8.363,
+      -5.7187,
+      1.6048,
+      7.4983,
+      4.5271
+    ],
+    "gap_weight": 0.7,
+    "ml_weight": 0.3,
+    "top_risk": {
+      "feature_name": "heatIsland",
+      "feature_label": "열섬지수",
+      "feature_value": 4.8,
+      "baseline": 3.2,
+      "gap_percent": 50.0,
+      "gap_shap": -5.25,
+      "ml_shap": -6.8125,
+      "shap_value": -5.7187,
+      "impact": "negative",
+      "is_problem": true,
+      "higher_is_worse": true,
+      "importance_rank": 4,
+      "climate_risk_score": 7.720245,
+      "tier": 1,
+      "tier_weight": 0.9,
+      "category": "hazard"
+    },
+    "problem_count": 4
+  },
+  {
+    "timestamp": "2026-02-07T22:31:57.463265",
+    "endpoint": "/api/shap",
+    "features": {
+      "heatDays": 24,
+      "floodFrequency": 1,
+      "imperviousRate": 65,
+      "greenRate": 15,
+      "heatIsland": 4.8,
+      "elderlyRatio": 14,
+      "shelterAccess": 100,
+      "medicalAccess": 92
+    },
+    "hybrid_shap_values": [
+      -0.5867,
+      10.8433,
+      -2.0079,
+      -9.6276,
+      -6.3437,
+      1.7446,
+      5.6499,
+      5.0481
+    ],
+    "gap_weight": 0.3,
+    "ml_weight": 0.7,
+    "top_risk": {
+      "feature_name": "heatIsland",
+      "feature_label": "열섬지수",
+      "feature_value": 4.8,
+      "baseline": 3.2,
+      "gap_percent": 50.0,
+      "gap_shap": -5.25,
+      "ml_shap": -6.8125,
+      "shap_value": -6.3437,
+      "impact": "negative",
+      "is_problem": true,
+      "higher_is_worse": true,
+      "importance_rank": 3,
+      "climate_risk_score": 8.563995,
+      "tier": 1,
+      "tier_weight": 0.9,
+      "category": "hazard"
+    },
+    "problem_count": 4
+  },
+  {
+    "timestamp": "2026-02-07T22:31:57.853881",
+    "endpoint": "/api/predict",
+    "features": {
+      "heatDays": 24,
+      "floodFrequency": 0,
+      "imperviousRate": 62,
+      "greenRate": 15,
+      "heatIsland": 4.59,
+      "elderlyRatio": 14,
+      "shelterAccess": 100,
+      "medicalAccess": 90
+    },
+    "prediction": 54.04
+  },
+  {
+    "timestamp": "2026-02-07T22:31:57.856882",
+    "endpoint": "/api/predict",
+    "features": {
+      "heatDays": 24,
+      "floodFrequency": 0,
+      "imperviousRate": 62,
+      "greenRate": 15,
+      "heatIsland": 4.59,
+      "elderlyRatio": 14,
+      "shelterAccess": 100,
+      "medicalAccess": 90
+    },
+    "prediction": 54.04
+  },
+  {
+    "timestamp": "2026-02-07T22:31:57.910806",
+    "endpoint": "/api/predict",
+    "features": {
+      "heatDays": 25,
+      "floodFrequency": 9,
+      "imperviousRate": 72,
+      "greenRate": 15,
+      "heatIsland": 5.29,
+      "elderlyRatio": 17,
+      "shelterAccess": 100,
+      "medicalAccess": 85
+    },
+    "prediction": 11.06
+  },
+  {
+    "timestamp": "2026-02-07T22:31:58.032600",
+    "endpoint": "/api/predict",
+    "features": {
+      "heatDays": 25,
+      "floodFrequency": 9,
+      "imperviousRate": 72,
+      "greenRate": 15,
+      "heatIsland": 5.29,
+      "elderlyRatio": 17,
+      "shelterAccess": 100,
+      "medicalAccess": 85
+    },
+    "prediction": 11.06
+  },
+  {
+    "timestamp": "2026-02-07T22:31:58.275667",
+    "endpoint": "/api/shap",
+    "features": {
+      "heatDays": 25,
+      "floodFrequency": 9,
+      "imperviousRate": 72,
+      "greenRate": 15,
+      "heatIsland": 5.29,
+      "elderlyRatio": 17,
+      "shelterAccess": 100,
+      "medicalAccess": 85
+    },
+    "hybrid_shap_values": [
+      -1.4299,
+      -22.3243,
+      -4.0129,
+      -8.3625,
+      -7.5507,
+      -0.2618,
+      7.1995,
+      3.4567
+    ],
+    "gap_weight": 0.7,
+    "ml_weight": 0.3,
+    "top_risk": {
+      "feature_name": "floodFrequency",
+      "feature_label": "침수빈도",
+      "feature_value": 9,
+      "baseline": 3.2,
+      "gap_percent": 181.25,
+      "gap_shap": -25.375,
+      "ml_shap": -15.2062,
+      "shap_value": -22.3243,
+      "impact": "negative",
+      "is_problem": true,
+      "higher_is_worse": true,
+      "importance_rank": 1,
+      "climate_risk_score": 33.486450000000005,
+      "tier": 1,
+      "tier_weight": 1.0,
+      "category": "hazard"
+    },
+    "problem_count": 6
+  },
+  {
+    "timestamp": "2026-02-07T22:31:58.879060",
+    "endpoint": "/api/shap",
+    "features": {
+      "heatDays": 24,
+      "floodFrequency": 0,
+      "imperviousRate": 62,
+      "greenRate": 15,
+      "heatIsland": 4.59,
+      "elderlyRatio": 14,
+      "shelterAccess": 100,
+      "medicalAccess": 90
+    },
+    "hybrid_shap_values": [
+      -0.5992,
+      16.5057,
+      -1.122,
+      -9.974,
+      -5.3706,
+      1.6146,
+      5.8639,
+      5.1007
+    ],
+    "gap_weight": 0.3,
+    "ml_weight": 0.7,
+    "top_risk": {
+      "feature_name": "heatIsland",
+      "feature_label": "열섬지수",
+      "feature_value": 4.59,
+      "baseline": 3.2,
+      "gap_percent": 43.44,
+      "gap_shap": -4.5609,
+      "ml_shap": -5.7176,
+      "shap_value": -5.3706,
+      "impact": "negative",
+      "is_problem": true,
+      "higher_is_worse": true,
+      "importance_rank": 4,
+      "climate_risk_score": 7.250310000000001,
+      "tier": 1,
+      "tier_weight": 0.9,
+      "category": "hazard"
+    },
+    "problem_count": 4
+  },
+  {
+    "timestamp": "2026-02-07T22:31:58.919710",
+    "endpoint": "/api/shap",
+    "features": {
+      "heatDays": 24,
+      "floodFrequency": 0,
+      "imperviousRate": 62,
+      "greenRate": 15,
+      "heatIsland": 4.59,
+      "elderlyRatio": 14,
+      "shelterAccess": 100,
+      "medicalAccess": 90
+    },
+    "hybrid_shap_values": [
+      -1.114,
+      15.0739,
+      -1.3718,
+      -8.5114,
+      -4.9079,
+      1.5491,
+      7.59,
+      4.3679
+    ],
+    "gap_weight": 0.7,
+    "ml_weight": 0.3,
+    "top_risk": {
+      "feature_name": "heatIsland",
+      "feature_label": "열섬지수",
+      "feature_value": 4.59,
+      "baseline": 3.2,
+      "gap_percent": 43.44,
+      "gap_shap": -4.5609,
+      "ml_shap": -5.7176,
+      "shap_value": -4.9079,
+      "impact": "negative",
+      "is_problem": true,
+      "higher_is_worse": true,
+      "importance_rank": 4,
+      "climate_risk_score": 6.625665,
+      "tier": 1,
+      "tier_weight": 0.9,
+      "category": "hazard"
+    },
+    "problem_count": 4
+  },
+  {
+    "timestamp": "2026-02-07T22:31:59.234060",
+    "endpoint": "/api/shap",
+    "features": {
+      "heatDays": 25,
+      "floodFrequency": 9,
+      "imperviousRate": 72,
+      "greenRate": 15,
+      "heatIsland": 5.29,
+      "elderlyRatio": 17,
+      "shelterAccess": 100,
+      "medicalAccess": 85
+    },
+    "hybrid_shap_values": [
+      -0.0864,
+      -18.2568,
+      -4.3149,
+      -9.6265,
+      -8.4746,
+      -0.4682,
+      4.9526,
+      4.0353
+    ],
+    "gap_weight": 0.3,
+    "ml_weight": 0.7,
+    "top_risk": {
+      "feature_name": "floodFrequency",
+      "feature_label": "침수빈도",
+      "feature_value": 9,
+      "baseline": 3.2,
+      "gap_percent": 181.25,
+      "gap_shap": -25.375,
+      "ml_shap": -15.2062,
+      "shap_value": -18.2568,
+      "impact": "negative",
+      "is_problem": true,
+      "higher_is_worse": true,
+      "importance_rank": 1,
+      "climate_risk_score": 27.385199999999998,
+      "tier": 1,
+      "tier_weight": 1.0,
+      "category": "hazard"
+    },
+    "problem_count": 6
+  },
+  {
+    "timestamp": "2026-02-07T22:31:59.383928",
+    "endpoint": "/api/predict",
+    "features": {
+      "heatDays": 25,
+      "floodFrequency": 9,
+      "imperviousRate": 72,
+      "greenRate": 15,
+      "heatIsland": 5.29,
+      "elderlyRatio": 17,
+      "shelterAccess": 100,
+      "medicalAccess": 85
+    },
+    "prediction": 11.06
+  },
+  {
+    "timestamp": "2026-02-07T22:31:59.422938",
+    "endpoint": "/api/predict",
+    "features": {
+      "heatDays": 25,
+      "floodFrequency": 9,
+      "imperviousRate": 72,
+      "greenRate": 15,
+      "heatIsland": 5.29,
+      "elderlyRatio": 17,
+      "shelterAccess": 100,
+      "medicalAccess": 85
+    },
+    "prediction": 11.06
+  },
+  {
+    "timestamp": "2026-02-07T22:32:02.194436",
+    "endpoint": "/api/predict",
+    "features": {
+      "heatDays": 25,
+      "floodFrequency": 9,
+      "imperviousRate": 72,
+      "greenRate": 15,
+      "heatIsland": 5.29,
+      "elderlyRatio": 17,
+      "shelterAccess": 100,
+      "medicalAccess": 85
+    },
+    "prediction": 11.06
+  },
+  {
+    "timestamp": "2026-02-07T22:32:02.226918",
+    "endpoint": "/api/predict",
+    "features": {
+      "heatDays": 25,
+      "floodFrequency": 9,
+      "imperviousRate": 72,
+      "greenRate": 15,
+      "heatIsland": 5.29,
+      "elderlyRatio": 17,
+      "shelterAccess": 100,
+      "medicalAccess": 85
+    },
+    "prediction": 11.06
+  },
+  {
+    "timestamp": "2026-02-07T22:32:02.286648",
+    "endpoint": "/api/shap",
+    "features": {
+      "heatDays": 25,
+      "floodFrequency": 9,
+      "imperviousRate": 72,
+      "greenRate": 15,
+      "heatIsland": 5.29,
+      "elderlyRatio": 17,
+      "shelterAccess": 100,
+      "medicalAccess": 85
+    },
+    "hybrid_shap_values": [
+      -1.4299,
+      -22.3243,
+      -4.0129,
+      -8.3625,
+      -7.5507,
+      -0.2618,
+      7.1995,
+      3.4567
+    ],
+    "gap_weight": 0.7,
+    "ml_weight": 0.3,
+    "top_risk": {
+      "feature_name": "floodFrequency",
+      "feature_label": "침수빈도",
+      "feature_value": 9,
+      "baseline": 3.2,
+      "gap_percent": 181.25,
+      "gap_shap": -25.375,
+      "ml_shap": -15.2062,
+      "shap_value": -22.3243,
+      "impact": "negative",
+      "is_problem": true,
+      "higher_is_worse": true,
+      "importance_rank": 1,
+      "climate_risk_score": 33.486450000000005,
+      "tier": 1,
+      "tier_weight": 1.0,
+      "category": "hazard"
+    },
+    "problem_count": 6
+  },
+  {
+    "timestamp": "2026-02-07T22:32:05.288633",
+    "endpoint": "/api/predict",
+    "features": {
+      "heatDays": 25,
+      "floodFrequency": 9,
+      "imperviousRate": 72,
+      "greenRate": 15,
+      "heatIsland": 5.29,
+      "elderlyRatio": 17,
+      "shelterAccess": 100,
+      "medicalAccess": 85
+    },
+    "prediction": 11.06
+  },
+  {
+    "timestamp": "2026-02-07T22:32:05.313628",
+    "endpoint": "/api/predict",
+    "features": {
+      "heatDays": 25,
+      "floodFrequency": 9,
+      "imperviousRate": 72,
+      "greenRate": 15,
+      "heatIsland": 5.29,
+      "elderlyRatio": 17,
+      "shelterAccess": 100,
+      "medicalAccess": 85
+    },
+    "prediction": 11.06
+  },
+  {
+    "timestamp": "2026-02-07T22:32:05.683117",
+    "endpoint": "/api/predict",
+    "features": {
+      "heatDays": 22,
+      "floodFrequency": 0,
+      "imperviousRate": 48,
+      "greenRate": 15,
+      "heatIsland": 3.61,
+      "elderlyRatio": 12,
+      "shelterAccess": 770,
+      "medicalAccess": 74.8
+    },
+    "prediction": 54.24
+  },
+  {
+    "timestamp": "2026-02-07T22:32:05.728114",
+    "endpoint": "/api/shap",
+    "features": {
+      "heatDays": 25,
+      "floodFrequency": 9,
+      "imperviousRate": 72,
+      "greenRate": 15,
+      "heatIsland": 5.29,
+      "elderlyRatio": 17,
+      "shelterAccess": 100,
+      "medicalAccess": 85
+    },
+    "hybrid_shap_values": [
+      -0.0864,
+      -18.2568,
+      -4.3149,
+      -9.6265,
+      -8.4746,
+      -0.4682,
+      4.9526,
+      4.0353
+    ],
+    "gap_weight": 0.3,
+    "ml_weight": 0.7,
+    "top_risk": {
+      "feature_name": "floodFrequency",
+      "feature_label": "침수빈도",
+      "feature_value": 9,
+      "baseline": 3.2,
+      "gap_percent": 181.25,
+      "gap_shap": -25.375,
+      "ml_shap": -15.2062,
+      "shap_value": -18.2568,
+      "impact": "negative",
+      "is_problem": true,
+      "higher_is_worse": true,
+      "importance_rank": 1,
+      "climate_risk_score": 27.385199999999998,
+      "tier": 1,
+      "tier_weight": 1.0,
+      "category": "hazard"
+    },
+    "problem_count": 6
+  },
+  {
+    "timestamp": "2026-02-07T22:32:05.956560",
+    "endpoint": "/api/predict",
+    "features": {
+      "heatDays": 22,
+      "floodFrequency": 0,
+      "imperviousRate": 48,
+      "greenRate": 15,
+      "heatIsland": 3.61,
+      "elderlyRatio": 12,
+      "shelterAccess": 770,
+      "medicalAccess": 74.8
+    },
+    "prediction": 54.24
+  },
+  {
+    "timestamp": "2026-02-07T22:32:05.982521",
+    "endpoint": "/api/predict",
+    "features": {
+      "heatDays": 25,
+      "floodFrequency": 9,
+      "imperviousRate": 72,
+      "greenRate": 15,
+      "heatIsland": 5.29,
+      "elderlyRatio": 17,
+      "shelterAccess": 100,
+      "medicalAccess": 85
+    },
+    "prediction": 11.06
+  },
+  {
+    "timestamp": "2026-02-07T22:32:05.982521",
+    "endpoint": "/api/predict",
+    "features": {
+      "heatDays": 22,
+      "floodFrequency": 0,
+      "imperviousRate": 48,
+      "greenRate": 15,
+      "heatIsland": 3.61,
+      "elderlyRatio": 12,
+      "shelterAccess": 770,
+      "medicalAccess": 74.8
+    },
+    "prediction": 54.24
+  },
+  {
+    "timestamp": "2026-02-07T22:32:06.003935",
+    "endpoint": "/api/predict",
+    "features": {
+      "heatDays": 25,
+      "floodFrequency": 9,
+      "imperviousRate": 72,
+      "greenRate": 15,
+      "heatIsland": 5.29,
+      "elderlyRatio": 17,
+      "shelterAccess": 100,
+      "medicalAccess": 85
+    },
+    "prediction": 11.06
+  },
+  {
+    "timestamp": "2026-02-07T22:32:06.287688",
+    "endpoint": "/api/shap",
+    "features": {
+      "heatDays": 25,
+      "floodFrequency": 9,
+      "imperviousRate": 72,
+      "greenRate": 15,
+      "heatIsland": 5.29,
+      "elderlyRatio": 17,
+      "shelterAccess": 100,
+      "medicalAccess": 85
+    },
+    "hybrid_shap_values": [
+      -1.4299,
+      -22.3243,
+      -4.0129,
+      -8.3625,
+      -7.5507,
+      -0.2618,
+      7.1995,
+      3.4567
+    ],
+    "gap_weight": 0.7,
+    "ml_weight": 0.3,
+    "top_risk": {
+      "feature_name": "floodFrequency",
+      "feature_label": "침수빈도",
+      "feature_value": 9,
+      "baseline": 3.2,
+      "gap_percent": 181.25,
+      "gap_shap": -25.375,
+      "ml_shap": -15.2062,
+      "shap_value": -22.3243,
+      "impact": "negative",
+      "is_problem": true,
+      "higher_is_worse": true,
+      "importance_rank": 1,
+      "climate_risk_score": 33.486450000000005,
+      "tier": 1,
+      "tier_weight": 1.0,
+      "category": "hazard"
+    },
+    "problem_count": 6
+  },
+  {
+    "timestamp": "2026-02-07T22:32:06.449943",
+    "endpoint": "/api/shap",
+    "features": {
+      "heatDays": 22,
+      "floodFrequency": 0,
+      "imperviousRate": 48,
+      "greenRate": 15,
+      "heatIsland": 3.61,
+      "elderlyRatio": 12,
+      "shelterAccess": 770,
+      "medicalAccess": 74.8
+    },
+    "hybrid_shap_values": [
+      1.2676,
+      15.5469,
+      1.8929,
+      -8.3728,
+      -1.2305,
+      2.3463,
+      -2.7101,
+      1.2233
+    ],
+    "gap_weight": 0.7,
+    "ml_weight": 0.3,
+    "top_risk": {
+      "feature_name": "heatIsland",
+      "feature_label": "열섬지수",
+      "feature_value": 3.61,
+      "baseline": 3.2,
+      "gap_percent": 12.81,
+      "gap_shap": -1.3453,
+      "ml_shap": -0.9627,
+      "shap_value": -1.2305,
+      "impact": "negative",
+      "is_problem": true,
+      "higher_is_worse": true,
+      "importance_rank": 7,
+      "climate_risk_score": 1.4621108625000003,
+      "tier": 1,
+      "tier_weight": 0.9,
+      "category": "hazard"
+    },
+    "problem_count": 3
+  },
+  {
+    "timestamp": "2026-02-07T22:32:06.520465",
+    "endpoint": "/api/shap",
+    "features": {
+      "heatDays": 22,
+      "floodFrequency": 0,
+      "imperviousRate": 48,
+      "greenRate": 15,
+      "heatIsland": 3.61,
+      "elderlyRatio": 12,
+      "shelterAccess": 770,
+      "medicalAccess": 74.8
+    },
+    "hybrid_shap_values": [
+      1.2676,
+      15.5469,
+      1.8929,
+      -8.3728,
+      -1.2305,
+      2.3463,
+      -2.7101,
+      1.2233
+    ],
+    "gap_weight": 0.7,
+    "ml_weight": 0.3,
+    "top_risk": {
+      "feature_name": "heatIsland",
+      "feature_label": "열섬지수",
+      "feature_value": 3.61,
+      "baseline": 3.2,
+      "gap_percent": 12.81,
+      "gap_shap": -1.3453,
+      "ml_shap": -0.9627,
+      "shap_value": -1.2305,
+      "impact": "negative",
+      "is_problem": true,
+      "higher_is_worse": true,
+      "importance_rank": 7,
+      "climate_risk_score": 1.4621108625000003,
+      "tier": 1,
+      "tier_weight": 0.9,
+      "category": "hazard"
+    },
+    "problem_count": 3
+  },
+  {
+    "timestamp": "2026-02-07T22:32:06.728793",
+    "endpoint": "/api/shap",
+    "features": {
+      "heatDays": 22,
+      "floodFrequency": 0,
+      "imperviousRate": 48,
+      "greenRate": 15,
+      "heatIsland": 3.61,
+      "elderlyRatio": 12,
+      "shelterAccess": 770,
+      "medicalAccess": 74.8
+    },
+    "hybrid_shap_values": [
+      1.2676,
+      15.5469,
+      1.8929,
+      -8.3728,
+      -1.2305,
+      2.3463,
+      -2.7101,
+      1.2233
+    ],
+    "gap_weight": 0.7,
+    "ml_weight": 0.3,
+    "top_risk": {
+      "feature_name": "heatIsland",
+      "feature_label": "열섬지수",
+      "feature_value": 3.61,
+      "baseline": 3.2,
+      "gap_percent": 12.81,
+      "gap_shap": -1.3453,
+      "ml_shap": -0.9627,
+      "shap_value": -1.2305,
+      "impact": "negative",
+      "is_problem": true,
+      "higher_is_worse": true,
+      "importance_rank": 7,
+      "climate_risk_score": 1.4621108625000003,
+      "tier": 1,
+      "tier_weight": 0.9,
+      "category": "hazard"
+    },
+    "problem_count": 3
+  },
+  {
+    "timestamp": "2026-02-07T22:32:08.284493",
+    "endpoint": "/api/predict",
+    "features": {
+      "heatDays": 25,
+      "floodFrequency": 9,
+      "imperviousRate": 72,
+      "greenRate": 15,
+      "heatIsland": 5.29,
+      "elderlyRatio": 17,
+      "shelterAccess": 100,
+      "medicalAccess": 85
+    },
+    "prediction": 11.06
+  },
+  {
+    "timestamp": "2026-02-07T22:32:08.284493",
+    "endpoint": "/api/predict",
+    "features": {
+      "heatDays": 25,
+      "floodFrequency": 9,
+      "imperviousRate": 72,
+      "greenRate": 15,
+      "heatIsland": 5.29,
+      "elderlyRatio": 17,
+      "shelterAccess": 100,
+      "medicalAccess": 85
+    },
+    "prediction": 11.06
+  },
+  {
+    "timestamp": "2026-02-07T22:32:08.423141",
+    "endpoint": "/api/shap",
+    "features": {
+      "heatDays": 25,
+      "floodFrequency": 9,
+      "imperviousRate": 72,
+      "greenRate": 15,
+      "heatIsland": 5.29,
+      "elderlyRatio": 17,
+      "shelterAccess": 100,
+      "medicalAccess": 85
+    },
+    "hybrid_shap_values": [
+      -1.4299,
+      -22.3243,
+      -4.0129,
+      -8.3625,
+      -7.5507,
+      -0.2618,
+      7.1995,
+      3.4567
+    ],
+    "gap_weight": 0.7,
+    "ml_weight": 0.3,
+    "top_risk": {
+      "feature_name": "floodFrequency",
+      "feature_label": "침수빈도",
+      "feature_value": 9,
+      "baseline": 3.2,
+      "gap_percent": 181.25,
+      "gap_shap": -25.375,
+      "ml_shap": -15.2062,
+      "shap_value": -22.3243,
+      "impact": "negative",
+      "is_problem": true,
+      "higher_is_worse": true,
+      "importance_rank": 1,
+      "climate_risk_score": 33.486450000000005,
+      "tier": 1,
+      "tier_weight": 1.0,
+      "category": "hazard"
+    },
+    "problem_count": 6
+  },
+  {
+    "timestamp": "2026-02-07T22:32:08.534971",
+    "endpoint": "/api/predict",
+    "features": {
+      "heatDays": 22,
+      "floodFrequency": 2,
+      "imperviousRate": 58,
+      "greenRate": 15,
+      "heatIsland": 4.31,
+      "elderlyRatio": 16,
+      "shelterAccess": 100,
+      "medicalAccess": 88
+    },
+    "prediction": 46.61
+  },
+  {
+    "timestamp": "2026-02-07T22:32:08.778860",
+    "endpoint": "/api/predict",
+    "features": {
+      "heatDays": 22,
+      "floodFrequency": 2,
+      "imperviousRate": 58,
+      "greenRate": 15,
+      "heatIsland": 4.31,
+      "elderlyRatio": 16,
+      "shelterAccess": 100,
+      "medicalAccess": 88
+    },
+    "prediction": 46.61
+  },
+  {
+    "timestamp": "2026-02-07T22:32:08.785322",
+    "endpoint": "/api/predict",
+    "features": {
+      "heatDays": 22,
+      "floodFrequency": 2,
+      "imperviousRate": 58,
+      "greenRate": 15,
+      "heatIsland": 4.31,
+      "elderlyRatio": 16,
+      "shelterAccess": 100,
+      "medicalAccess": 88
+    },
+    "prediction": 46.61
+  },
+  {
+    "timestamp": "2026-02-07T22:32:08.795325",
+    "endpoint": "/api/predict",
+    "features": {
+      "heatDays": 25,
+      "floodFrequency": 9,
+      "imperviousRate": 72,
+      "greenRate": 15,
+      "heatIsland": 5.29,
+      "elderlyRatio": 17,
+      "shelterAccess": 100,
+      "medicalAccess": 85
+    },
+    "prediction": 11.06
+  },
+  {
+    "timestamp": "2026-02-07T22:32:08.929662",
+    "endpoint": "/api/predict",
+    "features": {
+      "heatDays": 25,
+      "floodFrequency": 9,
+      "imperviousRate": 72,
+      "greenRate": 15,
+      "heatIsland": 5.29,
+      "elderlyRatio": 17,
+      "shelterAccess": 100,
+      "medicalAccess": 85
+    },
+    "prediction": 11.06
+  },
+  {
+    "timestamp": "2026-02-07T22:32:09.221348",
+    "endpoint": "/api/shap",
+    "features": {
+      "heatDays": 25,
+      "floodFrequency": 9,
+      "imperviousRate": 72,
+      "greenRate": 15,
+      "heatIsland": 5.29,
+      "elderlyRatio": 17,
+      "shelterAccess": 100,
+      "medicalAccess": 85
+    },
+    "hybrid_shap_values": [
+      -1.4299,
+      -22.3243,
+      -4.0129,
+      -8.3625,
+      -7.5507,
+      -0.2618,
+      7.1995,
+      3.4567
+    ],
+    "gap_weight": 0.7,
+    "ml_weight": 0.3,
+    "top_risk": {
+      "feature_name": "floodFrequency",
+      "feature_label": "침수빈도",
+      "feature_value": 9,
+      "baseline": 3.2,
+      "gap_percent": 181.25,
+      "gap_shap": -25.375,
+      "ml_shap": -15.2062,
+      "shap_value": -22.3243,
+      "impact": "negative",
+      "is_problem": true,
+      "higher_is_worse": true,
+      "importance_rank": 1,
+      "climate_risk_score": 33.486450000000005,
+      "tier": 1,
+      "tier_weight": 1.0,
+      "category": "hazard"
+    },
+    "problem_count": 6
+  },
+  {
+    "timestamp": "2026-02-07T22:32:09.376743",
+    "endpoint": "/api/shap",
+    "features": {
+      "heatDays": 22,
+      "floodFrequency": 2,
+      "imperviousRate": 58,
+      "greenRate": 15,
+      "heatIsland": 4.31,
+      "elderlyRatio": 16,
+      "shelterAccess": 100,
+      "medicalAccess": 88
+    },
+    "hybrid_shap_values": [
+      1.2029,
+      5.1339,
+      -0.5202,
+      -8.3274,
+      -3.6449,
+      0.5472,
+      7.4506,
+      4.0869
+    ],
+    "gap_weight": 0.7,
+    "ml_weight": 0.3,
+    "top_risk": {
+      "feature_name": "heatIsland",
+      "feature_label": "열섬지수",
+      "feature_value": 4.31,
+      "baseline": 3.2,
+      "gap_percent": 34.69,
+      "gap_shap": -3.6422,
+      "ml_shap": -3.6511,
+      "shap_value": -3.6449,
+      "impact": "negative",
+      "is_problem": true,
+      "higher_is_worse": true,
+      "importance_rank": 5,
+      "climate_risk_score": 4.920615,
+      "tier": 1,
+      "tier_weight": 0.9,
+      "category": "hazard"
+    },
+    "problem_count": 3
+  },
+  {
+    "timestamp": "2026-02-07T22:32:09.427684",
+    "endpoint": "/api/shap",
+    "features": {
+      "heatDays": 22,
+      "floodFrequency": 2,
+      "imperviousRate": 58,
+      "greenRate": 15,
+      "heatIsland": 4.31,
+      "elderlyRatio": 16,
+      "shelterAccess": 100,
+      "medicalAccess": 88
+    },
+    "hybrid_shap_values": [
+      1.2029,
+      5.1339,
+      -0.5202,
+      -8.3274,
+      -3.6449,
+      0.5472,
+      7.4506,
+      4.0869
+    ],
+    "gap_weight": 0.7,
+    "ml_weight": 0.3,
+    "top_risk": {
+      "feature_name": "heatIsland",
+      "feature_label": "열섬지수",
+      "feature_value": 4.31,
+      "baseline": 3.2,
+      "gap_percent": 34.69,
+      "gap_shap": -3.6422,
+      "ml_shap": -3.6511,
+      "shap_value": -3.6449,
+      "impact": "negative",
+      "is_problem": true,
+      "higher_is_worse": true,
+      "importance_rank": 5,
+      "climate_risk_score": 4.920615,
+      "tier": 1,
+      "tier_weight": 0.9,
+      "category": "hazard"
+    },
+    "problem_count": 3
+  },
+  {
+    "timestamp": "2026-02-07T22:32:09.574580",
+    "endpoint": "/api/shap",
+    "features": {
+      "heatDays": 22,
+      "floodFrequency": 2,
+      "imperviousRate": 58,
+      "greenRate": 15,
+      "heatIsland": 4.31,
+      "elderlyRatio": 16,
+      "shelterAccess": 100,
+      "medicalAccess": 88
+    },
+    "hybrid_shap_values": [
+      1.2029,
+      5.1339,
+      -0.5202,
+      -8.3274,
+      -3.6449,
+      0.5472,
+      7.4506,
+      4.0869
+    ],
+    "gap_weight": 0.7,
+    "ml_weight": 0.3,
+    "top_risk": {
+      "feature_name": "heatIsland",
+      "feature_label": "열섬지수",
+      "feature_value": 4.31,
+      "baseline": 3.2,
+      "gap_percent": 34.69,
+      "gap_shap": -3.6422,
+      "ml_shap": -3.6511,
+      "shap_value": -3.6449,
+      "impact": "negative",
+      "is_problem": true,
+      "higher_is_worse": true,
+      "importance_rank": 5,
+      "climate_risk_score": 4.920615,
+      "tier": 1,
+      "tier_weight": 0.9,
+      "category": "hazard"
+    },
+    "problem_count": 3
+  },
+  {
+    "timestamp": "2026-02-07T22:32:09.654653",
+    "endpoint": "/api/predict",
+    "features": {
+      "heatDays": 25,
+      "floodFrequency": 9,
+      "imperviousRate": 72,
+      "greenRate": 15,
+      "heatIsland": 5.29,
+      "elderlyRatio": 17,
+      "shelterAccess": 100,
+      "medicalAccess": 85
+    },
+    "prediction": 11.06
+  },
+  {
+    "timestamp": "2026-02-07T22:32:09.807662",
+    "endpoint": "/api/predict",
+    "features": {
+      "heatDays": 25,
+      "floodFrequency": 9,
+      "imperviousRate": 72,
+      "greenRate": 15,
+      "heatIsland": 5.29,
+      "elderlyRatio": 17,
+      "shelterAccess": 100,
+      "medicalAccess": 85
+    },
+    "prediction": 11.06
+  },
+  {
+    "timestamp": "2026-02-07T22:32:10.089252",
+    "endpoint": "/api/shap",
+    "features": {
+      "heatDays": 25,
+      "floodFrequency": 9,
+      "imperviousRate": 72,
+      "greenRate": 15,
+      "heatIsland": 5.29,
+      "elderlyRatio": 17,
+      "shelterAccess": 100,
+      "medicalAccess": 85
+    },
+    "hybrid_shap_values": [
+      -1.4299,
+      -22.3243,
+      -4.0129,
+      -8.3625,
+      -7.5507,
+      -0.2618,
+      7.1995,
+      3.4567
+    ],
+    "gap_weight": 0.7,
+    "ml_weight": 0.3,
+    "top_risk": {
+      "feature_name": "floodFrequency",
+      "feature_label": "침수빈도",
+      "feature_value": 9,
+      "baseline": 3.2,
+      "gap_percent": 181.25,
+      "gap_shap": -25.375,
+      "ml_shap": -15.2062,
+      "shap_value": -22.3243,
+      "impact": "negative",
+      "is_problem": true,
+      "higher_is_worse": true,
+      "importance_rank": 1,
+      "climate_risk_score": 33.486450000000005,
+      "tier": 1,
+      "tier_weight": 1.0,
+      "category": "hazard"
+    },
+    "problem_count": 6
+  },
+  {
+    "timestamp": "2026-02-07T22:32:10.201126",
+    "endpoint": "/api/predict",
+    "features": {
+      "heatDays": 22,
+      "floodFrequency": 2,
+      "imperviousRate": 58,
+      "greenRate": 15,
+      "heatIsland": 4.31,
+      "elderlyRatio": 16,
+      "shelterAccess": 100,
+      "medicalAccess": 88
+    },
+    "prediction": 46.61
+  },
+  {
+    "timestamp": "2026-02-07T22:32:10.254133",
+    "endpoint": "/api/predict",
+    "features": {
+      "heatDays": 22,
+      "floodFrequency": 2,
+      "imperviousRate": 58,
+      "greenRate": 15,
+      "heatIsland": 4.31,
+      "elderlyRatio": 16,
+      "shelterAccess": 100,
+      "medicalAccess": 88
+    },
+    "prediction": 46.61
+  },
+  {
+    "timestamp": "2026-02-07T22:32:10.495453",
+    "endpoint": "/api/shap",
+    "features": {
+      "heatDays": 22,
+      "floodFrequency": 2,
+      "imperviousRate": 58,
+      "greenRate": 15,
+      "heatIsland": 4.31,
+      "elderlyRatio": 16,
+      "shelterAccess": 100,
+      "medicalAccess": 88
+    },
+    "hybrid_shap_values": [
+      1.2029,
+      5.1339,
+      -0.5202,
+      -8.3274,
+      -3.6449,
+      0.5472,
+      7.4506,
+      4.0869
+    ],
+    "gap_weight": 0.7,
+    "ml_weight": 0.3,
+    "top_risk": {
+      "feature_name": "heatIsland",
+      "feature_label": "열섬지수",
+      "feature_value": 4.31,
+      "baseline": 3.2,
+      "gap_percent": 34.69,
+      "gap_shap": -3.6422,
+      "ml_shap": -3.6511,
+      "shap_value": -3.6449,
+      "impact": "negative",
+      "is_problem": true,
+      "higher_is_worse": true,
+      "importance_rank": 5,
+      "climate_risk_score": 4.920615,
+      "tier": 1,
+      "tier_weight": 0.9,
+      "category": "hazard"
+    },
+    "problem_count": 3
+  },
+  {
+    "timestamp": "2026-02-07T22:32:11.548739",
+    "endpoint": "/api/predict",
+    "features": {
+      "heatDays": 22,
+      "floodFrequency": 2,
+      "imperviousRate": 58,
+      "greenRate": 15,
+      "heatIsland": 4.31,
+      "elderlyRatio": 16,
+      "shelterAccess": 100,
+      "medicalAccess": 88
+    },
+    "prediction": 46.61
+  },
+  {
+    "timestamp": "2026-02-07T22:32:11.601443",
+    "endpoint": "/api/predict",
+    "features": {
+      "heatDays": 22,
+      "floodFrequency": 2,
+      "imperviousRate": 58,
+      "greenRate": 15,
+      "heatIsland": 4.31,
+      "elderlyRatio": 16,
+      "shelterAccess": 100,
+      "medicalAccess": 88
+    },
+    "prediction": 46.61
+  },
+  {
+    "timestamp": "2026-02-07T22:32:11.715479",
+    "endpoint": "/api/shap",
+    "features": {
+      "heatDays": 22,
+      "floodFrequency": 2,
+      "imperviousRate": 58,
+      "greenRate": 15,
+      "heatIsland": 4.31,
+      "elderlyRatio": 16,
+      "shelterAccess": 100,
+      "medicalAccess": 88
+    },
+    "hybrid_shap_values": [
+      1.2029,
+      5.1339,
+      -0.5202,
+      -8.3274,
+      -3.6449,
+      0.5472,
+      7.4506,
+      4.0869
+    ],
+    "gap_weight": 0.7,
+    "ml_weight": 0.3,
+    "top_risk": {
+      "feature_name": "heatIsland",
+      "feature_label": "열섬지수",
+      "feature_value": 4.31,
+      "baseline": 3.2,
+      "gap_percent": 34.69,
+      "gap_shap": -3.6422,
+      "ml_shap": -3.6511,
+      "shap_value": -3.6449,
+      "impact": "negative",
+      "is_problem": true,
+      "higher_is_worse": true,
+      "importance_rank": 5,
+      "climate_risk_score": 4.920615,
+      "tier": 1,
+      "tier_weight": 0.9,
+      "category": "hazard"
+    },
+    "problem_count": 3
+  },
+  {
+    "timestamp": "2026-02-07T22:32:24.256377",
+    "endpoint": "/api/predict",
+    "features": {
+      "heatDays": 22,
+      "floodFrequency": 2,
+      "imperviousRate": 58,
+      "greenRate": 15,
+      "heatIsland": 4.31,
+      "elderlyRatio": 16,
+      "shelterAccess": 100,
+      "medicalAccess": 88
+    },
+    "prediction": 46.61
+  },
+  {
+    "timestamp": "2026-02-07T22:32:24.258377",
+    "endpoint": "/api/predict",
+    "features": {
+      "heatDays": 22,
+      "floodFrequency": 2,
+      "imperviousRate": 58,
+      "greenRate": 15,
+      "heatIsland": 4.31,
+      "elderlyRatio": 16,
+      "shelterAccess": 100,
+      "medicalAccess": 88
+    },
+    "prediction": 46.61
+  },
+  {
+    "timestamp": "2026-02-07T22:32:24.407687",
+    "endpoint": "/api/predict",
+    "features": {
+      "heatDays": 24,
+      "floodFrequency": 10,
+      "imperviousRate": 68,
+      "greenRate": 15,
+      "heatIsland": 5.01,
+      "elderlyRatio": 16,
+      "shelterAccess": 100,
+      "medicalAccess": 88
+    },
+    "prediction": 12.08
+  },
+  {
+    "timestamp": "2026-02-07T22:32:24.411018",
+    "endpoint": "/api/predict",
+    "features": {
+      "heatDays": 24,
+      "floodFrequency": 10,
+      "imperviousRate": 68,
+      "greenRate": 15,
+      "heatIsland": 5.01,
+      "elderlyRatio": 16,
+      "shelterAccess": 100,
+      "medicalAccess": 88
+    },
+    "prediction": 12.08
+  },
+  {
+    "timestamp": "2026-02-07T22:32:25.025231",
+    "endpoint": "/api/shap",
+    "features": {
+      "heatDays": 22,
+      "floodFrequency": 2,
+      "imperviousRate": 58,
+      "greenRate": 15,
+      "heatIsland": 4.31,
+      "elderlyRatio": 16,
+      "shelterAccess": 100,
+      "medicalAccess": 88
+    },
+    "hybrid_shap_values": [
+      2.3067,
+      4.9792,
+      -0.3229,
+      -9.5446,
+      -3.6485,
+      0.7054,
+      5.5386,
+      4.8695
+    ],
+    "gap_weight": 0.3,
+    "ml_weight": 0.7,
+    "top_risk": {
+      "feature_name": "heatIsland",
+      "feature_label": "열섬지수",
+      "feature_value": 4.31,
+      "baseline": 3.2,
+      "gap_percent": 34.69,
+      "gap_shap": -3.6422,
+      "ml_shap": -3.6511,
+      "shap_value": -3.6485,
+      "impact": "negative",
+      "is_problem": true,
+      "higher_is_worse": true,
+      "importance_rank": 5,
+      "climate_risk_score": 4.925475,
+      "tier": 1,
+      "tier_weight": 0.9,
+      "category": "hazard"
+    },
+    "problem_count": 3
+  },
+  {
+    "timestamp": "2026-02-07T22:32:25.074668",
+    "endpoint": "/api/shap",
+    "features": {
+      "heatDays": 24,
+      "floodFrequency": 10,
+      "imperviousRate": 68,
+      "greenRate": 15,
+      "heatIsland": 5.01,
+      "elderlyRatio": 16,
+      "shelterAccess": 100,
+      "medicalAccess": 88
+    },
+    "hybrid_shap_values": [
+      -0.5616,
+      -25.5236,
+      -3.5299,
+      -8.3954,
+      -6.7923,
+      0.3287,
+      7.2723,
+      3.7931
+    ],
+    "gap_weight": 0.7,
+    "ml_weight": 0.3,
+    "top_risk": {
+      "feature_name": "floodFrequency",
+      "feature_label": "침수빈도",
+      "feature_value": 10,
+      "baseline": 3.2,
+      "gap_percent": 212.5,
+      "gap_shap": -29.75,
+      "ml_shap": -15.662,
+      "shap_value": -25.5236,
+      "impact": "negative",
+      "is_problem": true,
+      "higher_is_worse": true,
+      "importance_rank": 1,
+      "climate_risk_score": 38.285399999999996,
+      "tier": 1,
+      "tier_weight": 1.0,
+      "category": "hazard"
+    },
+    "problem_count": 5
+  },
+  {
+    "timestamp": "2026-02-07T22:32:36.847214",
+    "endpoint": "/api/predict",
+    "features": {
+      "heatDays": 24,
+      "floodFrequency": 10,
+      "imperviousRate": 68,
+      "greenRate": 15,
+      "heatIsland": 5.01,
+      "elderlyRatio": 16,
+      "shelterAccess": 100,
+      "medicalAccess": 88
+    },
+    "prediction": 12.08
+  },
+  {
+    "timestamp": "2026-02-07T22:32:36.874216",
+    "endpoint": "/api/predict",
+    "features": {
+      "heatDays": 24,
+      "floodFrequency": 10,
+      "imperviousRate": 68,
+      "greenRate": 15,
+      "heatIsland": 5.01,
+      "elderlyRatio": 16,
+      "shelterAccess": 100,
+      "medicalAccess": 88
+    },
+    "prediction": 12.08
+  },
+  {
+    "timestamp": "2026-02-07T22:32:36.901214",
+    "endpoint": "/api/shap",
+    "features": {
+      "heatDays": 24,
+      "floodFrequency": 10,
+      "imperviousRate": 68,
+      "greenRate": 15,
+      "heatIsland": 5.01,
+      "elderlyRatio": 16,
+      "shelterAccess": 100,
+      "medicalAccess": 88
+    },
+    "hybrid_shap_values": [
+      0.6895,
+      -19.8884,
+      -4.3757,
+      -9.7033,
+      -7.9299,
+      0.1955,
+      5.1225,
+      4.184
+    ],
+    "gap_weight": 0.3,
+    "ml_weight": 0.7,
+    "top_risk": {
+      "feature_name": "floodFrequency",
+      "feature_label": "침수빈도",
+      "feature_value": 10,
+      "baseline": 3.2,
+      "gap_percent": 212.5,
+      "gap_shap": -29.75,
+      "ml_shap": -15.662,
+      "shap_value": -19.8884,
+      "impact": "negative",
+      "is_problem": true,
+      "higher_is_worse": true,
+      "importance_rank": 1,
+      "climate_risk_score": 29.8326,
+      "tier": 1,
+      "tier_weight": 1.0,
+      "category": "hazard"
+    },
+    "problem_count": 5
+  },
+  {
+    "timestamp": "2026-02-07T22:32:37.089447",
+    "endpoint": "/api/predict",
+    "features": {
+      "heatDays": 25,
+      "floodFrequency": 9,
+      "imperviousRate": 72,
+      "greenRate": 15,
+      "heatIsland": 5.29,
+      "elderlyRatio": 17,
+      "shelterAccess": 100,
+      "medicalAccess": 85
+    },
+    "prediction": 11.06
+  },
+  {
+    "timestamp": "2026-02-07T22:32:37.094444",
+    "endpoint": "/api/predict",
+    "features": {
+      "heatDays": 25,
+      "floodFrequency": 9,
+      "imperviousRate": 72,
+      "greenRate": 15,
+      "heatIsland": 5.29,
+      "elderlyRatio": 17,
+      "shelterAccess": 100,
+      "medicalAccess": 85
+    },
+    "prediction": 11.06
+  },
+  {
+    "timestamp": "2026-02-07T22:32:37.397849",
+    "endpoint": "/api/shap",
+    "features": {
+      "heatDays": 25,
+      "floodFrequency": 9,
+      "imperviousRate": 72,
+      "greenRate": 15,
+      "heatIsland": 5.29,
+      "elderlyRatio": 17,
+      "shelterAccess": 100,
+      "medicalAccess": 85
+    },
+    "hybrid_shap_values": [
+      -1.4299,
+      -22.3243,
+      -4.0129,
+      -8.3625,
+      -7.5507,
+      -0.2618,
+      7.1995,
+      3.4567
+    ],
+    "gap_weight": 0.7,
+    "ml_weight": 0.3,
+    "top_risk": {
+      "feature_name": "floodFrequency",
+      "feature_label": "침수빈도",
+      "feature_value": 9,
+      "baseline": 3.2,
+      "gap_percent": 181.25,
+      "gap_shap": -25.375,
+      "ml_shap": -15.2062,
+      "shap_value": -22.3243,
+      "impact": "negative",
+      "is_problem": true,
+      "higher_is_worse": true,
+      "importance_rank": 1,
+      "climate_risk_score": 33.486450000000005,
+      "tier": 1,
+      "tier_weight": 1.0,
+      "category": "hazard"
+    },
+    "problem_count": 6
+  },
+  {
+    "timestamp": "2026-02-07T22:34:43.290192",
+    "endpoint": "/api/predict",
+    "features": {
+      "heatDays": 25,
+      "floodFrequency": 9,
+      "imperviousRate": 72,
+      "greenRate": 15,
+      "heatIsland": 5.29,
+      "elderlyRatio": 17,
+      "shelterAccess": 100,
+      "medicalAccess": 85
+    },
+    "prediction": 11.06
+  },
+  {
+    "timestamp": "2026-02-07T22:34:43.341350",
+    "endpoint": "/api/predict",
+    "features": {
+      "heatDays": 25,
+      "floodFrequency": 9,
+      "imperviousRate": 72,
+      "greenRate": 15,
+      "heatIsland": 5.29,
+      "elderlyRatio": 17,
+      "shelterAccess": 100,
+      "medicalAccess": 85
+    },
+    "prediction": 11.06
+  },
+  {
+    "timestamp": "2026-02-07T22:34:43.722917",
+    "endpoint": "/api/shap",
+    "features": {
+      "heatDays": 25,
+      "floodFrequency": 9,
+      "imperviousRate": 72,
+      "greenRate": 15,
+      "heatIsland": 5.29,
+      "elderlyRatio": 17,
+      "shelterAccess": 100,
+      "medicalAccess": 85
+    },
+    "hybrid_shap_values": [
+      -0.0864,
+      -18.2568,
+      -4.3149,
+      -9.6265,
+      -8.4746,
+      -0.4682,
+      4.9526,
+      4.0353
+    ],
+    "gap_weight": 0.3,
+    "ml_weight": 0.7,
+    "top_risk": {
+      "feature_name": "floodFrequency",
+      "feature_label": "침수빈도",
+      "feature_value": 9,
+      "baseline": 3.2,
+      "gap_percent": 181.25,
+      "gap_shap": -25.375,
+      "ml_shap": -15.2062,
+      "shap_value": -18.2568,
+      "impact": "negative",
+      "is_problem": true,
+      "higher_is_worse": true,
+      "importance_rank": 1,
+      "climate_risk_score": 27.385199999999998,
+      "tier": 1,
+      "tier_weight": 1.0,
+      "category": "hazard"
+    },
+    "problem_count": 6
+  },
+  {
+    "timestamp": "2026-02-10T12:44:29.375174",
+    "endpoint": "/api/predict",
+    "features": {
+      "heatDays": 23,
+      "floodFrequency": 10,
+      "imperviousRate": 55,
+      "greenRate": 35,
+      "heatIsland": 3.1,
+      "elderlyRatio": 15,
+      "shelterAccess": 100,
+      "medicalAccess": 92
+    },
+    "prediction": 50.94
+  },
+  {
+    "timestamp": "2026-02-10T12:44:29.439717",
+    "endpoint": "/api/predict",
+    "features": {
+      "heatDays": 23,
+      "floodFrequency": 10,
+      "imperviousRate": 55,
+      "greenRate": 35,
+      "heatIsland": 3.1,
+      "elderlyRatio": 15,
+      "shelterAccess": 100,
+      "medicalAccess": 92
+    },
+    "prediction": 50.94
+  },
+  {
+    "timestamp": "2026-02-10T12:44:29.448796",
+    "endpoint": "/api/predict",
+    "features": {
+      "heatDays": 23,
+      "floodFrequency": 10,
+      "imperviousRate": 55,
+      "greenRate": 35,
+      "heatIsland": 3.1,
+      "elderlyRatio": 15,
+      "shelterAccess": 100,
+      "medicalAccess": 92
+    },
+    "prediction": 50.94
+  },
+  {
+    "timestamp": "2026-02-10T12:44:29.986948",
+    "endpoint": "/api/shap",
+    "features": {
+      "heatDays": 23,
+      "floodFrequency": 10,
+      "imperviousRate": 55,
+      "greenRate": 35,
+      "heatIsland": 3.1,
+      "elderlyRatio": 15,
+      "shelterAccess": 100,
+      "medicalAccess": 92
+    },
+    "hybrid_shap_values": [
+      0.9998,
+      -19.268,
+      -0.3048,
+      5.0183,
+      1.8807,
+      0.8406,
+      6.1147,
+      5.5292
+    ],
+    "gap_weight": 0.3,
+    "ml_weight": 0.7,
+    "top_risk": {
+      "feature_name": "floodFrequency",
+      "feature_label": "침수빈도",
+      "feature_value": 10,
+      "baseline": 3.2,
+      "gap_percent": 212.5,
+      "gap_shap": -29.75,
+      "ml_shap": -14.7757,
+      "shap_value": -19.268,
+      "impact": "negative",
+      "is_problem": true,
+      "higher_is_worse": true,
+      "importance_rank": 1,
+      "climate_risk_score": 28.902,
+      "tier": 1,
+      "tier_weight": 1.0,
+      "category": "hazard"
+    },
+    "problem_count": 3
+  },
+  {
+    "timestamp": "2026-02-10T12:44:30.364861",
+    "endpoint": "/api/shap",
+    "features": {
+      "heatDays": 23,
+      "floodFrequency": 10,
+      "imperviousRate": 55,
+      "greenRate": 35,
+      "heatIsland": 3.1,
+      "elderlyRatio": 15,
+      "shelterAccess": 100,
+      "medicalAccess": 92
+    },
+    "hybrid_shap_values": [
+      0.9998,
+      -19.268,
+      -0.3048,
+      5.0183,
+      1.8807,
+      0.8406,
+      6.1147,
+      5.5292
+    ],
+    "gap_weight": 0.3,
+    "ml_weight": 0.7,
+    "top_risk": {
+      "feature_name": "floodFrequency",
+      "feature_label": "침수빈도",
+      "feature_value": 10,
+      "baseline": 3.2,
+      "gap_percent": 212.5,
+      "gap_shap": -29.75,
+      "ml_shap": -14.7757,
+      "shap_value": -19.268,
+      "impact": "negative",
+      "is_problem": true,
+      "higher_is_worse": true,
+      "importance_rank": 1,
+      "climate_risk_score": 28.902,
+      "tier": 1,
+      "tier_weight": 1.0,
+      "category": "hazard"
+    },
+    "problem_count": 3
+  },
+  {
+    "timestamp": "2026-02-10T12:44:30.426391",
+    "endpoint": "/api/shap",
+    "features": {
+      "heatDays": 23,
+      "floodFrequency": 10,
+      "imperviousRate": 55,
+      "greenRate": 35,
+      "heatIsland": 3.1,
+      "elderlyRatio": 15,
+      "shelterAccess": 100,
+      "medicalAccess": 92
+    },
+    "hybrid_shap_values": [
+      0.9998,
+      -19.268,
+      -0.3048,
+      5.0183,
+      1.8807,
+      0.8406,
+      6.1147,
+      5.5292
+    ],
+    "gap_weight": 0.3,
+    "ml_weight": 0.7,
+    "top_risk": {
+      "feature_name": "floodFrequency",
+      "feature_label": "침수빈도",
+      "feature_value": 10,
+      "baseline": 3.2,
+      "gap_percent": 212.5,
+      "gap_shap": -29.75,
+      "ml_shap": -14.7757,
+      "shap_value": -19.268,
+      "impact": "negative",
+      "is_problem": true,
+      "higher_is_worse": true,
+      "importance_rank": 1,
+      "climate_risk_score": 28.902,
+      "tier": 1,
+      "tier_weight": 1.0,
+      "category": "hazard"
+    },
+    "problem_count": 3
+  },
+  {
+    "timestamp": "2026-02-10T12:44:31.908410",
+    "endpoint": "/api/predict",
+    "features": {
+      "heatDays": 25,
+      "floodFrequency": 9,
+      "imperviousRate": 72,
+      "greenRate": 15,
+      "heatIsland": 5.29,
+      "elderlyRatio": 17,
+      "shelterAccess": 100,
+      "medicalAccess": 85
+    },
+    "prediction": 11.06
+  },
+  {
+    "timestamp": "2026-02-10T12:44:31.938408",
+    "endpoint": "/api/predict",
+    "features": {
+      "heatDays": 25,
+      "floodFrequency": 9,
+      "imperviousRate": 72,
+      "greenRate": 15,
+      "heatIsland": 5.29,
+      "elderlyRatio": 17,
+      "shelterAccess": 100,
+      "medicalAccess": 85
+    },
+    "prediction": 11.06
+  },
+  {
+    "timestamp": "2026-02-10T12:44:32.165280",
+    "endpoint": "/api/shap",
+    "features": {
+      "heatDays": 25,
+      "floodFrequency": 9,
+      "imperviousRate": 72,
+      "greenRate": 15,
+      "heatIsland": 5.29,
+      "elderlyRatio": 17,
+      "shelterAccess": 100,
+      "medicalAccess": 85
+    },
+    "hybrid_shap_values": [
+      -1.4299,
+      -22.3243,
+      -4.0129,
+      -8.3625,
+      -7.5507,
+      -0.2618,
+      7.1995,
+      3.4567
+    ],
+    "gap_weight": 0.7,
+    "ml_weight": 0.3,
+    "top_risk": {
+      "feature_name": "floodFrequency",
+      "feature_label": "침수빈도",
+      "feature_value": 9,
+      "baseline": 3.2,
+      "gap_percent": 181.25,
+      "gap_shap": -25.375,
+      "ml_shap": -15.2062,
+      "shap_value": -22.3243,
+      "impact": "negative",
+      "is_problem": true,
+      "higher_is_worse": true,
+      "importance_rank": 1,
+      "climate_risk_score": 33.486450000000005,
+      "tier": 1,
+      "tier_weight": 1.0,
+      "category": "hazard"
+    },
+    "problem_count": 6
+  },
+  {
+    "timestamp": "2026-02-10T12:44:32.180485",
+    "endpoint": "/api/shap",
+    "features": {
+      "heatDays": 25,
+      "floodFrequency": 9,
+      "imperviousRate": 72,
+      "greenRate": 15,
+      "heatIsland": 5.29,
+      "elderlyRatio": 17,
+      "shelterAccess": 100,
+      "medicalAccess": 85
+    },
+    "hybrid_shap_values": [
+      -1.4299,
+      -22.3243,
+      -4.0129,
+      -8.3625,
+      -7.5507,
+      -0.2618,
+      7.1995,
+      3.4567
+    ],
+    "gap_weight": 0.7,
+    "ml_weight": 0.3,
+    "top_risk": {
+      "feature_name": "floodFrequency",
+      "feature_label": "침수빈도",
+      "feature_value": 9,
+      "baseline": 3.2,
+      "gap_percent": 181.25,
+      "gap_shap": -25.375,
+      "ml_shap": -15.2062,
+      "shap_value": -22.3243,
+      "impact": "negative",
+      "is_problem": true,
+      "higher_is_worse": true,
+      "importance_rank": 1,
+      "climate_risk_score": 33.486450000000005,
+      "tier": 1,
+      "tier_weight": 1.0,
+      "category": "hazard"
+    },
+    "problem_count": 6
+  },
+  {
+    "timestamp": "2026-02-10T12:44:39.766098",
+    "endpoint": "/api/predict",
+    "features": {
+      "heatDays": 25,
+      "floodFrequency": 9,
+      "imperviousRate": 72,
+      "greenRate": 15,
+      "heatIsland": 5.29,
+      "elderlyRatio": 17,
+      "shelterAccess": 100,
+      "medicalAccess": 85
+    },
+    "prediction": 11.06
+  },
+  {
+    "timestamp": "2026-02-10T12:44:40.079624",
+    "endpoint": "/api/predict",
+    "features": {
+      "heatDays": 25,
+      "floodFrequency": 9,
+      "imperviousRate": 72,
+      "greenRate": 15,
+      "heatIsland": 5.29,
+      "elderlyRatio": 17,
+      "shelterAccess": 100,
+      "medicalAccess": 85
+    },
+    "prediction": 11.06
+  },
+  {
+    "timestamp": "2026-02-10T12:44:40.139600",
+    "endpoint": "/api/shap",
+    "features": {
+      "heatDays": 25,
+      "floodFrequency": 9,
+      "imperviousRate": 72,
+      "greenRate": 15,
+      "heatIsland": 5.29,
+      "elderlyRatio": 17,
+      "shelterAccess": 100,
+      "medicalAccess": 85
+    },
+    "hybrid_shap_values": [
+      -1.4299,
+      -22.3243,
+      -4.0129,
+      -8.3625,
+      -7.5507,
+      -0.2618,
+      7.1995,
+      3.4567
+    ],
+    "gap_weight": 0.7,
+    "ml_weight": 0.3,
+    "top_risk": {
+      "feature_name": "floodFrequency",
+      "feature_label": "침수빈도",
+      "feature_value": 9,
+      "baseline": 3.2,
+      "gap_percent": 181.25,
+      "gap_shap": -25.375,
+      "ml_shap": -15.2062,
+      "shap_value": -22.3243,
+      "impact": "negative",
+      "is_problem": true,
+      "higher_is_worse": true,
+      "importance_rank": 1,
+      "climate_risk_score": 33.486450000000005,
+      "tier": 1,
+      "tier_weight": 1.0,
+      "category": "hazard"
+    },
+    "problem_count": 6
+  },
+  {
+    "timestamp": "2026-02-10T12:44:44.773750",
+    "endpoint": "/api/predict",
+    "features": {
+      "heatDays": 25,
+      "floodFrequency": 9,
+      "imperviousRate": 72,
+      "greenRate": 15,
+      "heatIsland": 5.29,
+      "elderlyRatio": 17,
+      "shelterAccess": 100,
+      "medicalAccess": 85
+    },
+    "prediction": 11.06
+  },
+  {
+    "timestamp": "2026-02-10T12:44:44.794755",
+    "endpoint": "/api/predict",
+    "features": {
+      "heatDays": 25,
+      "floodFrequency": 9,
+      "imperviousRate": 72,
+      "greenRate": 15,
+      "heatIsland": 5.29,
+      "elderlyRatio": 17,
+      "shelterAccess": 100,
+      "medicalAccess": 85
+    },
+    "prediction": 11.06
+  },
+  {
+    "timestamp": "2026-02-10T12:44:44.835512",
+    "endpoint": "/api/shap",
+    "features": {
+      "heatDays": 25,
+      "floodFrequency": 9,
+      "imperviousRate": 72,
+      "greenRate": 15,
+      "heatIsland": 5.29,
+      "elderlyRatio": 17,
+      "shelterAccess": 100,
+      "medicalAccess": 85
+    },
+    "hybrid_shap_values": [
+      -1.4299,
+      -22.3243,
+      -4.0129,
+      -8.3625,
+      -7.5507,
+      -0.2618,
+      7.1995,
+      3.4567
+    ],
+    "gap_weight": 0.7,
+    "ml_weight": 0.3,
+    "top_risk": {
+      "feature_name": "floodFrequency",
+      "feature_label": "침수빈도",
+      "feature_value": 9,
+      "baseline": 3.2,
+      "gap_percent": 181.25,
+      "gap_shap": -25.375,
+      "ml_shap": -15.2062,
+      "shap_value": -22.3243,
+      "impact": "negative",
+      "is_problem": true,
+      "higher_is_worse": true,
+      "importance_rank": 1,
+      "climate_risk_score": 33.486450000000005,
+      "tier": 1,
+      "tier_weight": 1.0,
+      "category": "hazard"
+    },
+    "problem_count": 6
+  },
+  {
+    "timestamp": "2026-02-10T12:44:44.840512",
+    "endpoint": "/api/predict",
+    "features": {
+      "heatDays": 24,
+      "floodFrequency": 0,
+      "imperviousRate": 65,
+      "greenRate": 15,
+      "heatIsland": 4.8,
+      "elderlyRatio": 16,
+      "shelterAccess": 100,
+      "medicalAccess": 92
+    },
+    "prediction": 50.43
+  },
+  {
+    "timestamp": "2026-02-10T12:44:44.848835",
+    "endpoint": "/api/predict",
+    "features": {
+      "heatDays": 24,
+      "floodFrequency": 0,
+      "imperviousRate": 65,
+      "greenRate": 15,
+      "heatIsland": 4.8,
+      "elderlyRatio": 16,
+      "shelterAccess": 100,
+      "medicalAccess": 92
+    },
+    "prediction": 50.43
+  },
+  {
+    "timestamp": "2026-02-10T12:44:45.290528",
+    "endpoint": "/api/shap",
+    "features": {
+      "heatDays": 24,
+      "floodFrequency": 0,
+      "imperviousRate": 65,
+      "greenRate": 15,
+      "heatIsland": 4.8,
+      "elderlyRatio": 16,
+      "shelterAccess": 100,
+      "medicalAccess": 92
+    },
+    "hybrid_shap_values": [
+      -1.209,
+      15.1578,
+      -2.1058,
+      -8.6078,
+      -5.7615,
+      0.4293,
+      7.5097,
+      4.7044
+    ],
+    "gap_weight": 0.7,
+    "ml_weight": 0.3,
+    "top_risk": {
+      "feature_name": "heatIsland",
+      "feature_label": "열섬지수",
+      "feature_value": 4.8,
+      "baseline": 3.2,
+      "gap_percent": 50.0,
+      "gap_shap": -5.25,
+      "ml_shap": -6.9549,
+      "shap_value": -5.7615,
+      "impact": "negative",
+      "is_problem": true,
+      "higher_is_worse": true,
+      "importance_rank": 4,
+      "climate_risk_score": 7.7780249999999995,
+      "tier": 1,
+      "tier_weight": 0.9,
+      "category": "hazard"
+    },
+    "problem_count": 4
+  },
+  {
+    "timestamp": "2026-02-10T12:44:45.777537",
+    "endpoint": "/api/predict",
+    "features": {
+      "heatDays": 24,
+      "floodFrequency": 0,
+      "imperviousRate": 65,
+      "greenRate": 15,
+      "heatIsland": 4.8,
+      "elderlyRatio": 16,
+      "shelterAccess": 100,
+      "medicalAccess": 92
+    },
+    "prediction": 50.43
+  },
+  {
+    "timestamp": "2026-02-10T12:44:45.806949",
+    "endpoint": "/api/predict",
+    "features": {
+      "heatDays": 24,
+      "floodFrequency": 0,
+      "imperviousRate": 65,
+      "greenRate": 15,
+      "heatIsland": 4.8,
+      "elderlyRatio": 16,
+      "shelterAccess": 100,
+      "medicalAccess": 92
+    },
+    "prediction": 50.43
+  },
+  {
+    "timestamp": "2026-02-10T12:44:46.082288",
+    "endpoint": "/api/shap",
+    "features": {
+      "heatDays": 24,
+      "floodFrequency": 0,
+      "imperviousRate": 65,
+      "greenRate": 15,
+      "heatIsland": 4.8,
+      "elderlyRatio": 16,
+      "shelterAccess": 100,
+      "medicalAccess": 92
+    },
+    "hybrid_shap_values": [
+      -1.209,
+      15.1578,
+      -2.1058,
+      -8.6078,
+      -5.7615,
+      0.4293,
+      7.5097,
+      4.7044
+    ],
+    "gap_weight": 0.7,
+    "ml_weight": 0.3,
+    "top_risk": {
+      "feature_name": "heatIsland",
+      "feature_label": "열섬지수",
+      "feature_value": 4.8,
+      "baseline": 3.2,
+      "gap_percent": 50.0,
+      "gap_shap": -5.25,
+      "ml_shap": -6.9549,
+      "shap_value": -5.7615,
+      "impact": "negative",
+      "is_problem": true,
+      "higher_is_worse": true,
+      "importance_rank": 4,
+      "climate_risk_score": 7.7780249999999995,
+      "tier": 1,
+      "tier_weight": 0.9,
+      "category": "hazard"
+    },
+    "problem_count": 4
+  },
+  {
+    "timestamp": "2026-02-10T12:44:48.095591",
+    "endpoint": "/api/predict",
+    "features": {
+      "heatDays": 24,
+      "floodFrequency": 0,
+      "imperviousRate": 65,
+      "greenRate": 15,
+      "heatIsland": 4.8,
+      "elderlyRatio": 16,
+      "shelterAccess": 100,
+      "medicalAccess": 92
+    },
+    "prediction": 50.43
+  },
+  {
+    "timestamp": "2026-02-10T12:44:48.127367",
+    "endpoint": "/api/predict",
+    "features": {
+      "heatDays": 22,
+      "floodFrequency": 2,
+      "imperviousRate": 58,
+      "greenRate": 15,
+      "heatIsland": 4.31,
+      "elderlyRatio": 16,
+      "shelterAccess": 100,
+      "medicalAccess": 88
+    },
+    "prediction": 46.61
+  },
+  {
+    "timestamp": "2026-02-10T12:44:48.127367",
+    "endpoint": "/api/predict",
+    "features": {
+      "heatDays": 22,
+      "floodFrequency": 2,
+      "imperviousRate": 58,
+      "greenRate": 15,
+      "heatIsland": 4.31,
+      "elderlyRatio": 16,
+      "shelterAccess": 100,
+      "medicalAccess": 88
+    },
+    "prediction": 46.61
+  },
+  {
+    "timestamp": "2026-02-10T12:44:48.141714",
+    "endpoint": "/api/predict",
+    "features": {
+      "heatDays": 22,
+      "floodFrequency": 2,
+      "imperviousRate": 58,
+      "greenRate": 15,
+      "heatIsland": 4.31,
+      "elderlyRatio": 16,
+      "shelterAccess": 100,
+      "medicalAccess": 88
+    },
+    "prediction": 46.61
+  },
+  {
+    "timestamp": "2026-02-10T12:44:48.146711",
+    "endpoint": "/api/predict",
+    "features": {
+      "heatDays": 24,
+      "floodFrequency": 0,
+      "imperviousRate": 65,
+      "greenRate": 15,
+      "heatIsland": 4.8,
+      "elderlyRatio": 16,
+      "shelterAccess": 100,
+      "medicalAccess": 92
+    },
+    "prediction": 50.43
+  },
+  {
+    "timestamp": "2026-02-10T12:44:48.517271",
+    "endpoint": "/api/shap",
+    "features": {
+      "heatDays": 24,
+      "floodFrequency": 0,
+      "imperviousRate": 65,
+      "greenRate": 15,
+      "heatIsland": 4.8,
+      "elderlyRatio": 16,
+      "shelterAccess": 100,
+      "medicalAccess": 92
+    },
+    "hybrid_shap_values": [
+      -1.209,
+      15.1578,
+      -2.1058,
+      -8.6078,
+      -5.7615,
+      0.4293,
+      7.5097,
+      4.7044
+    ],
+    "gap_weight": 0.7,
+    "ml_weight": 0.3,
+    "top_risk": {
+      "feature_name": "heatIsland",
+      "feature_label": "열섬지수",
+      "feature_value": 4.8,
+      "baseline": 3.2,
+      "gap_percent": 50.0,
+      "gap_shap": -5.25,
+      "ml_shap": -6.9549,
+      "shap_value": -5.7615,
+      "impact": "negative",
+      "is_problem": true,
+      "higher_is_worse": true,
+      "importance_rank": 4,
+      "climate_risk_score": 7.7780249999999995,
+      "tier": 1,
+      "tier_weight": 0.9,
+      "category": "hazard"
+    },
+    "problem_count": 4
+  },
+  {
+    "timestamp": "2026-02-10T12:44:48.629463",
+    "endpoint": "/api/predict",
+    "features": {
+      "heatDays": 24,
+      "floodFrequency": 0,
+      "imperviousRate": 65,
+      "greenRate": 15,
+      "heatIsland": 4.8,
+      "elderlyRatio": 16,
+      "shelterAccess": 100,
+      "medicalAccess": 92
+    },
+    "prediction": 50.43
+  },
+  {
+    "timestamp": "2026-02-10T12:44:48.791985",
+    "endpoint": "/api/predict",
+    "features": {
+      "heatDays": 24,
+      "floodFrequency": 0,
+      "imperviousRate": 65,
+      "greenRate": 15,
+      "heatIsland": 4.8,
+      "elderlyRatio": 16,
+      "shelterAccess": 100,
+      "medicalAccess": 92
+    },
+    "prediction": 50.43
+  },
+  {
+    "timestamp": "2026-02-10T12:44:49.093732",
+    "endpoint": "/api/shap",
+    "features": {
+      "heatDays": 24,
+      "floodFrequency": 0,
+      "imperviousRate": 65,
+      "greenRate": 15,
+      "heatIsland": 4.8,
+      "elderlyRatio": 16,
+      "shelterAccess": 100,
+      "medicalAccess": 92
+    },
+    "hybrid_shap_values": [
+      -1.209,
+      15.1578,
+      -2.1058,
+      -8.6078,
+      -5.7615,
+      0.4293,
+      7.5097,
+      4.7044
+    ],
+    "gap_weight": 0.7,
+    "ml_weight": 0.3,
+    "top_risk": {
+      "feature_name": "heatIsland",
+      "feature_label": "열섬지수",
+      "feature_value": 4.8,
+      "baseline": 3.2,
+      "gap_percent": 50.0,
+      "gap_shap": -5.25,
+      "ml_shap": -6.9549,
+      "shap_value": -5.7615,
+      "impact": "negative",
+      "is_problem": true,
+      "higher_is_worse": true,
+      "importance_rank": 4,
+      "climate_risk_score": 7.7780249999999995,
+      "tier": 1,
+      "tier_weight": 0.9,
+      "category": "hazard"
+    },
+    "problem_count": 4
+  },
+  {
+    "timestamp": "2026-02-10T12:44:49.242078",
+    "endpoint": "/api/shap",
+    "features": {
+      "heatDays": 22,
+      "floodFrequency": 2,
+      "imperviousRate": 58,
+      "greenRate": 15,
+      "heatIsland": 4.31,
+      "elderlyRatio": 16,
+      "shelterAccess": 100,
+      "medicalAccess": 88
+    },
+    "hybrid_shap_values": [
+      1.2029,
+      5.1339,
+      -0.5202,
+      -8.3274,
+      -3.6449,
+      0.5472,
+      7.4506,
+      4.0869
+    ],
+    "gap_weight": 0.7,
+    "ml_weight": 0.3,
+    "top_risk": {
+      "feature_name": "heatIsland",
+      "feature_label": "열섬지수",
+      "feature_value": 4.31,
+      "baseline": 3.2,
+      "gap_percent": 34.69,
+      "gap_shap": -3.6422,
+      "ml_shap": -3.6511,
+      "shap_value": -3.6449,
+      "impact": "negative",
+      "is_problem": true,
+      "higher_is_worse": true,
+      "importance_rank": 5,
+      "climate_risk_score": 4.920615,
+      "tier": 1,
+      "tier_weight": 0.9,
+      "category": "hazard"
+    },
+    "problem_count": 3
+  },
+  {
+    "timestamp": "2026-02-10T12:44:49.274376",
+    "endpoint": "/api/predict",
+    "features": {
+      "heatDays": 24,
+      "floodFrequency": 0,
+      "imperviousRate": 65,
+      "greenRate": 15,
+      "heatIsland": 4.8,
+      "elderlyRatio": 16,
+      "shelterAccess": 100,
+      "medicalAccess": 92
+    },
+    "prediction": 50.43
+  },
+  {
+    "timestamp": "2026-02-10T12:44:49.375143",
+    "endpoint": "/api/predict",
+    "features": {
+      "heatDays": 24,
+      "floodFrequency": 0,
+      "imperviousRate": 65,
+      "greenRate": 15,
+      "heatIsland": 4.8,
+      "elderlyRatio": 16,
+      "shelterAccess": 100,
+      "medicalAccess": 92
+    },
+    "prediction": 50.43
+  },
+  {
+    "timestamp": "2026-02-10T12:44:49.734125",
+    "endpoint": "/api/shap",
+    "features": {
+      "heatDays": 24,
+      "floodFrequency": 0,
+      "imperviousRate": 65,
+      "greenRate": 15,
+      "heatIsland": 4.8,
+      "elderlyRatio": 16,
+      "shelterAccess": 100,
+      "medicalAccess": 92
+    },
+    "hybrid_shap_values": [
+      -1.209,
+      15.1578,
+      -2.1058,
+      -8.6078,
+      -5.7615,
+      0.4293,
+      7.5097,
+      4.7044
+    ],
+    "gap_weight": 0.7,
+    "ml_weight": 0.3,
+    "top_risk": {
+      "feature_name": "heatIsland",
+      "feature_label": "열섬지수",
+      "feature_value": 4.8,
+      "baseline": 3.2,
+      "gap_percent": 50.0,
+      "gap_shap": -5.25,
+      "ml_shap": -6.9549,
+      "shap_value": -5.7615,
+      "impact": "negative",
+      "is_problem": true,
+      "higher_is_worse": true,
+      "importance_rank": 4,
+      "climate_risk_score": 7.7780249999999995,
+      "tier": 1,
+      "tier_weight": 0.9,
+      "category": "hazard"
+    },
+    "problem_count": 4
+  },
+  {
+    "timestamp": "2026-02-10T12:44:49.871920",
+    "endpoint": "/api/predict",
+    "features": {
+      "heatDays": 22,
+      "floodFrequency": 2,
+      "imperviousRate": 58,
+      "greenRate": 15,
+      "heatIsland": 4.31,
+      "elderlyRatio": 16,
+      "shelterAccess": 100,
+      "medicalAccess": 88
+    },
+    "prediction": 46.61
+  },
+  {
+    "timestamp": "2026-02-10T12:44:49.895936",
+    "endpoint": "/api/predict",
+    "features": {
+      "heatDays": 22,
+      "floodFrequency": 2,
+      "imperviousRate": 58,
+      "greenRate": 15,
+      "heatIsland": 4.31,
+      "elderlyRatio": 16,
+      "shelterAccess": 100,
+      "medicalAccess": 88
+    },
+    "prediction": 46.61
+  },
+  {
+    "timestamp": "2026-02-10T12:44:50.219386",
+    "endpoint": "/api/shap",
+    "features": {
+      "heatDays": 22,
+      "floodFrequency": 2,
+      "imperviousRate": 58,
+      "greenRate": 15,
+      "heatIsland": 4.31,
+      "elderlyRatio": 16,
+      "shelterAccess": 100,
+      "medicalAccess": 88
+    },
+    "hybrid_shap_values": [
+      2.3067,
+      4.9792,
+      -0.3229,
+      -9.5446,
+      -3.6485,
+      0.7054,
+      5.5386,
+      4.8695
+    ],
+    "gap_weight": 0.3,
+    "ml_weight": 0.7,
+    "top_risk": {
+      "feature_name": "heatIsland",
+      "feature_label": "열섬지수",
+      "feature_value": 4.31,
+      "baseline": 3.2,
+      "gap_percent": 34.69,
+      "gap_shap": -3.6422,
+      "ml_shap": -3.6511,
+      "shap_value": -3.6485,
+      "impact": "negative",
+      "is_problem": true,
+      "higher_is_worse": true,
+      "importance_rank": 5,
+      "climate_risk_score": 4.925475,
+      "tier": 1,
+      "tier_weight": 0.9,
+      "category": "hazard"
+    },
+    "problem_count": 3
+  },
+  {
+    "timestamp": "2026-02-10T12:44:50.361276",
+    "endpoint": "/api/shap",
+    "features": {
+      "heatDays": 22,
+      "floodFrequency": 2,
+      "imperviousRate": 58,
+      "greenRate": 15,
+      "heatIsland": 4.31,
+      "elderlyRatio": 16,
+      "shelterAccess": 100,
+      "medicalAccess": 88
+    },
+    "hybrid_shap_values": [
+      1.2029,
+      5.1339,
+      -0.5202,
+      -8.3274,
+      -3.6449,
+      0.5472,
+      7.4506,
+      4.0869
+    ],
+    "gap_weight": 0.7,
+    "ml_weight": 0.3,
+    "top_risk": {
+      "feature_name": "heatIsland",
+      "feature_label": "열섬지수",
+      "feature_value": 4.31,
+      "baseline": 3.2,
+      "gap_percent": 34.69,
+      "gap_shap": -3.6422,
+      "ml_shap": -3.6511,
+      "shap_value": -3.6449,
+      "impact": "negative",
+      "is_problem": true,
+      "higher_is_worse": true,
+      "importance_rank": 5,
+      "climate_risk_score": 4.920615,
+      "tier": 1,
+      "tier_weight": 0.9,
+      "category": "hazard"
+    },
+    "problem_count": 3
+  },
+  {
+    "timestamp": "2026-02-10T12:44:50.411799",
+    "endpoint": "/api/shap",
+    "features": {
+      "heatDays": 22,
+      "floodFrequency": 2,
+      "imperviousRate": 58,
+      "greenRate": 15,
+      "heatIsland": 4.31,
+      "elderlyRatio": 16,
+      "shelterAccess": 100,
+      "medicalAccess": 88
+    },
+    "hybrid_shap_values": [
+      2.3067,
+      4.9792,
+      -0.3229,
+      -9.5446,
+      -3.6485,
+      0.7054,
+      5.5386,
+      4.8695
+    ],
+    "gap_weight": 0.3,
+    "ml_weight": 0.7,
+    "top_risk": {
+      "feature_name": "heatIsland",
+      "feature_label": "열섬지수",
+      "feature_value": 4.31,
+      "baseline": 3.2,
+      "gap_percent": 34.69,
+      "gap_shap": -3.6422,
+      "ml_shap": -3.6511,
+      "shap_value": -3.6485,
+      "impact": "negative",
+      "is_problem": true,
+      "higher_is_worse": true,
+      "importance_rank": 5,
+      "climate_risk_score": 4.925475,
+      "tier": 1,
+      "tier_weight": 0.9,
+      "category": "hazard"
+    },
+    "problem_count": 3
+  },
+  {
+    "timestamp": "2026-02-10T12:44:52.972588",
+    "endpoint": "/api/predict",
+    "features": {
+      "heatDays": 22,
+      "floodFrequency": 2,
+      "imperviousRate": 58,
+      "greenRate": 15,
+      "heatIsland": 4.31,
+      "elderlyRatio": 16,
+      "shelterAccess": 100,
+      "medicalAccess": 88
+    },
+    "prediction": 46.61
+  },
+  {
+    "timestamp": "2026-02-10T12:44:53.010983",
+    "endpoint": "/api/predict",
+    "features": {
+      "heatDays": 22,
+      "floodFrequency": 2,
+      "imperviousRate": 58,
+      "greenRate": 15,
+      "heatIsland": 4.31,
+      "elderlyRatio": 16,
+      "shelterAccess": 100,
+      "medicalAccess": 88
+    },
+    "prediction": 46.61
+  },
+  {
+    "timestamp": "2026-02-10T12:44:53.040129",
+    "endpoint": "/api/shap",
+    "features": {
+      "heatDays": 22,
+      "floodFrequency": 2,
+      "imperviousRate": 58,
+      "greenRate": 15,
+      "heatIsland": 4.31,
+      "elderlyRatio": 16,
+      "shelterAccess": 100,
+      "medicalAccess": 88
+    },
+    "hybrid_shap_values": [
+      1.2029,
+      5.1339,
+      -0.5202,
+      -8.3274,
+      -3.6449,
+      0.5472,
+      7.4506,
+      4.0869
+    ],
+    "gap_weight": 0.7,
+    "ml_weight": 0.3,
+    "top_risk": {
+      "feature_name": "heatIsland",
+      "feature_label": "열섬지수",
+      "feature_value": 4.31,
+      "baseline": 3.2,
+      "gap_percent": 34.69,
+      "gap_shap": -3.6422,
+      "ml_shap": -3.6511,
+      "shap_value": -3.6449,
+      "impact": "negative",
+      "is_problem": true,
+      "higher_is_worse": true,
+      "importance_rank": 5,
+      "climate_risk_score": 4.920615,
+      "tier": 1,
+      "tier_weight": 0.9,
+      "category": "hazard"
+    },
+    "problem_count": 3
+  },
+  {
+    "timestamp": "2026-02-10T12:44:53.242415",
+    "endpoint": "/api/predict",
+    "features": {
+      "heatDays": 19,
+      "floodFrequency": 0,
+      "imperviousRate": 18,
+      "greenRate": 75,
+      "heatIsland": 0.5,
+      "elderlyRatio": 26,
+      "shelterAccess": 770,
+      "medicalAccess": 59.6
+    },
+    "prediction": 84.09
+  },
+  {
+    "timestamp": "2026-02-10T12:44:53.253780",
+    "endpoint": "/api/predict",
+    "features": {
+      "heatDays": 19,
+      "floodFrequency": 0,
+      "imperviousRate": 18,
+      "greenRate": 75,
+      "heatIsland": 0.5,
+      "elderlyRatio": 26,
+      "shelterAccess": 770,
+      "medicalAccess": 59.6
+    },
+    "prediction": 84.09
+  },
+  {
+    "timestamp": "2026-02-10T12:44:53.531055",
+    "endpoint": "/api/shap",
+    "features": {
+      "heatDays": 19,
+      "floodFrequency": 0,
+      "imperviousRate": 18,
+      "greenRate": 75,
+      "heatIsland": 0.5,
+      "elderlyRatio": 26,
+      "shelterAccess": 770,
+      "medicalAccess": 59.6
+    },
+    "hybrid_shap_values": [
+      6.5011,
+      15.6349,
+      6.1553,
+      12.3519,
+      8.2628,
+      -2.9914,
+      -3.1151,
+      -2.1929
+    ],
+    "gap_weight": 0.3,
+    "ml_weight": 0.7,
+    "top_risk": {
+      "feature_name": "elderlyRatio",
+      "feature_label": "고령자비율",
+      "feature_value": 26,
+      "baseline": 16.8,
+      "gap_percent": 54.76,
+      "gap_shap": -4.9286,
+      "ml_shap": -2.1612,
+      "shap_value": -2.9914,
+      "impact": "negative",
+      "is_problem": true,
+      "higher_is_worse": true,
+      "importance_rank": 7,
+      "climate_risk_score": 2.24355,
+      "tier": 3,
+      "tier_weight": 0.5,
+      "category": "adaptive_capacity"
+    },
+    "problem_count": 3
+  },
+  {
+    "timestamp": "2026-02-10T12:44:57.484106",
+    "endpoint": "/api/predict",
+    "features": {
+      "heatDays": 24,
+      "floodFrequency": 0,
+      "imperviousRate": 65,
+      "greenRate": 15,
+      "heatIsland": 4.8,
+      "elderlyRatio": 16,
+      "shelterAccess": 100,
+      "medicalAccess": 92
+    },
+    "prediction": 50.43
+  },
+  {
+    "timestamp": "2026-02-10T12:44:57.747676",
+    "endpoint": "/api/predict",
+    "features": {
+      "heatDays": 24,
+      "floodFrequency": 0,
+      "imperviousRate": 65,
+      "greenRate": 15,
+      "heatIsland": 4.8,
+      "elderlyRatio": 16,
+      "shelterAccess": 100,
+      "medicalAccess": 92
+    },
+    "prediction": 50.43
+  },
+  {
+    "timestamp": "2026-02-10T12:44:57.779705",
+    "endpoint": "/api/predict",
+    "features": {
+      "heatDays": 19,
+      "floodFrequency": 0,
+      "imperviousRate": 18,
+      "greenRate": 75,
+      "heatIsland": 0.5,
+      "elderlyRatio": 26,
+      "shelterAccess": 770,
+      "medicalAccess": 59.6
+    },
+    "prediction": 84.09
+  },
+  {
+    "timestamp": "2026-02-10T12:44:57.779705",
+    "endpoint": "/api/predict",
+    "features": {
+      "heatDays": 19,
+      "floodFrequency": 0,
+      "imperviousRate": 18,
+      "greenRate": 75,
+      "heatIsland": 0.5,
+      "elderlyRatio": 26,
+      "shelterAccess": 770,
+      "medicalAccess": 59.6
+    },
+    "prediction": 84.09
+  },
+  {
+    "timestamp": "2026-02-10T12:44:57.823084",
+    "endpoint": "/api/shap",
+    "features": {
+      "heatDays": 19,
+      "floodFrequency": 0,
+      "imperviousRate": 18,
+      "greenRate": 75,
+      "heatIsland": 0.5,
+      "elderlyRatio": 26,
+      "shelterAccess": 770,
+      "medicalAccess": 59.6
+    },
+    "hybrid_shap_values": [
+      4.6076,
+      14.7007,
+      7.3471,
+      12.1095,
+      8.6037,
+      -4.0984,
+      -2.4428,
+      -1.5216
+    ],
+    "gap_weight": 0.7,
+    "ml_weight": 0.3,
+    "top_risk": {
+      "feature_name": "elderlyRatio",
+      "feature_label": "고령자비율",
+      "feature_value": 26,
+      "baseline": 16.8,
+      "gap_percent": 54.76,
+      "gap_shap": -4.9286,
+      "ml_shap": -2.1612,
+      "shap_value": -4.0984,
+      "impact": "negative",
+      "is_problem": true,
+      "higher_is_worse": true,
+      "importance_rank": 6,
+      "climate_risk_score": 3.0738,
+      "tier": 3,
+      "tier_weight": 0.5,
+      "category": "adaptive_capacity"
+    },
+    "problem_count": 3
+  },
+  {
+    "timestamp": "2026-02-10T12:44:57.979637",
+    "endpoint": "/api/shap",
+    "features": {
+      "heatDays": 24,
+      "floodFrequency": 0,
+      "imperviousRate": 65,
+      "greenRate": 15,
+      "heatIsland": 4.8,
+      "elderlyRatio": 16,
+      "shelterAccess": 100,
+      "medicalAccess": 92
+    },
+    "hybrid_shap_values": [
+      -1.209,
+      15.1578,
+      -2.1058,
+      -8.6078,
+      -5.7615,
+      0.4293,
+      7.5097,
+      4.7044
+    ],
+    "gap_weight": 0.7,
+    "ml_weight": 0.3,
+    "top_risk": {
+      "feature_name": "heatIsland",
+      "feature_label": "열섬지수",
+      "feature_value": 4.8,
+      "baseline": 3.2,
+      "gap_percent": 50.0,
+      "gap_shap": -5.25,
+      "ml_shap": -6.9549,
+      "shap_value": -5.7615,
+      "impact": "negative",
+      "is_problem": true,
+      "higher_is_worse": true,
+      "importance_rank": 4,
+      "climate_risk_score": 7.7780249999999995,
+      "tier": 1,
+      "tier_weight": 0.9,
+      "category": "hazard"
+    },
+    "problem_count": 4
+  },
+  {
+    "timestamp": "2026-02-10T12:44:58.606263",
+    "endpoint": "/api/shap",
+    "features": {
+      "heatDays": 24,
+      "floodFrequency": 0,
+      "imperviousRate": 65,
+      "greenRate": 15,
+      "heatIsland": 4.8,
+      "elderlyRatio": 16,
+      "shelterAccess": 100,
+      "medicalAccess": 92
+    },
+    "hybrid_shap_values": [
+      -0.821,
+      16.7015,
+      -1.9438,
+      -10.1989,
+      -6.4434,
+      0.4302,
+      5.6764,
+      5.4618
+    ],
+    "gap_weight": 0.3,
+    "ml_weight": 0.7,
+    "top_risk": {
+      "feature_name": "heatIsland",
+      "feature_label": "열섬지수",
+      "feature_value": 4.8,
+      "baseline": 3.2,
+      "gap_percent": 50.0,
+      "gap_shap": -5.25,
+      "ml_shap": -6.9549,
+      "shap_value": -6.4434,
+      "impact": "negative",
+      "is_problem": true,
+      "higher_is_worse": true,
+      "importance_rank": 3,
+      "climate_risk_score": 8.69859,
+      "tier": 1,
+      "tier_weight": 0.9,
+      "category": "hazard"
+    },
+    "problem_count": 4
+  },
+  {
+    "timestamp": "2026-02-10T12:45:29.339010",
+    "endpoint": "/api/predict",
+    "features": {
+      "heatDays": 19,
+      "floodFrequency": 0,
+      "imperviousRate": 18,
+      "greenRate": 75,
+      "heatIsland": 0.5,
+      "elderlyRatio": 26,
+      "shelterAccess": 770,
+      "medicalAccess": 59.6
+    },
+    "prediction": 84.09
+  },
+  {
+    "timestamp": "2026-02-10T12:45:29.418048",
+    "endpoint": "/api/predict",
+    "features": {
+      "heatDays": 19,
+      "floodFrequency": 0,
+      "imperviousRate": 18,
+      "greenRate": 75,
+      "heatIsland": 0.5,
+      "elderlyRatio": 26,
+      "shelterAccess": 770,
+      "medicalAccess": 59.6
+    },
+    "prediction": 84.09
+  },
+  {
+    "timestamp": "2026-02-10T12:45:29.559567",
+    "endpoint": "/api/shap",
+    "features": {
+      "heatDays": 19,
+      "floodFrequency": 0,
+      "imperviousRate": 18,
+      "greenRate": 75,
+      "heatIsland": 0.5,
+      "elderlyRatio": 26,
+      "shelterAccess": 770,
+      "medicalAccess": 59.6
+    },
+    "hybrid_shap_values": [
+      4.6076,
+      14.7007,
+      7.3471,
+      12.1095,
+      8.6037,
+      -4.0984,
+      -2.4428,
+      -1.5216
+    ],
+    "gap_weight": 0.7,
+    "ml_weight": 0.3,
+    "top_risk": {
+      "feature_name": "elderlyRatio",
+      "feature_label": "고령자비율",
+      "feature_value": 26,
+      "baseline": 16.8,
+      "gap_percent": 54.76,
+      "gap_shap": -4.9286,
+      "ml_shap": -2.1612,
+      "shap_value": -4.0984,
+      "impact": "negative",
+      "is_problem": true,
+      "higher_is_worse": true,
+      "importance_rank": 6,
+      "climate_risk_score": 3.0738,
+      "tier": 3,
+      "tier_weight": 0.5,
+      "category": "adaptive_capacity"
+    },
+    "problem_count": 3
+  },
+  {
+    "timestamp": "2026-02-10T12:45:31.835523",
+    "endpoint": "/api/predict",
+    "features": {
+      "heatDays": 19,
+      "floodFrequency": 0,
+      "imperviousRate": 18,
+      "greenRate": 75,
+      "heatIsland": 0.5,
+      "elderlyRatio": 26,
+      "shelterAccess": 770,
+      "medicalAccess": 59.6
+    },
+    "prediction": 84.09
+  },
+  {
+    "timestamp": "2026-02-10T12:45:32.140535",
+    "endpoint": "/api/predict",
+    "features": {
+      "heatDays": 19,
+      "floodFrequency": 0,
+      "imperviousRate": 18,
+      "greenRate": 75,
+      "heatIsland": 0.5,
+      "elderlyRatio": 26,
+      "shelterAccess": 770,
+      "medicalAccess": 59.6
+    },
+    "prediction": 84.09
+  },
+  {
+    "timestamp": "2026-02-10T12:45:32.359591",
+    "endpoint": "/api/shap",
+    "features": {
+      "heatDays": 19,
+      "floodFrequency": 0,
+      "imperviousRate": 18,
+      "greenRate": 75,
+      "heatIsland": 0.5,
+      "elderlyRatio": 26,
+      "shelterAccess": 770,
+      "medicalAccess": 59.6
+    },
+    "hybrid_shap_values": [
+      6.5011,
+      15.6349,
+      6.1553,
+      12.3519,
+      8.2628,
+      -2.9914,
+      -3.1151,
+      -2.1929
+    ],
+    "gap_weight": 0.3,
+    "ml_weight": 0.7,
+    "top_risk": {
+      "feature_name": "elderlyRatio",
+      "feature_label": "고령자비율",
+      "feature_value": 26,
+      "baseline": 16.8,
+      "gap_percent": 54.76,
+      "gap_shap": -4.9286,
+      "ml_shap": -2.1612,
+      "shap_value": -2.9914,
+      "impact": "negative",
+      "is_problem": true,
+      "higher_is_worse": true,
+      "importance_rank": 7,
+      "climate_risk_score": 2.24355,
+      "tier": 3,
+      "tier_weight": 0.5,
+      "category": "adaptive_capacity"
+    },
+    "problem_count": 3
+  },
+  {
+    "timestamp": "2026-02-10T12:47:06.981294",
+    "endpoint": "/api/predict",
+    "features": {
+      "heatDays": 19,
+      "floodFrequency": 0,
+      "imperviousRate": 18,
+      "greenRate": 75,
+      "heatIsland": 0.5,
+      "elderlyRatio": 26,
+      "shelterAccess": 770,
+      "medicalAccess": 59.6
+    },
+    "prediction": 84.09
+  },
+  {
+    "timestamp": "2026-02-10T12:47:07.037285",
+    "endpoint": "/api/predict",
+    "features": {
+      "heatDays": 19,
+      "floodFrequency": 0,
+      "imperviousRate": 18,
+      "greenRate": 75,
+      "heatIsland": 0.5,
+      "elderlyRatio": 26,
+      "shelterAccess": 770,
+      "medicalAccess": 59.6
+    },
+    "prediction": 84.09
   }
 ]
